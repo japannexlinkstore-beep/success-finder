@@ -88,22 +88,214 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">1</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">7</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">2</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">12</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(-1)">&#8249;</button>
   <div class="date-display">
     <div class="date-main" id="dateMain">2026-04-09</div>
-    <div class="date-sub" id="dateSub">7 products detected</div>
+    <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 
+<!-- ==================== 2026-04-09 (Report 2) ==================== -->
+<div class="report active" id="r20260409b">
+
+<div class="summary">
+  <h2>Today's Signal</h2>
+  <ul>
+    <li>アンチアルゴリズムSNSが台頭 — UpScrolledがTikTokを超えてApp Store Top 10入り（2026年1月）</li>
+    <li>AI専門職代替が加速 — 契約書レッドライン（Gerri）・UIデザイン生成（Figr AI）がPH注目を集める</li>
+    <li>ソロ開発の収益ベースラインが向上 — 8ヶ月で$1K MRR達成が「普通」の時代に</li>
+  </ul>
+</div>
+
+<div class="toolbar">
+  <input type="text" class="search-box" id="searchBoxB" placeholder="プロダクト名・キーワードで検索..." oninput="filterCards2()">
+  <div class="cats" id="catFilter2">
+    <button class="cat active" onclick="setCat2('all',this)">All</button>
+    <button class="cat" onclick="setCat2('AI',this)">AI</button>
+    <button class="cat" onclick="setCat2('SaaS',this)">SaaS</button>
+    <button class="cat" onclick="setCat2('Mobile',this)">Mobile</button>
+    <button class="cat" onclick="setCat2('Marketing',this)">Marketing</button>
+    <button class="cat" onclick="setCat2('Infra',this)">Infra</button>
+    <button class="cat" onclick="setCat2('Indie',this)">Indie</button>
+  </div>
+</div>
+
+<div class="section-title">Detected Products</div>
+
+<!-- UpScrolled -->
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://medium.com/@neovise/what-is-upscrolled-the-new-app-more-popular-than-tiktok-in-2026-d1ff351732df" target="_blank">UpScrolled</a></div>
+    </div>
+    <span class="tag tag-green">App Store Top 10</span>
+  </div>
+  <p class="card-desc">アルゴリズム推薦を廃した「透明性」訴求のSNSアプリ。2026年1月にTikTokを超えてApple App Store Top 10入り</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>TikTokやInstagramのような主要SNSに不満を持つユーザーの「デジタル避難場所」として登場したオーストラリア発のソーシャルメディアアプリ。「アルゴリズムによるコンテンツ押しつけをしない」「透明性とユーザーコントロールを重視する」をコア価値に掲げる。従来のSNSが「なるべく長く画面を見させる」設計なのに対し、UpScrolledは「見たいものだけを見せる」設計。<br><br>
+    <b>仕組み：</b>アルゴリズム推薦を使わず、ユーザーが明示的にフォローした相手の投稿のみをタイムラインに表示。投稿のランク付けも行わない。アカウント不要で閲覧可能な点も特徴。<br><br>
+    <b>ストーリー：</b>主要SNSへの不満が臨界点を超えたタイミングでローンチ。2026年1月に<span class="term" onclick="showTerm('バイラル')">バイラル</span>し、Apple App Store Top 10に浮上。「TikTokより人気」の見出しで複数のメディアに取り上げられ、更なる認知を獲得。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">Top 10</div><div class="metric-lbl">Apple App Store US</div></div>
+    <div class="metric"><div class="metric-val">2026年1月</div><div class="metric-lbl">バイラル月</div></div>
+    <div class="metric"><div class="metric-val">オーストラリア</div><div class="metric-lbl">拠点</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Apple App StoreでTikTokを抜いてTop 10入り（2026年1月）/ 複数メディア同時報道</dd>
+    <dt>創業者</dt><dd>不明（オーストラリア拠点）</dd>
+    <dt>ビジネスモデル</dt><dd>不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>既存プラットフォームへの不満が「反アルゴリズム」という新カテゴリを生んだ</li>
+      <li>「透明性とユーザーコントロール」は2026年のSNSにおける最大差別化軸になりつつある</li>
+      <li>既存の不満層（TikTok/Instagram疲れ）をターゲットにする逆張り戦略が有効</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Habit Pixel -->
+<div class="card" data-cat="Mobile,Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-684b6c056d" target="_blank">Habit Pixel</a></div>
+    </div>
+    <span class="tag tag-purple">$1K MRR / 8ヶ月</span>
+  </div>
+  <p class="card-desc">ソロ開発者が<span class="term" onclick="showTerm('ブートストラップ')">ブートストラップ</span>で構築した習慣トラッカーアプリ。2025年5月ローンチ、8ヶ月で$1K <span class="term" onclick="showTerm('MRR')">MRR</span>を達成</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>習慣を視覚的に記録・継続サポートするモバイルアプリ。シンプルな「ピクセルアート」UIで日々の習慣達成をマークしていくデザインが特徴。「派手な機能より継続しやすさ」を重視したUXで差別化。チームなし・外部資金なし・完全ソロで開発・運用。<br><br>
+    <b>仕組み：</b>ユーザーが習慣を登録し、毎日チェックインするだけ。カレンダー上にピクセルが積み上がることで「継続の可視化」が達成感につながる。iOS/Androidモバイルアプリとして提供。<br><br>
+    <b>ストーリー：</b>2025年5月にローンチ後、地道なマーケティングとユーザーフィードバックをもとにアプリを改善。VCや外部資金は一切使わず、自力で8ヶ月後に$1K MRRを達成。Indie Hackersに成長記録を公開し反響を呼んだ。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1K</div><div class="metric-lbl">MRR</div></div>
+    <div class="metric"><div class="metric-val">8ヶ月</div><div class="metric-lbl">$0→$1K達成期間</div></div>
+    <div class="metric"><div class="metric-val">ソロ</div><div class="metric-lbl">チーム規模</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd><span class="term" onclick="showTerm('Indie Hackers')">Indie Hackers</span>での収益マイルストーン報告（$0→$1K <span class="term" onclick="showTerm('MRR')">MRR</span>、8ヶ月）</dd>
+    <dt>創業者</dt><dd>不明（ソロ開発者）</dd>
+    <dt>ビジネスモデル</dt><dd><span class="term" onclick="showTerm('フリーミアム')">フリーミアム</span> / モバイルアプリサブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>$1K MRRは「ランチ代程度」だが、ソロ開発者の検証済みベースラインとして価値が高い</li>
+      <li>「習慣トラッカー」という競合の多いカテゴリでもシンプルUXで差別化できることを証明</li>
+      <li>8ヶ月という時間軸が「早すぎず遅すぎない」健全な成長ペースを示す指標に</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Gerri -->
+<div class="card" data-cat="AI,SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.producthunt.com/products" target="_blank">Gerri</a></div>
+    </div>
+    <span class="tag tag-orange">PH注目 (2026年4月)</span>
+  </div>
+  <p class="card-desc">契約書のレッドライン（変更提案・交渉箇所マーク）を自動化するAIリーガルテックツール</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ビジネス契約書のレビュー・修正提案プロセスを自動化するAIツール。「レッドライン」とは、契約書の修正すべき箇所に赤線を引き変更提案を書き込む法務の作業のこと。弁護士や法務担当者が数時間かけて行う作業をAIが自動生成する。スタートアップや中小企業の法務コスト大幅削減を目指す。<br><br>
+    <b>仕組み：</b>契約書をアップロード → AIが条項を解析 → リスクのある条項を特定 → 改善案（レッドライン）を自動生成 → ユーザーが確認・承認。弁護士費用ゼロで最初のドラフト修正が完了する。<br><br>
+    <b>ストーリー：</b>リーガルテックAIの波に乗り、2026年4月の<span class="term" onclick="showTerm('Product Hunt')">Product Hunt</span>で注目を獲得。法律の専門知識が要らない「DIY法務」を一般化することを目指している。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">PH掲載</div><div class="metric-lbl">2026年4月</div></div>
+    <div class="metric"><div class="metric-val">AI法務</div><div class="metric-lbl">自動化カテゴリ</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd><span class="term" onclick="showTerm('Product Hunt')">Product Hunt</span> 2026年4月注目プロダクト</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd><span class="term" onclick="showTerm('SaaS')">SaaS</span> サブスクリプション（推定）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>「弁護士が行う定型作業」は最もAI代替しやすく、かつ高単価なカテゴリ</li>
+      <li>契約書レビューだけで年間市場規模は数百億ドル — まだ自動化が進んでいない</li>
+      <li>SMB向けに「弁護士費用ゼロで最初のドラフト」という訴求は非常に強い</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Figr AI -->
+<div class="card" data-cat="AI,SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/9" target="_blank">Figr AI</a></div>
+    </div>
+    <span class="tag tag-orange">PH週間 #1 (2/23週)</span>
+  </div>
+  <p class="card-desc">プロダクトのコンテキストを学習しUIデザインを自動生成するAI UXエージェント。「まず考えてからデザインする」アプローチ</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>プロダクトマネージャーやデザイナー向けのAI UXエージェント。従来のAIデザインツール（Figmaプラグイン等）は「既存のデザインを参考に似たものを生成する」程度だったが、Figr AIはプロダクトのコンテキスト（機能、ユーザー、目的）を理解した上で最適化されたUIを生成する。「PMがデザイナーを待たずに自分で画面設計できる」ツール。<br><br>
+    <b>仕組み：</b>1) プロダクトの既存画面・機能概要・ユーザー情報を読み込む → 2) AIがプロダクトの設計思想を学習 → 3) 新機能の画面設計を依頼すると、コンテキストを踏まえたUIワイヤーフレームを自動生成 → 4) デザイナーが微調整。ゼロからFigmaを開かずに設計が始められる。<br><br>
+    <b>ストーリー：</b>「PMがデザイナーを待たずに自分で画面設計できる」という課題解決を目指して開発。2026年2月のProduct Hunt週間ランキング1位を獲得し注目を集めた。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">PH週間ランキング</div></div>
+    <div class="metric"><div class="metric-val">2/23週</div><div class="metric-lbl">達成週</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd><span class="term" onclick="showTerm('Product Hunt')">Product Hunt</span> 週間ランキング #1（2026年2月23日週）</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd><span class="term" onclick="showTerm('SaaS')">SaaS</span> サブスクリプション（推定）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>「デザイナーがいなくてもUIが作れる」ツールはPM・エンジニアに強く刺さる</li>
+      <li>「コンテキスト理解」という差別化でFigmaプラグイン系との競合を避けた</li>
+      <li>PH週間1位はデイリー1位よりロングテールで見られやすく、B2B SaaSの認知獲得に有効</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Apple凍結→$60K/月 -->
+<div class="card" data-cat="Mobile,Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.indiehackers.com/post/tech/building-an-app-portfolio-to-60k-mo-after-apple-froze-his-developer-account-LD7oNYzKSmWucRfKV1AO" target="_blank">Apple凍結→$60K/月 再起戦略</a></div>
+    </div>
+    <span class="tag tag-green">$60K/月</span>
+  </div>
+  <p class="card-desc">Appleにデベロッパーアカウントを突然凍結されながらも、アプリポートフォリオを再構築して月$60Kを達成した開発者の事例</p>
+  <div class="card-about">
+    <b>どんな事例か：</b>App Store依存のモバイルアプリ開発者が直面しうる最悪のリスク「Appleアカウント凍結」から復活した実例。アカウント凍結により全アプリが一夜にして非公開になるが、この開発者は戦略を根本から見直し、新たなアプリポートフォリオを構築して月$60Kに到達した。「プラットフォーム一社依存リスク」を克服した成功例として注目されている。<br><br>
+    <b>再起戦略：</b>凍結後は単純な再構築ではなく、プラットフォームリスクを分散する戦略に転換。新デベロッパーアカウント取得と並行して、App Store以外の収益チャネル（Androidアプリ、ウェブアプリ化、サブスク等）も拡充。アプリ数・カテゴリ・プラットフォームすべてを分散させた。<br><br>
+    <b>ストーリー：</b>突然のアカウント凍結という壊滅的な状況から、リスク分散を徹底した再設計によって月$60K以上の収益を再構築。Indie Hackersで大きな反響を呼び、「App Store一本依存の危険性」を広く認知させた。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$60K</div><div class="metric-lbl">月間収益</div></div>
+    <div class="metric"><div class="metric-val">再起</div><div class="metric-lbl">凍結後から達成</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd><span class="term" onclick="showTerm('Indie Hackers')">Indie Hackers</span>でのAppleアカウント凍結→$60K/月再建報告</dd>
+    <dt>創業者</dt><dd>不明（個人開発者）</dd>
+    <dt>ビジネスモデル</dt><dd>モバイルアプリポートフォリオ（複数アプリのサブスク＋広告）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>App Store一本依存は「会社が消える」レベルのリスク。プラットフォーム分散は必須</li>
+      <li>凍結されても「全力で再構築」できるのは、収益化の型（ポートフォリオ戦略）を持っているから</li>
+      <li>逆境ストーリーはIndieHackersで最も反響が大きい — コンテンツマーケティングとしても機能</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">アンチアルゴリズムSNSの台頭</span> — UpScrolledのように「透明性・ユーザーコントロール」を前面に出すSNSが大手プラットフォームへの不満を吸収し急成長</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">AI専門職代替の波</span> — 法律（Gerri）・UXデザイン（Figr AI）など、高付加価値な専門職の定型作業をAIが自動化するツールがPH上位に続々登場</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">プラットフォームリスク管理の必要性</span> — Apple凍結事例が示す通り、モバイルアプリ開発者はApp Store一本依存からの脱却が急務</span></div>
+
+</div>
+<!-- ==================== END 2026-04-09 (Report 2) ==================== -->
+
 <!-- ==================== 2026-04-09 ==================== -->
-<div class="report active" id="r20260409">
+<div class="report" id="r20260409">
 
 <div class="summary">
   <h2>Today's Signal</h2>
@@ -389,6 +581,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-04-09', id: 'r20260409b', count: 5 },
   { date: '2026-04-09', id: 'r20260409', count: 7 }
 ];
 let currentDateIndex = 0;
@@ -471,6 +664,28 @@ function showTerm(key) {
 function closeTerm() {
   document.getElementById('termPopup').classList.remove('show');
   document.getElementById('termOverlay').classList.remove('show');
+}
+
+// Search & Category Filter — Report B
+let activeCat2 = 'all';
+function setCat2(cat, btn) {
+  activeCat2 = cat;
+  document.querySelectorAll('#r20260409b .cat').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  filterCards2();
+}
+function filterCards2() {
+  const q = document.getElementById('searchBoxB').value.toLowerCase();
+  const cards = document.querySelectorAll('#r20260409b .card[data-cat]');
+  let visible = 0;
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    const cats = card.dataset.cat.split(',');
+    const matchCat = activeCat2 === 'all' || cats.includes(activeCat2);
+    const matchSearch = !q || text.includes(q);
+    if (matchCat && matchSearch) { card.classList.remove('hidden'); visible++; }
+    else { card.classList.add('hidden'); }
+  });
 }
 
 // Search & Category Filter
