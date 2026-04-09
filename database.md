@@ -14,3 +14,8 @@
 | 2026-04-09 | 30 App Portfolio | Mobile | IH注目 | James Fleischmann。30アプリ分散で$22K/月 |
 | 2026-04-09 | Flexprice | SaaS/Infra | PH #1 (4/6) | AI/API向け従量課金インフラ。OSS。初回ローンチでPH #1 |
 | 2026-04-09 | VibrantSnap | SaaS/AI | PH #1 (4/5) | AIスクリーンレコーディング。4回目ローンチでPH #1 |
+| 2026-04-10 | Brila | AI/SaaS | PH週間 #1 (4/6週) | GoogleマップレビューをAIが解析してワンページサイトを自動生成 |
+| 2026-04-10 | Velo | AI/SaaS | PH週間 #2 (4/6週) | スクリーン録画→AIアバター動画に自動変換。FlowFrame Inc. |
+| 2026-04-10 | NovaVoice | AI | PH週間 #3 (4/6週) | 音声でPC全操作。4.8/5評価(250件)、無料、クロスプラットフォーム |
+| 2026-04-10 | ProdShort | AI/SaaS | PH週間 #4 (4/6週) | 会議録画に自動参加→TikTok風ショート動画に変換。$99/月 |
+| 2026-04-10 | Lessie AI | AI/SaaS | PH週間 #5 (4/6週) | 100+ソース横断AI人物検索+自動アウトリーチ。50M+プロフィール |
