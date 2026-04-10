@@ -93,12 +93,12 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="date-nav">
-  <button class="date-arrow" id="prevDate" onclick="navigateDate(-1)">&#8249;</button>
+  <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
     <div class="date-main" id="dateMain">2026-04-10</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
-  <button class="date-arrow" id="nextDate" onclick="navigateDate(1)">&#8250;</button>
+  <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 
@@ -810,8 +810,8 @@ function updateDateNav() {
   const r = reportDates[currentDateIndex];
   document.getElementById('dateMain').textContent = r.date;
   document.getElementById('dateSub').textContent = r.count + ' products detected';
-  document.getElementById('nextDate').disabled = currentDateIndex >= reportDates.length - 1;
-  document.getElementById('prevDate').disabled = currentDateIndex <= 0;
+  document.getElementById('prevDate').disabled = currentDateIndex >= reportDates.length - 1;
+  document.getElementById('nextDate').disabled = currentDateIndex <= 0;
   showReport(r.id);
   // Update dots
   const dots = document.querySelectorAll('.date-dot');
