@@ -95,7 +95,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(-1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-04-09</div>
+    <div class="date-main" id="dateMain">2026-04-10</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(1)">&#8250;</button>
@@ -103,7 +103,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-dots" id="dateDots"></div>
 
 <!-- ==================== 2026-04-10 (Report 3) ==================== -->
-<div class="report" id="r20260410">
+<div class="report active" id="r20260410">
 
 <div class="summary">
   <h2>Today's Signal</h2>
@@ -306,7 +306,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <!-- ==================== END 2026-04-10 ==================== -->
 
 <!-- ==================== 2026-04-09 (Report 2) ==================== -->
-<div class="report active" id="r20260409b">
+<div class="report" id="r20260409b">
 
 <div class="summary">
   <h2>Today's Signal</h2>
@@ -785,7 +785,6 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 // Date navigation
 const reportDates = [
   { date: '2026-04-10', id: 'r20260410', count: 5 },
-  { date: '2026-04-09', id: 'r20260409b', count: 5 },
   { date: '2026-04-09', id: 'r20260409', count: 7 }
 ];
 let currentDateIndex = 0;
@@ -811,8 +810,8 @@ function updateDateNav() {
   const r = reportDates[currentDateIndex];
   document.getElementById('dateMain').textContent = r.date;
   document.getElementById('dateSub').textContent = r.count + ' products detected';
-  document.getElementById('prevDate').disabled = currentDateIndex >= reportDates.length - 1;
-  document.getElementById('nextDate').disabled = currentDateIndex <= 0;
+  document.getElementById('nextDate').disabled = currentDateIndex >= reportDates.length - 1;
+  document.getElementById('prevDate').disabled = currentDateIndex <= 0;
   showReport(r.id);
   // Update dots
   const dots = document.querySelectorAll('.date-dot');
