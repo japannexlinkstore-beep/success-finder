@@ -19,3 +19,8 @@
 | 2026-04-10 | NovaVoice | AI | PH週間 #3 (4/6週) | 音声でPC全操作。4.8/5評価(250件)、無料、クロスプラットフォーム |
 | 2026-04-10 | ProdShort | AI/SaaS | PH週間 #4 (4/6週) | 会議録画に自動参加→TikTok風ショート動画に変換。$99/月 |
 | 2026-04-10 | Lessie AI | AI/SaaS | PH週間 #5 (4/6週) | 100+ソース横断AI人物検索+自動アウトリーチ。50M+プロフィール |
+| 2026-04-11 | Leadmore AI | AI/SaaS | IH $1M ARR/$0マーケ費 | RedditマーケティングAI自動化。4ヶ月で$30K MRR、2024年12月$1M ARR突破 |
+| 2026-04-11 | Subscribr | AI/SaaS | IH $30K MRR/$1M ARR目標 | YouTubeクリエイター向けAI動画制作支援SaaS。顧客4000人、100日で$10K MRR |
+| 2026-04-11 | Flint | Marketing/AI | PH #3 (4/8) | AIでオンブランドLP即生成。デザインシステムクローン、Graphiteがコンバージョン2倍達成 |
+| 2026-04-11 | LookAway 2 | Mobile/Mac | PH #4 (4/8) | 眼精疲労・RSI予防のネイティブmacOSウェルネスアプリ。科学的根拠に基づく休憩スケジューリング |
+| 2026-04-11 | ZooClaw | AI/SaaS | PH #3 (4/3) | 専門AIエージェントチームを1箇所に集約。Gemma 4・Cursor 3と同日PH #3 |

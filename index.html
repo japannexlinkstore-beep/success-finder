@@ -88,22 +88,228 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">3</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">17</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">4</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">22</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-04-10</div>
+    <div class="date-main" id="dateMain">2026-04-11</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 
+<!-- ==================== 2026-04-11 (Report 4) ==================== -->
+<div class="report active" id="r20260411">
+
+<div class="summary">
+  <h2>Today's Signal</h2>
+  <ul>
+    <li>ブートストラップ→$1M ARR続出 — LeadmoreAIが$0マーケ費でReddit AIマーケ自動化、SubscribrはYouTube AI支援で$30K MRR到達</li>
+    <li>マーケ×AI自動化の新波 — FlintがデザインシステムクローンでオンブランドLPを即公開、Graphiteがコンバージョン2倍達成</li>
+    <li>スペシャリストAIの台頭 — ZooCrawがGoogle Gemma 4・Cursor 3と同日PH #3。汎用AIより専門AIへのシフト加速</li>
+  </ul>
+</div>
+
+<div class="toolbar">
+  <input type="text" class="search-box" id="searchBoxD" placeholder="プロダクト名・キーワードで検索..." oninput="filterCards4()">
+  <div class="cats" id="catFilter4">
+    <button class="cat active" onclick="setCat4('all',this)">All</button>
+    <button class="cat" onclick="setCat4('AI',this)">AI</button>
+    <button class="cat" onclick="setCat4('SaaS',this)">SaaS</button>
+    <button class="cat" onclick="setCat4('Mobile',this)">Mobile</button>
+    <button class="cat" onclick="setCat4('Marketing',this)">Marketing</button>
+    <button class="cat" onclick="setCat4('Infra',this)">Infra</button>
+    <button class="cat" onclick="setCat4('Indie',this)">Indie</button>
+  </div>
+</div>
+
+<div class="section-title">Detected Products</div>
+
+<!-- Leadmore AI -->
+<div class="card" data-cat="AI,SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://leadmore.ai" target="_blank">Leadmore AI</a></div>
+      <a class="card-url" href="https://leadmore.ai" target="_blank">leadmore.ai</a>
+    </div>
+    <span class="tag tag-green">$1M ARR / $0マーケ</span>
+  </div>
+  <p class="card-desc">AIがRedditの関連スレッドを自動検出し、コミュニティ規約に準拠した投稿・コメントを生成してリードを獲得するB2B SaaS</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>Redditを販売チャネルとして使いたい企業向けのAIマーケティングツール。自社に関連するサブレディット・スレッドを自動発見し、スパムとみなされないコミュニティ適合型のコメント・投稿を生成。リード追跡機能も内蔵し、「Redditで売上を作る」を一括自動化。<br><br>
+    <b>なぜ注目：</b>Redditは月間アクティブユーザー10億人超の巨大プラットフォームだが、スパム投稿によるBAN恐怖で企業が手を出せていなかった。LeadmoreはこのBANリスクを排除しながら、Redditという「信頼性の高いコミュニティ」でのプレゼンスを実現する唯一のプロダクト。<br><br>
+    <b>成長ストーリー：</b>Richard Wangが大手テック企業を退職し、コンテンツ主導の成長戦略（$0マーケ費）でReddit自体でプロダクトを告知・成長。4ヶ月で$30K MRRを達成、2024年12月には$1M ARRを突破。次プロダクトVismore.ai（AEO特化）も開発中。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1M</div><div class="metric-lbl">ARR</div></div>
+    <div class="metric"><div class="metric-val">4ヶ月</div><div class="metric-lbl">$0→$30K MRR</div></div>
+    <div class="metric"><div class="metric-val">$0</div><div class="metric-lbl">マーケ費用</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Indie Hackers掲載：4ヶ月で$30K MRR、$0マーケ費、2024年12月$1M ARR突破</dd>
+    <dt>創業者</dt><dd>Richard Wang（元大手テック企業エンジニア/PM）</dd>
+    <dt>ビジネスモデル</dt><dd>クレジット制（未使用クレジット返金可）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>既存プラットフォーム（Reddit）の「使いにくさ（BAN恐怖）」をAIで解消するモデル</li>
+      <li>ターゲットチャネル（Reddit）でプロダクト自体を宣伝するドッグフーディング戦略</li>
+      <li>コンテンツ主導の成長で$0マーケ費を達成 — 広告費が不要なビジネスは利益率が高い</li>
+      <li>$1M ARR後もすでに次プロダクト（Vismore.ai）を準備中。シリアル起業家の速度感</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Subscribr -->
+<div class="card" data-cat="AI,SaaS,Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://subscribr.ai" target="_blank">Subscribr</a></div>
+      <a class="card-url" href="https://subscribr.ai" target="_blank">subscribr.ai</a>
+    </div>
+    <span class="tag tag-green">$30K MRR / $1M ARR目標</span>
+  </div>
+  <p class="card-desc">YouTubeクリエイター向けAI動画制作支援SaaS。アイデア出し・コンテンツ設計・スクリプト構成を丸ごとAIがサポート</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>YouTube動画制作の最大の壁「コンスタントに動画を作り続けられない」をAIで解決するツール。チャンネルの特性を学習して最適な動画アイデアを提案、バイラルフックの設計、詳細なスクリプト構成まで一貫してサポート。クリエイターは「何を作るか」と「どう伝えるか」で消費するエネルギーを大幅に削減できる。<br><br>
+    <b>成長ストーリー：</b>Gil HildebrandはVC資金調達した暗号通貨スタートアップのCTOを退任後、「今度は自分のペースで作りたい」とブートストラップに転換。まずプレセール50ライセンスを即完売（$20K）して需要を実証してから開発開始。ローンチ後100日で$10K MRR達成、現在$30K MRR・4000顧客に拡大中。<br><br>
+    <b>なぜ今：</b>YouTubeは年間10億時間以上視聴されるプラットフォーム。クリエイターエコノミーが急成長する中、「制作補助AI」の需要は爆発的。既存の動画編集ツール（CapCut等）は編集後処理だが、SubscribrはIdeation→Scriptという「制作の最上流」を押さえている。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$30K</div><div class="metric-lbl">MRR</div></div>
+    <div class="metric"><div class="metric-val">4,000</div><div class="metric-lbl">顧客数</div></div>
+    <div class="metric"><div class="metric-val">100日</div><div class="metric-lbl">$10K MRR達成</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Indie Hackers：18ヶ月で$0→$1M ARR、プレセール$20K即完売</dd>
+    <dt>創業者</dt><dd>Gil Hildebrand（41歳、元Seth GodinのSquidoo CTO、$10M規模まで成長・売却済み）</dd>
+    <dt>ビジネスモデル</dt><dd>SaaS月額サブスクリプション</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>プレセール（$20K、50ライセンス即完売）で需要実証→開発開始。無駄なリスクゼロ</li>
+      <li>VC→ブートストラップへの転換。コントロールと利益率を選んだ</li>
+      <li>YouTubeという既存の巨大エコシステムで「最上流の課題（ネタ出し）」を解くポジション</li>
+      <li>元CTOの技術力と15,000人YouTubeフォロワーの共同創業者の組み合わせが強力</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Flint -->
+<div class="card" data-cat="Marketing,AI">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.tryflint.com" target="_blank">Flint</a></div>
+      <a class="card-url" href="https://www.tryflint.com" target="_blank">tryflint.com</a>
+    </div>
+    <span class="tag tag-orange">PH #3 (4/8)</span>
+  </div>
+  <p class="card-desc">マーケティングチーム向けAI自律ウェブプラットフォーム。コンテンツブリーフからデザインシステムをクローンしてオンブランドLPを即公開</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>マーケティングチームが「エンジニアの開発待ち」なしに、完全コード済みのブランド統一ランディングページを生成できるAIツール。コンテンツブリーフを入れると既存のデザインシステムをそのままクローンし、自社ドメインに即公開。LP制作の速度とブランド統一性を同時に実現する。<br><br>
+    <b>差別化ポイント：</b>Webflowのような既存LPツールは「デザインを一から作る」必要があり、ブランドガイドラインとのズレが生じやすい。FlintはAPI/MCP連携（Claude・CRM・GTMツールから直接呼び出し可能）で、キャンペーン速度でLPを量産できる。あるユーザーはAPIを活用してRedditの自社メンションコメントごとに自動でLPを生成する仕組みを構築済み。<br><br>
+    <b>実績：</b>顧客のGRaphiteはFlint導入でコンバージョン2倍を達成し、7桁ARRへの貢献を報告。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#3</div><div class="metric-lbl">PH Apr 8</div></div>
+    <div class="metric"><div class="metric-val">355</div><div class="metric-lbl">PH票数</div></div>
+    <div class="metric"><div class="metric-val">2x</div><div class="metric-lbl">顧客CVR向上</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Product Hunt April 8, 2026 #3（355票）</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd>SaaS + API/MCP連携（詳細不明）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>「マーケ←→エンジニア間のLP制作ボトルネック」は全企業共通の課題。解決の価値が高い</li>
+      <li>デザインシステムのクローンによるブランド統一性は既存ツールにない差別化</li>
+      <li>MCP/API対応でClaude等AI開発ツールとの統合が容易。AIネイティブ企業に刺さる</li>
+      <li>顧客の成果（2倍CVR、7桁ARR貢献）を具体的に示す証拠マーケティングが強力</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- LookAway 2 -->
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title">LookAway 2</div>
+    </div>
+    <span class="tag tag-purple">PH #4 (4/8)</span>
+  </div>
+  <p class="card-desc">科学的根拠に基づく休憩スケジューリングで眼精疲労・RSIを予防するネイティブmacOSウェルネスアプリ</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>タグライン「The Mac app your body thanks you for」。長時間のPC作業による眼精疲労とRSI（反復性ストレス損傷）を予防するmacOS専用アプリ。20-20-20ルール（20分ごとに20フィート先を20秒見る）などの科学的手法に基づいた休憩リマインダーを提供。インテリジェントなスクリーン監視で最適なタイミングで休憩を促す。<br><br>
+    <b>なぜ注目：</b>リモートワーク普及でPCの長時間使用が常態化。眼精疲労・ドライアイ・肩こりは現代人の共通の悩み。macOSネイティブで動作するため、通知疲れを起こさず自然に休憩を促せる。シンプルなユーティリティだが日常的に使われるため高いリテンションが期待できる。<br><br>
+    <b>市場背景：</b>Google ChromeのVertical Tabs（377票・PH #2）の直下に334票で入る健闘。技術系の強力なプロダクトが並ぶ中での276票は確かな支持層の存在を示す。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#4</div><div class="metric-lbl">PH Apr 8</div></div>
+    <div class="metric"><div class="metric-val">276</div><div class="metric-lbl">PH票数</div></div>
+    <div class="metric"><div class="metric-val">Mac</div><div class="metric-lbl">Platform</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Product Hunt April 8, 2026 #4（276票）</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd>有料Macアプリ（推定）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>シンプルなウェルネスユーティリティは明確な健康価値提案でリテンション率が高い</li>
+      <li>日常的なPC使用習慣が自然なリテンションドライバーになる（毎日使うツール）</li>
+      <li>macOSネイティブへの特化で体験品質を最大化。クロスプラットフォームより深いOSの統合</li>
+      <li>「2」のついたバージョン番号はV1からの継続ユーザーベースの存在を示唆</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- ZooClaw -->
+<div class="card" data-cat="AI,SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title">ZooClaw</div>
+    </div>
+    <span class="tag tag-purple">PH #3 (4/3)</span>
+  </div>
+  <p class="card-desc">汎用AIアシスタントではなく「専門AIエージェントのチーム」を1箇所に集めた次世代AIプラットフォーム</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>タグライン「Your proactive team of AI specialists in one place」。1つの万能AIに頼るのではなく、タスクの種類ごとに異なる専門AIエージェントが自律的に協働する。まるで「様々な専門家が揃ったチーム」のように、各領域に特化したAIが担当を分担してタスクを処理する。<br><br>
+    <b>なぜ注目：</b>2026年3月、GoogleのGemma 4（新世代OSS LLM）とCursor 3（AIコーディングエージェントの最新版）が同日ローンチされた日に、ZooCrawは334票を獲得してPH #3に入った。競合となる巨人たちが注目を集める中でのこのランキングは、真剣なユーザー関心の証。スペシャリスト>ジェネラリストというAIエージェントの差別化ポジションが市場で認知されつつある。<br><br>
+    <b>市場トレンド：</b>AIエージェントは2026年の最重要トレンド。単一LLMの時代から「複数エージェントの協調」へ移行が始まっており、ZooCrawはこのトレンドを先取りしたプロダクト。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#3</div><div class="metric-lbl">PH Apr 3</div></div>
+    <div class="metric"><div class="metric-val">334</div><div class="metric-lbl">PH票数</div></div>
+    <div class="metric"><div class="metric-val">AI</div><div class="metric-lbl">Category</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Product Hunt April 3, 2026 #3（334票）— Google Gemma 4・Cursor 3と同日</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd>SaaS（詳細不明）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>マルチエージェント専門AIは汎用AIより「深い問題解決」ができる。差別化軸が明確</li>
+      <li>Gemma 4・Cursor 3というビッグネームと同日PH #3 — 本物の関心の証明</li>
+      <li>「スペシャリストのチーム」という人間の組織モデルをAIに適用するフレーミングが直感的</li>
+      <li>AIエージェント協調は2026年最大のトレンド。このカテゴリへの早期参入の優位性あり</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">ブートストラップ$1M ARRの民主化</span> — Leadmore AI（$0マーケ費）・Subscribr（プレセール先行）が示す「VC不要で$1M ARR」の時代到来</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">プラットフォームの「使いにくさ」がビジネスになる</span> — RedditのBANリスクをAIで解消（Leadmore）、YouTubeの「ネタ切れ」をAIで解決（Subscribr）。既存巨大プラットフォームの摩擦点が新プロダクトの市場を作る</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">MCP/APIがツール統合の標準に</span> — FlintがMCP対応でClaudeやCRMから直接LP生成。AI開発ツールとの接続性が製品の価値を左右する時代</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">スペシャリストAIへのシフト</span> — ZooCrawが示す「専門エージェントのチーム」モデル。ChatGPTのような汎用AIから、タスク特化の専門AIへユーザーの期待が進化中</span></div>
+<div class="trend"><span class="trend-num">5</span><span class="trend-text"><span class="trend-b">プレセールは最強のリスクヘッジ</span> — Subscribrが証明。「作る前に売る」モデルは開発リソースの無駄ゼロ。需要実証後に全力開発が2026年スタンダードに</span></div>
+
+</div>
+<!-- ==================== END 2026-04-11 ==================== -->
+
 <!-- ==================== 2026-04-10 (Report 3) ==================== -->
-<div class="report active" id="r20260410">
+<div class="report" id="r20260410">
 
 <div class="summary">
   <h2>Today's Signal</h2>
@@ -784,6 +990,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-04-11', id: 'r20260411', count: 5 },
   { date: '2026-04-10', id: 'r20260410', count: 5 },
   { date: '2026-04-09', id: 'r20260409', count: 7 }
 ];
@@ -867,6 +1074,28 @@ function showTerm(key) {
 function closeTerm() {
   document.getElementById('termPopup').classList.remove('show');
   document.getElementById('termOverlay').classList.remove('show');
+}
+
+// Search & Category Filter — Report D (2026-04-11)
+let activeCat4 = 'all';
+function setCat4(cat, btn) {
+  activeCat4 = cat;
+  document.querySelectorAll('#r20260411 .cat').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  filterCards4();
+}
+function filterCards4() {
+  const q = document.getElementById('searchBoxD').value.toLowerCase();
+  const cards = document.querySelectorAll('#r20260411 .card[data-cat]');
+  let visible = 0;
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    const cats = card.dataset.cat.split(',');
+    const matchCat = activeCat4 === 'all' || cats.includes(activeCat4);
+    const matchSearch = !q || text.includes(q);
+    if (matchCat && matchSearch) { card.classList.remove('hidden'); visible++; }
+    else { card.classList.add('hidden'); }
+  });
 }
 
 // Search & Category Filter — Report C (2026-04-10)
