@@ -25,6 +25,8 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 .date-dot{width:8px;height:8px;border-radius:50%;background:#333;cursor:pointer;transition:all .15s}
 .date-dot:hover{background:#6c63ff88}
 .date-dot.active{background:#6c63ff;box-shadow:0 0 8px #6c63ff88}
+.reload-btn{display:block;margin:12px auto 0;background:none;border:1px solid #333;color:#888;padding:6px 16px;border-radius:20px;font-size:12px;font-family:inherit;cursor:pointer;transition:all .15s}
+.reload-btn:hover{border-color:#6c63ff;color:#fff}
 .report{display:none;max-width:900px;margin:0 auto;padding:0 24px 60px}
 .report.active{display:block}
 .summary{background:#1a1a2e;border-left:4px solid #6c63ff;padding:20px 24px;border-radius:0 12px 12px 0;margin-bottom:36px}
@@ -101,6 +103,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
+<button class="reload-btn" onclick="location.reload()">Reload</button>
 
 <!-- ==================== 2026-04-14 Legends 1: Tech Giants ==================== -->
 <div class="report" id="rlegends1">
