@@ -24,3 +24,8 @@
 | 2026-04-11 | Flint | Marketing/AI | PH #3 (4/8) | AIでオンブランドLP即生成。デザインシステムクローン、Graphiteがコンバージョン2倍達成 |
 | 2026-04-11 | LookAway 2 | Mobile/Mac | PH #4 (4/8) | 眼精疲労・RSI予防のネイティブmacOSウェルネスアプリ。科学的根拠に基づく休憩スケジューリング |
 | 2026-04-11 | ZooClaw | AI/SaaS | PH #3 (4/3) | 専門AIエージェントチームを1箇所に集約。Gemma 4・Cursor 3と同日PH #3 |
+| 2026-04-13 | ElevenLabs Music Marketplace | AI | PH Apr 12 #3 (242票) | ElevenLabsがAI音楽マーケットプレイス正式ローンチ。クリエイターが音楽を公開・収益化できる仕組み |
+| 2026-04-13 | Offsite | AI/SaaS | PH Week Apr 6 #4 (581票) | 人間+AIエージェントのハイブリッドチーム管理プラットフォーム。Jira/Asanaでは対応不可の新カテゴリ |
+| 2026-04-13 | Ray | SaaS | PH Apr 12 #2 (250票) | ターミナルで動くパーソナルCFO。開発者向けCLI財務管理ツール |
+| 2026-04-13 | R0Y AI | AI/SaaS | PH Apr 12 #4 (194票) | 自然言語で投資ダッシュボードを即生成。Bloomberg Terminalの民主化ツール |
+| 2026-04-13 | Layered | AI/Mobile | PH Apr 12 #7 (135票) | セルフィー→AIパーソナルスタイリスト。Cal AIのファッション版として注目 |

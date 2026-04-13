@@ -88,22 +88,225 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">4</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">22</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">5</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">27</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-04-11</div>
+    <div class="date-main" id="dateMain">2026-04-13</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 
+<!-- ==================== 2026-04-13 (Report 5) ==================== -->
+<div class="report active" id="r20260413">
+
+<div class="summary">
+  <h2>Today's Signal</h2>
+  <ul>
+    <li>ElevenLabsがAI音楽マーケットプレイスを正式ローンチ — AI音声に続き音楽ライセンス市場（$2B+）へ本格参入。クリエイター収益分配モデルが新カテゴリを開拓</li>
+    <li>人間+AIエージェントのハイブリッドチーム管理が新カテゴリに — Offsiteが既存Jira/Asanaでは対応不可の領域を切り拓く（PH Week #4・581票）</li>
+    <li>専門家ツールの民主化が加速 — R0YがBloomberg Terminal（月$2,000+）を個人向けに再発明。CLI財務管理のRayも開発者特化ニッチを開拓</li>
+  </ul>
+</div>
+
+<div class="toolbar">
+  <input type="text" class="search-box" id="searchBoxE" placeholder="プロダクト名・キーワードで検索..." oninput="filterCards5()">
+  <div class="cats" id="catFilter5">
+    <button class="cat active" onclick="setCat5('all',this)">All</button>
+    <button class="cat" onclick="setCat5('AI',this)">AI</button>
+    <button class="cat" onclick="setCat5('SaaS',this)">SaaS</button>
+    <button class="cat" onclick="setCat5('Mobile',this)">Mobile</button>
+    <button class="cat" onclick="setCat5('Marketing',this)">Marketing</button>
+    <button class="cat" onclick="setCat5('Infra',this)">Infra</button>
+    <button class="cat" onclick="setCat5('Indie',this)">Indie</button>
+  </div>
+</div>
+
+<div class="section-title">Detected Products</div>
+
+<!-- ElevenLabs Music Marketplace -->
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://elevenlabs.io/music" target="_blank">ElevenLabs Music Marketplace</a></div>
+      <a class="card-url" href="https://elevenlabs.io/music" target="_blank">elevenlabs.io/music</a>
+    </div>
+    <span class="tag tag-orange">PH Apr 12 #3 (242票)</span>
+  </div>
+  <p class="card-desc">ElevenLabsがAI生成音楽を公開・販売できるマーケットプレイスを正式ローンチ。クリエイターはトラックを制作→公開→使用されると収益を得られる</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「Create a track. Publish it. Earn when it is used.」というシンプルなコンセプトで、AI音声合成で急成長したElevenLabsが音楽分野に本格参入。クリエイターがAIで生成した音楽トラックを公開し、YouTubeクリエイターや動画制作者がBGM・効果音として使用するたびに収益が分配される仕組み。音楽ライセンス市場（年間$2B以上）をターゲット。<br><br>
+    <b>なぜ注目：</b>ElevenLabsはすでにAI音声合成でトップシェアを持ち、膨大な動画制作者ユーザーベースを抱える。そのユーザーが今度は「音楽制作者」にもなれる。音声→音楽という自然な事業拡張で、プラットフォームとしてのロックイン効果が高まる。<br><br>
+    <b>市場背景：</b>AIを使って数秒で高品質な音楽を生成できる時代に、著作権フリーの「人間+AI制作音楽」のライセンスマーケットが急成長中。Suno、Udio等の競合も存在するが、ElevenLabsは既存の音声ユーザーベースという強力なディストリビューション優位がある。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">PH #3</div><div class="metric-lbl">Apr 12 (242票)</div></div>
+    <div class="metric"><div class="metric-val">$2B+</div><div class="metric-lbl">音楽ライセンス市場</div></div>
+    <div class="metric"><div class="metric-val">ElevenLabs</div><div class="metric-lbl">AI音声市場トップ</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Product Hunt Apr 12 2026 #3（242票）、ElevenLabsの新プラットフォームローンチ</dd>
+    <dt>創業者</dt><dd>ElevenLabs（Mati Staniszewski & Piotr Dabkowski創業）</dd>
+    <dt>ビジネスモデル</dt><dd>マーケットプレイス（クリエイター収益分配モデル）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AI音声→AI音楽への自然な事業拡張。既存ユーザーベースをそのままディストリビューションに活用</li>
+      <li>「ユーザーが作ってユーザーが使う」マーケットプレイスモデルはプラットフォームロックイン効果が高い</li>
+      <li>音楽ライセンスという$2B+市場をAIで再発明する大きな機会</li>
+      <li>一度成功したブランド（ElevenLabs）の信頼を別カテゴリに展開する「ブランド拡張」戦略の好例</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Offsite -->
+<div class="card" data-cat="AI,SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://teamoffsite.ai" target="_blank">Offsite</a></div>
+      <a class="card-url" href="https://teamoffsite.ai" target="_blank">teamoffsite.ai</a>
+    </div>
+    <span class="tag tag-orange">PH Week Apr 6 #4 (581票)</span>
+  </div>
+  <p class="card-desc">人間のチームとAIエージェントを一緒に管理・監視できるハイブリッドチームプラットフォーム。Jira/Asanaが対応できない「AIエージェント管理」を実現</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「Build teams of humans and agents, watch them work.」という通り、通常のプロジェクト管理ツールはAIエージェントを考慮して設計されていない。OffsiteはAIエージェントと人間が同じタスクボードで協働できる最初のプラットフォーム。エージェントへのタスク割り当て・作業進捗のリアルタイム監視・成果物の確認・承認フローをUIで完全管理できる。<br><br>
+    <b>なぜ今：</b>2025〜2026年にかけてAIエージェントの実用化が急加速。多くの企業が「エージェントに何かさせたい」が、その管理・監視・説明責任の仕組みがない。Jira/Asanaは人間向け設計で、エージェントの「思考プロセス可視化」や「自律的タスク実行のログ管理」に対応していない。<br><br>
+    <b>ポジション：</b>エージェントオーケストレーション市場（LangChain、CrewAI等）とプロジェクト管理（Jira、Asana）の間の空白を埋める。「エージェントを動かすだけでなく、管理する」というオペレーション層のツール。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">PH #4</div><div class="metric-lbl">Week Apr 6 (581票)</div></div>
+    <div class="metric"><div class="metric-val">新カテゴリ</div><div class="metric-lbl">AIエージェント管理</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Product Hunt Week of April 6, 2026 #4（581票）、人間+AIエージェントのハイブリッドチーム管理</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd>SaaS（チームプラン、エンタープライズ）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AIエージェント時代の新しいチーム管理カテゴリ。既存ツールは人間向けに設計されており空白地帯</li>
+      <li>エージェント+人間のオーケストレーションは2026年最大のインフラ課題の一つ</li>
+      <li>「エージェントを使う企業」が増えれば増えるほど、管理ツール需要は必然的に急増する</li>
+      <li>CursorのようなAI開発ツールと異なり、「非エンジニアのビジネスチームにもAIエージェントを提供する」橋渡し役</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Ray -->
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.producthunt.com/products/ray-7" target="_blank">Ray</a></div>
+      <a class="card-url" href="https://www.producthunt.com/products/ray-7" target="_blank">producthunt.com/products/ray-7</a>
+    </div>
+    <span class="tag tag-purple">PH Apr 12 #2 (250票)</span>
+  </div>
+  <p class="card-desc">「ターミナルで動くパーソナルCFO」。開発者向けに、CLIインターフェースで個人の財務状況を管理・可視化するツール</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「Your personal CFO in the terminal.」というコンセプト通り、エンジニアや開発者が日常的に使うコマンドラインから個人財務を管理できる。資産・支出・投資・予算をコマンドで確認・更新でき、財務データをスクリプトやcronジョブで自動処理することも可能。GUIアプリ（Mint、YNAB等）が苦手な開発者層に特化した設計。<br><br>
+    <b>なぜ差別化できるか：</b>一般的な財務ツールはGUI前提の設計で、開発者にとっては「マウスを使わないといけない」「カスタマイズできない」という不満がある。Rayはターミナル操作で完結するため、開発者のワークフローに自然に溶け込む。財務データのAPI化・自動化・スクリプト連携が可能な点も差別化。<br><br>
+    <b>ニッチの価値：</b>世界に推定2700万人の開発者がいる中、彼らは一般的にGUIの財務ツールを嫌う傾向がある。このニッチに特化することで「開発者の財務管理ツール」として独自ポジションを確立できる。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">PH #2</div><div class="metric-lbl">Apr 12 (250票)</div></div>
+    <div class="metric"><div class="metric-val">CLI特化</div><div class="metric-lbl">開発者ニッチ</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Product Hunt Apr 12 2026 #2（250票）、開発者向けCLI財務管理ツール</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd>不明（CLI/SaaSサブスク推定）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>「開発者向け」という特定ニッチへの徹底特化。競合が薄い空白地帯を狙った戦略</li>
+      <li>CLIツールはVim/Neovimのように一度習得すると乗り換えにくいスティッキーさを持つ</li>
+      <li>「全員向け」ではなく「特定コミュニティ向け」に最適化することで、その層に深く刺さる</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- R0Y AI -->
+<div class="card" data-cat="AI,SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.producthunt.com/products/r0y-ai-financial-studio" target="_blank">R0Y AI</a></div>
+      <a class="card-url" href="https://www.producthunt.com/products/r0y-ai-financial-studio" target="_blank">producthunt.com/products/r0y-ai-financial-studio</a>
+    </div>
+    <span class="tag tag-purple">PH Apr 12 #4 (194票)</span>
+  </div>
+  <p class="card-desc">自然言語で投資ダッシュボードを数秒で生成するAIファイナンシャルスタジオ。Bloomberg Terminalを個人投資家向けに民主化</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「Natural language to Investing dashboards in seconds.」というビジョン通り、従来なら専門家しか使えなかった投資分析ツールを誰でも使えるようにする。「テスラの今週のパフォーマンスをポートフォリオと比較して」「S&P500と比較したNvidiaの過去1年のリターンは？」のような自然言語の質問を入力するだけで、本格的な投資ダッシュボードが数秒で自動生成される。<br><br>
+    <b>ターゲット市場：</b>個人投資家・ファイナンシャルアドバイザー・小規模ヘッジファンド。Bloomberg Terminal（月$2,000+）は機能が豊富すぎ・高価すぎ・UI が複雑すぎ。Excel分析は手作業で時間がかかる。R0Yはその中間を埋める。<br><br>
+    <b>時代背景：</b>2020年代のリテール投資家ブームとAI民主化の交差点。RobinhoodがUI民主化、R0YはAI×分析の民主化。「誰でも本格的な投資分析ができる」という強いデモクラタイゼーションの物語がある。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">PH #4</div><div class="metric-lbl">Apr 12 (194票)</div></div>
+    <div class="metric"><div class="metric-val">$2,000+/月</div><div class="metric-lbl">Bloomberg Terminal（競合価格）</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Product Hunt Apr 12 2026 #4（194票）、自然言語→投資ダッシュボード即生成</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd>SaaSサブスクリプション（推定）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>「専門家ツールの民主化」はAI時代の最も強力なプロダクトパターン。自然言語UIが参入障壁を消す</li>
+      <li>Bloomberg Terminalという明確な「高価な競合」の存在が、価値提案の説明を簡単にする</li>
+      <li>投資分析という「お金と直結する」カテゴリは支払い意欲が高く、価格設定しやすい</li>
+      <li>リテール投資家ブームとAI民主化の交差点 — 市場のタイミングが絶妙</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<!-- Layered -->
+<div class="card" data-cat="AI,Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.producthunt.com/products/layered-2" target="_blank">Layered</a></div>
+      <a class="card-url" href="https://www.producthunt.com/products/layered-2" target="_blank">producthunt.com/products/layered-2</a>
+    </div>
+    <span class="tag tag-purple">PH Apr 12 #7 (135票)</span>
+  </div>
+  <p class="card-desc">セルフィーを撮るだけでAIがパーソナルスタイリストに。体型・肌トーン・スタイルを解析し、似合うコーディネートと購入すべきアイテムを提案</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「Turn your selfies into a personal AI stylist.」というコンセプトの通り、スマホで自撮り写真を撮ると、AIが体型・顔の形・肌トーン・現在のスタイルを総合的に解析。ユーザーに最も似合うコーディネート・購入すべきアイテム・避けるべきスタイルをパーソナライズして提案する。TikTok風のショート動画UIで新しいアイテムを「バーチャル試着」する機能も搭載。<br><br>
+    <b>Cal AIとの類似性：</b>Cal AIが「食事写真→カロリー解析」でヒットしたように、Layeredは「セルフィー→ファッション解析」で同じ「カメラ×AI×健康/美容」パターンを追う。Cal AIが2年で$40M ARRを達成した軌跡が、このカテゴリの可能性を証明している。<br><br>
+    <b>市場規模：</b>グローバルファッションEC市場は$1.2T。パーソナルスタイリングサービスはStitch Fixが証明した通り巨大な需要がある。Stitch Fixのアプローチ（人間スタイリスト＋AIレコメンド）をAIのみで実現することで、コストを100分の1以下にできる。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">PH #7</div><div class="metric-lbl">Apr 12 (135票)</div></div>
+    <div class="metric"><div class="metric-val">$1.2T</div><div class="metric-lbl">ファッションEC市場</div></div>
+  </div>
+  <dl class="details">
+    <dt>検知シグナル</dt><dd>Product Hunt Apr 12 2026 #7（135票）、セルフィー→AIパーソナルスタイリスト</dd>
+    <dt>創業者</dt><dd>不明</dd>
+    <dt>ビジネスモデル</dt><dd>フリーミアム / モバイルアプリサブスク（推定）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>「試着の摩擦を完全に消す」体験はファッションECの最大課題。カメラ+AI+ファッション＝Cal AIのファッション版</li>
+      <li>バイラル動画との親和性が高くTikTok経由での急拡散が期待できるカテゴリ</li>
+      <li>Stitch Fixモデル（人間スタイリスト+AI）をAI単独で実現するコスト革命</li>
+      <li>$1.2T市場への入口として「まず試着体験」を無料提供し、購入誘導でEC収益化するモデルが有力</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">既存プラットフォームの垂直展開</span> — ElevenLabsが音声→音楽へ拡張。既存ユーザーベースをそのままディストリビューションに変える「プラットフォーム拡張」は最強の成長戦略</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">AIエージェント管理という新インフラ層</span> — Offsiteが示すように、エージェントが普及した次の課題は「管理・監視・説明責任」。エージェント活用が進むほどオーケストレーションツールの需要が増大</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">専門家ツールの$20/月民主化</span> — Bloomberg Terminal（$2,000+/月）をR0Yが、パーソナルスタイリスト（高額）をLayeredが民主化。AI時代の「格差解消ツール」が次々と登場</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">カメラ×AI×専門分析の汎用パターン</span> — Cal AI（食事→栄養）、Layered（自撮り→ファッション）と同パターンが横展開中。「写真を撮るだけで専門家品質の分析が得られる」UIは2026年の最強プロダクトパターン</span></div>
+<div class="trend"><span class="trend-num">5</span><span class="trend-text"><span class="trend-b">開発者向け特化ニッチが台頭</span> — RayのCLI財務管理は「全員向けではなく開発者向け」の究極特化。コミュニティ内口コミとスティッキーなCLI体験で低コスト獲得が可能</span></div>
+
+</div>
+<!-- ==================== END 2026-04-13 ==================== -->
+
 <!-- ==================== 2026-04-11 (Report 4) ==================== -->
-<div class="report active" id="r20260411">
+<div class="report" id="r20260411">
 
 <div class="summary">
   <h2>Today's Signal</h2>
@@ -990,6 +1193,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-04-13', id: 'r20260413', count: 5 },
   { date: '2026-04-11', id: 'r20260411', count: 5 },
   { date: '2026-04-10', id: 'r20260410', count: 5 },
   { date: '2026-04-09', id: 'r20260409', count: 7 }
@@ -1074,6 +1278,28 @@ function showTerm(key) {
 function closeTerm() {
   document.getElementById('termPopup').classList.remove('show');
   document.getElementById('termOverlay').classList.remove('show');
+}
+
+// Search & Category Filter — Report E (2026-04-13)
+let activeCat5 = 'all';
+function setCat5(cat, btn) {
+  activeCat5 = cat;
+  document.querySelectorAll('#r20260413 .cat').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  filterCards5();
+}
+function filterCards5() {
+  const q = document.getElementById('searchBoxE').value.toLowerCase();
+  const cards = document.querySelectorAll('#r20260413 .card[data-cat]');
+  let visible = 0;
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    const cats = card.dataset.cat.split(',');
+    const matchCat = activeCat5 === 'all' || cats.includes(activeCat5);
+    const matchSearch = !q || text.includes(q);
+    if (matchCat && matchSearch) { card.classList.remove('hidden'); visible++; }
+    else { card.classList.add('hidden'); }
+  });
 }
 
 // Search & Category Filter — Report D (2026-04-11)
