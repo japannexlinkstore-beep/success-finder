@@ -2604,16 +2604,16 @@ function updateDateNav() {
   document.getElementById('prevDate').disabled = currentDateIndex >= reportDates.length - 1;
   document.getElementById('nextDate').disabled = currentDateIndex <= 0;
   showReport(r.id);
-  // Update dots
-  const dots = document.querySelectorAll('.date-dot');
-  dots.forEach((d, i) => d.classList.toggle('active', i === currentDateIndex));
+  renderDots();
 }
 
 function renderDots() {
   const container = document.getElementById('dateDots');
-  container.innerHTML = reportDates.map((r, i) =>
-    '<div class="date-dot' + (i === 0 ? ' active' : '') + '" onclick="goToDate(' + i + ')" title="' + r.date + '"></div>'
-  ).join('');
+  const rev = [...reportDates].reverse();
+  container.innerHTML = rev.map((r, ri) => {
+    const i = reportDates.length - 1 - ri;
+    return '<div class="date-dot' + (i === currentDateIndex ? ' active' : '') + '" onclick="goToDate(' + i + ')" title="' + r.date + '"></div>';
+  }).join('');
 }
 
 renderDots();
