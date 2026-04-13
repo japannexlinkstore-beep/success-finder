@@ -88,22 +88,1392 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">5</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">27</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">15</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">77</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-04-13</div>
+    <div class="date-main" id="dateMain">2026-04-23</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 
+<!-- ==================== 2026-04-14 Legends 1: Tech Giants ==================== -->
+<div class="report" id="rlegends1">
+
+<div class="summary">
+  <h2>Legends Vol.1 — Tech Giants</h2>
+  <ul>
+    <li>Shopifyは創業者がスノーボードを売るために自作したECツールが世界標準に — 「自分の痛みを解決する」原点の力</li>
+    <li>Canvaは100回以上VCに断られても諦めなかった — デザインの民主化で2億MAUを達成</li>
+    <li>DeepSeekはGPT-4の1/30コストで同等性能を実現 — 中国発AIの衝撃</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.shopify.com" target="_blank">Shopify</a></div>
+    </div>
+    <span class="tag tag-green">$7.4B Revenue</span>
+  </div>
+  <p class="card-desc">スノーボードを売りたかった青年が作ったECプラットフォームが、200万以上の事業者が使う世界標準に</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>誰でもオンラインストアを開設・運営できる<span class="term" onclick="showTerm('SaaS')">SaaS</span>型ECプラットフォーム。決済・在庫管理・配送・マーケティングを一括提供し、技術知識ゼロでもECビジネスを始められる。<br><br>
+    <b>ストーリー：</b>Tobias Lutkeはドイツ出身のプログラマーで、カナダでスノーボードをオンライン販売しようとしたが、既存のECツールがあまりに使いにくかった。「自分で作った方が早い」と自作したツールが、やがてShopifyとなった。2006年にローンチし、2015年にIPO。コロナ禍でEC需要が爆発し、一時はカナダで最も時価総額の高い企業に。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$7.4B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">2M+</div><div class="metric-lbl">利用事業者数</div></div>
+    <div class="metric"><div class="metric-val">175+</div><div class="metric-lbl">対応国数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>月額サブスク + 決済手数料 + アプリストア手数料</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「自分の痛み」から始まったプロダクトは最強のPMFを持つ</li><li>プラットフォーム化（アプリストア・Shopify Payments）でロックイン効果を構築</li><li>EC市場の成長に乗り続ける「波乗り」戦略の好例</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.canva.com" target="_blank">Canva</a></div>
+    </div>
+    <span class="tag tag-green">$2.5B ARR</span>
+  </div>
+  <p class="card-desc">100回以上VCに断られた女性創業者が、デザインを民主化して2億MAUの巨大プラットフォームを構築</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ブラウザ上で誰でもプロ品質のデザインを作成できるツール。SNS投稿・プレゼン・ポスター・動画まで、ドラッグ&ドロップで制作可能。Adobe製品の10分の1以下の学習コストで同等の成果物を出せる。<br><br>
+    <b>ストーリー：</b>オーストラリア出身のMelanie Perkinsは19歳で最初の会社を創業。大学でデザインツールが難しすぎることに気づき、「誰でも使えるデザインツール」を構想。シリコンバレーのVCに100回以上断られたが諦めず、2013年にCanvaをローンチ。現在は200M+ MAU、評価額$26Bのメガユニコーン。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$2.5B</div><div class="metric-lbl">ARR</div></div>
+    <div class="metric"><div class="metric-val">200M+</div><div class="metric-lbl">月間ユーザー</div></div>
+    <div class="metric"><div class="metric-val">$26B</div><div class="metric-lbl">評価額</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd><span class="term" onclick="showTerm('フリーミアム')">フリーミアム</span> — 無料版で獲得、Pro/Teams/Enterpriseで収益化</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>100回断られても諦めない「執念」が成功の必須条件</li><li>「専門家ツールの民主化」は巨大市場を生む（Adobe市場の再発明）</li><li>フリーミアムで大量獲得→チーム利用で企業課金への転換が鉄板パターン</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.notion.so" target="_blank">Notion</a></div>
+    </div>
+    <span class="tag tag-purple">$10B Valuation</span>
+  </div>
+  <p class="card-desc">2度の失敗を経て、オールインワン・ワークスペースで1億ユーザーを突破した究極の粘り勝ちスタートアップ</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ドキュメント・Wiki・プロジェクト管理・データベースを一つのツールに統合したオールインワン・ワークスペース。Lego的なブロックシステムで、ユーザーが自由にワークフローを構築できる。<br><br>
+    <b>ストーリー：</b>Ivan Zhaoは2度の失敗（資金切れ・チーム崩壊）を経験。社員全員を解雇し、京都に移住してゼロからNotionを再構築。2018年のProduct Hunt投稿で爆発的に広まり、コロナ禍のリモートワーク需要で急成長。「Lego for software」というビジョンが共感を呼んだ。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$10B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">100M+</div><div class="metric-lbl">ユーザー数</div></div>
+    <div class="metric"><div class="metric-val">2回失敗</div><div class="metric-lbl">再起からの成功</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + チーム/エンタープライズ課金</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>失敗は終わりではない — 2度の挫折から$10B企業を作った執念</li><li>「複数ツールを1つに統合」はユーザーの切替コストを消す強力な戦略</li><li>コミュニティ主導の成長（テンプレート共有・大使プログラム）でCACを最小化</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.deepseek.com" target="_blank">DeepSeek</a></div>
+    </div>
+    <span class="tag tag-purple">App Store #1</span>
+  </div>
+  <p class="card-desc">GPT-4同等の性能を1/30のコストで実現した中国発AIが、App Store首位を獲得しAI業界に衝撃</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>中国のAIスタートアップが開発した大規模言語モデル。GPT-4と同等の性能をわずか1/30のコストで実現し、オープンソースで公開。2025年1月にApp Store無料アプリ1位を獲得。<br><br>
+    <b>ストーリー：</b>中国のヘッジファンドHigh-Flyer出身の研究者チームが設立。米国の輸出規制で最先端GPUへのアクセスが制限される中、限られたリソースで創意工夫し、効率的な学習手法（MoE: Mixture of Experts）で驚異的なコスト効率を達成。AI業界の「コストは下がらない」という常識を覆した。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">App Store（2025年1月）</div></div>
+    <div class="metric"><div class="metric-val">1/30</div><div class="metric-lbl">GPT-4比コスト</div></div>
+    <div class="metric"><div class="metric-val">OSS</div><div class="metric-lbl">オープンソース公開</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd><span class="term" onclick="showTerm('API')">API</span>従量課金 + オープンソースによるエコシステム構築</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>制約がイノベーションを生む — GPU不足が効率化の原動力に</li><li>オープンソース戦略でコミュニティの信頼と採用を一気に獲得</li><li>「同じ品質を圧倒的に安く」は最もシンプルで強力な差別化</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://openai.com" target="_blank">OpenAI</a></div>
+    </div>
+    <span class="tag tag-green">$12.7B ARR</span>
+  </div>
+  <p class="card-desc">ChatGPTで史上最速のユーザー成長を達成し、AI革命を牽引するテック史上最重要企業の一つ</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ChatGPTを中心としたAIプラットフォーム。テキスト生成・画像生成・コード支援・音声対話まで、汎用AIの最前線を走る。GPT-4、DALL-E、Whisper等の基盤モデルをAPI経由で提供。<br><br>
+    <b>ストーリー：</b>2015年にSam Altman、Elon Muskらが非営利として設立。2022年11月のChatGPTリリースで歴史的爆発。5日で100万ユーザー、2ヶ月で1億ユーザーという史上最速の成長を記録。現在400M+の週間アクティブユーザーを持つ世界最大のAIプラットフォーム。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$12.7B</div><div class="metric-lbl">ARR</div></div>
+    <div class="metric"><div class="metric-val">400M+</div><div class="metric-lbl">週間アクティブユーザー</div></div>
+    <div class="metric"><div class="metric-val">5日→100万</div><div class="metric-lbl">史上最速成長</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム（ChatGPT無料/Plus/Team/Enterprise） + API従量課金</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「技術を一般人が使える形にする」UIの力 — GPT-3は研究者向け、ChatGPTは全人類向け</li><li>API + サブスクの二本立て収益モデルでB2BとB2Cを同時攻略</li><li>先行者優位とブランド力で「AI = ChatGPT」のマインドシェアを確立</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-14 ==================== -->
+
+<!-- ==================== 2026-04-15 Legends 2: Infrastructure ==================== -->
+<div class="report" id="rlegends2">
+
+<div class="summary">
+  <h2>Legends Vol.2 — Infrastructure</h2>
+  <ul>
+    <li>Stripeは17歳と19歳のアイルランド兄弟が「7行のコード」で決済を再発明 — シンプルさが$1T+処理量を生んだ</li>
+    <li>Zoomはパンデミックで300倍の成長 — 「準備していた者」だけが時代の波に乗れる</li>
+    <li>Slackは失敗したゲーム開発の内部ツールから$27.7B買収へ — ピボットの芸術</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://zoom.us" target="_blank">Zoom</a></div>
+    </div>
+    <span class="tag tag-green">$4.5B Revenue</span>
+  </div>
+  <p class="card-desc">Ciscoに不満を持ったエンジニアが作ったビデオ通話ツールが、パンデミックで300倍成長し世界のインフラに</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>シンプルで安定したビデオ会議プラットフォーム。「ワンクリックで会議に参加」という使いやすさが最大の武器。企業向け会議からオンライン教育、医療まで幅広く利用される。<br><br>
+    <b>ストーリー：</b>Eric Yuanは中国出身で、Cisco WebExのエンジニアとして働いていたが、自社製品の品質に不満を感じ退職。2011年にZoomを設立。2020年のコロナ禍で1日の利用者が1000万→3億（300倍）に爆発。「正しいプロダクトが正しい時に」の究極の例。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$4.5B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">300倍</div><div class="metric-lbl">パンデミック成長</div></div>
+    <div class="metric"><div class="metric-val">3億/日</div><div class="metric-lbl">ピーク利用者</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + 企業向けサブスク（Pro/Business/Enterprise）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「既存製品への不満」が最強の起業動機 — 業界経験者だからこそ見える改善点</li><li>シンプルさと安定性を最優先にした結果、市場シェアを一気に獲得</li><li>パンデミック前から8年間プロダクトを磨き続けた「準備」が成功の鍵</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Infra">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://stripe.com" target="_blank">Stripe</a></div>
+    </div>
+    <span class="tag tag-green">$1T+ Payment Volume</span>
+  </div>
+  <p class="card-desc">アイルランド出身の10代兄弟が「7行のコード」でオンライン決済を再発明し、世界の決済インフラに</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>開発者向けオンライン決済インフラ。わずか数行のコードでウェブサイトやアプリに決済機能を組み込める。決済処理・サブスク管理・不正検知・請求書発行まで、お金に関わるあらゆる機能を提供。<br><br>
+    <b>ストーリー：</b>Patrick Collison（19歳）とJohn Collison（17歳）のアイルランド出身兄弟が、「なぜオンラインで支払いを受けるのがこんなに難しいのか」という疑問から2010年にStripeを創業。YC出身。「7 lines of code（7行のコードで決済導入）」というシンプルさが開発者に熱狂的に支持され、現在$1T以上の年間決済処理量を誇る。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1T+</div><div class="metric-lbl">年間決済処理量</div></div>
+    <div class="metric"><div class="metric-val">$95B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">17 & 19歳</div><div class="metric-lbl">創業時の年齢</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>決済手数料（約2.9% + 30¢/取引）+ 追加サービス課金</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「開発者体験」を最優先にしたインフラは圧倒的なスイッチングコストを持つ</li><li>10代でも世界を変えられる — 年齢は成功の制約にならない</li><li>「複雑なものをシンプルにする」はあらゆる市場で通用する普遍的戦略</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.figma.com" target="_blank">Figma</a></div>
+    </div>
+    <span class="tag tag-green">$600M+ ARR</span>
+  </div>
+  <p class="card-desc">ブラウザだけで動くデザインツールでAdobe独占を打破。Adobeが$20Bで買収を試みるほどの脅威に</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ブラウザベースのUI/UXデザインツール。リアルタイム共同編集が最大の特徴で、Googleドキュメントのようにチーム全員が同時にデザインファイルを編集できる。インストール不要でURLを共有するだけで使える。<br><br>
+    <b>ストーリー：</b>Dylan FieldはBrown大学を中退してFigmaを創業。「デザインツールをブラウザで」というアイデアは当時「不可能」と言われたが、WebGLとCRDT技術で実現。2022年にAdobeが$20Bで買収を発表するも、規制当局の反対で撤回。逆に「Adobeが恐れるほどの存在」という証明となり、さらに成長。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$600M+</div><div class="metric-lbl">ARR</div></div>
+    <div class="metric"><div class="metric-val">$20B</div><div class="metric-lbl">Adobe買収提案額</div></div>
+    <div class="metric"><div class="metric-val">4M+</div><div class="metric-lbl">利用者数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + チーム/組織向けサブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「不可能」と言われた技術的挑戦こそが最大の参入障壁になる</li><li>リアルタイム共同編集は「ツール」を「プラットフォーム」に進化させる魔法</li><li>巨大な既存企業（Adobe）に買収を試みられること自体が最高の市場検証</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://slack.com" target="_blank">Slack</a></div>
+    </div>
+    <span class="tag tag-orange">Salesforce $27.7B買収</span>
+  </div>
+  <p class="card-desc">ゲーム開発に失敗したチームの内部コミュニケーションツールが、Salesforceに$27.7Bで買収されるまでに成長</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ビジネス向けチャット・コミュニケーションプラットフォーム。チャンネル制の会話、ファイル共有、2000以上のアプリ連携で、メールに代わる職場コミュニケーションの新標準を確立。<br><br>
+    <b>ストーリー：</b>Stewart ButterfieldはFlickrの共同創業者で、2度目のゲーム開発（Glitch）に挑戦するも失敗。しかし、チーム内で使っていたコミュニケーションツールが「本当のプロダクト」だと気づく。2013年にSlackとしてローンチし、初日8000社が登録。2021年にSalesforceが$27.7Bで買収。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$27.7B</div><div class="metric-lbl">Salesforce買収額</div></div>
+    <div class="metric"><div class="metric-val">2000+</div><div class="metric-lbl">連携アプリ数</div></div>
+    <div class="metric"><div class="metric-val">初日8000社</div><div class="metric-lbl">ローンチ時の需要</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + Pro/Business+/Enterprise Grid</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「失敗したプロジェクトの副産物」が本当のプロダクトになることがある — 常にアンテナを張る</li><li>2度のピボット経験者（Flickr→Glitch→Slack）— 柔軟性と観察力が成功の鍵</li><li>「メールを置き換える」という巨大な既存市場の再発明は巨大ビジネスになる</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.dropbox.com" target="_blank">Dropbox</a></div>
+    </div>
+    <span class="tag tag-green">$2.5B Revenue</span>
+  </div>
+  <p class="card-desc">MITの学生がUSBメモリを忘れた経験から生まれたクラウドストレージが、7億ユーザーの巨大サービスに</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>クラウドファイル同期・ストレージサービス。デスクトップのフォルダにファイルを入れるだけで自動的にクラウドに同期され、どのデバイスからでもアクセスできる。シンプルさが最大の武器。<br><br>
+    <b>ストーリー：</b>Drew HoustonはMITの学生時代、ボストンからニューヨークへのバス移動中にUSBメモリを忘れたことに気づき、「なぜファイルがいつでもどこでも使えないのか」と発想。YCに応募してDropboxを創業。紹介プログラム（友人を招待すると無料容量UP）で<span class="term" onclick="showTerm('バイラル')">バイラル</span>成長し、短期間で数百万ユーザーを獲得。2018年にIPO。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$2.5B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">700M+</div><div class="metric-lbl">登録ユーザー</div></div>
+    <div class="metric"><div class="metric-val">2018</div><div class="metric-lbl">IPO</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + Plus/Professional/Business/Enterprise</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>日常の小さな不便から$2.5B企業が生まれる — USBメモリ1本の忘れ物が起点</li><li>紹介プログラム（バイラルループ）は最強のグロースハック — 広告費ゼロで爆発的成長</li><li>「シンプルすぎる」は褒め言葉 — 複雑な技術を裏側に隠しユーザー体験を最小化</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-15 ==================== -->
+
+<!-- ==================== 2026-04-16 Legends 3: Social Giants ==================== -->
+<div class="report" id="rlegends3">
+
+<div class="summary">
+  <h2>Legends Vol.3 — Social Giants</h2>
+  <ul>
+    <li>Airbnbは家賃が払えず「エアマットレス貸し」から始まった — $10.8B企業への逆転劇</li>
+    <li>TikTokはアルゴリズムファーストで既存SNSの常識を破壊 — ByteDance $120B+の怪物</li>
+    <li>YouTubeは出会い系サイトとして始まり、世界最大の動画プラットフォームに変貌</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.airbnb.com" target="_blank">Airbnb</a></div>
+    </div>
+    <span class="tag tag-green">$10.8B Revenue</span>
+  </div>
+  <p class="card-desc">家賃が払えなかった2人がエアマットレスを貸し出したことから始まり、旅行業界を根本から変えた</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>世界最大の宿泊マーケットプレイス。個人の家・部屋・ユニークな宿泊施設を世界中の旅行者に貸し出せるプラットフォーム。ホテルに代わる「体験型の旅」を提案。<br><br>
+    <b>ストーリー：</b>Brian CheskyとJoe Gebbiaはサンフランシスコで家賃が払えなくなり、デザインカンファレンスの参加者にリビングのエアマットレスを貸し出すことを思いつく。これが「AirBed & Breakfast」の始まり。YCに参加するも初期は苦戦。シリアル（朝食用フレーク）を「Obama O's」として販売して資金を稼いだ逸話も有名。2020年にIPO。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$10.8B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">700万+</div><div class="metric-lbl">リスティング数</div></div>
+    <div class="metric"><div class="metric-val">15億+</div><div class="metric-lbl">累計ゲスト数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>マーケットプレイス手数料（ホスト3% + ゲスト14%前後）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「家賃が払えない」という絶望が$10B企業を生んだ — 制約が創造性の源泉</li><li>初期のスケールしないことを敢えてやる（手動撮影・手書きメモ）がPMFの鍵</li><li>既存業界（ホテル）の非効率を個人の資産活用で解決するCtoCモデル</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.tiktok.com" target="_blank">TikTok</a></div>
+    </div>
+    <span class="tag tag-green">$120B+ Revenue (ByteDance)</span>
+  </div>
+  <p class="card-desc">アルゴリズム・ファーストの設計思想で、フォロワーゼロでもバイラルできるSNSの新時代を切り拓いた</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>短尺動画プラットフォーム。最大の差別化はアルゴリズム・ファーストの設計。Instagramが「誰をフォローするか」が重要なのに対し、TikTokは「何に興味があるか」をAIが解析し、フォロワーゼロでもバイラルコンテンツを生み出せる。<br><br>
+    <b>ストーリー：</b>中国のByteDance（張一鳴創業）が開発。中国版「抖音（Douyin）」の海外展開版として2017年にTikTokをローンチ。Musical.lyを$1Bで買収・統合し急成長。史上最速で10億ユーザーを突破。InstagramやYouTubeも短尺動画機能をコピーするほどの影響力。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$120B+</div><div class="metric-lbl">ByteDance売上</div></div>
+    <div class="metric"><div class="metric-val">15億+</div><div class="metric-lbl">月間ユーザー</div></div>
+    <div class="metric"><div class="metric-val">史上最速</div><div class="metric-lbl">10億ユーザー到達</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>広告収入 + EC（TikTok Shop）+ ライブコマース</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>アルゴリズム・ファースト設計は「誰でもチャンスがある」民主化を実現する</li><li>既存SNSの弱点（フォロワー依存）を正確に突いた逆張り戦略</li><li>ローカル市場（中国）で検証→グローバル展開のモデルは再現性が高い</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.youtube.com" target="_blank">YouTube</a></div>
+    </div>
+    <span class="tag tag-green">$36.1B Ad Revenue</span>
+  </div>
+  <p class="card-desc">出会い系サイトとして始まった動画プラットフォームが、世界最大の動画共有サービスに変貌</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>世界最大の動画共有プラットフォーム。20億人以上のログインユーザーが毎月利用。UGCからプロコンテンツまで、あらゆる動画を視聴・投稿・共有できる。<br><br>
+    <b>ストーリー：</b>PayPal出身の3人（Chad Hurley、Steve Chen、Jawed Karim）が2005年に設立。当初は「ビデオで出会い系」というコンセプトだったが、誰も自己紹介動画を投稿しなかったためピボット。「何でも投稿できる動画サイト」に方針転換した途端に爆発。2006年にGoogleが$1.65Bで買収。現在は広告収入だけで$36.1B。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$36.1B</div><div class="metric-lbl">広告収入</div></div>
+    <div class="metric"><div class="metric-val">20億+</div><div class="metric-lbl">月間ログインユーザー</div></div>
+    <div class="metric"><div class="metric-val">$1.65B</div><div class="metric-lbl">Google買収額（2006年）</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>広告収入 + YouTube Premium + YouTube TV + スーパーチャット</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>最初のアイデアが間違っていても、ピボットで世界最大のプラットフォームになれる</li><li>ユーザーが「想定外の使い方」をしたらそれがPMFのサイン — 柔軟に方向転換</li><li>クリエイターに収益を分配するモデルはプラットフォームの永続的成長エンジン</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://discord.com" target="_blank">Discord</a></div>
+    </div>
+    <span class="tag tag-purple">200M+ MAU</span>
+  </div>
+  <p class="card-desc">失敗したゲームから生まれたコミュニケーションツールが、ゲーマーを超えて2億MAUの汎用プラットフォームに</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>音声・テキスト・動画のコミュニケーションプラットフォーム。サーバー（コミュニティ）を作成し、チャンネル単位で会話を整理。ゲーマー向けから始まり、教育・ビジネス・クリエイターコミュニティに拡大。<br><br>
+    <b>ストーリー：</b>Jason Citroneはソーシャルゲーム「Fates Forever」を開発したが商業的に失敗。しかし、ゲーム中のボイスチャット体験がひどいことに気づき、「ゲーマー向けの最高のコミュニケーションツール」を作ることに転換。2015年にDiscordをローンチし、ゲーマーコミュニティで爆発的に広まった後、あらゆるコミュニティのハブに成長。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">200M+</div><div class="metric-lbl">月間ユーザー</div></div>
+    <div class="metric"><div class="metric-val">19M+</div><div class="metric-lbl">アクティブサーバー</div></div>
+    <div class="metric"><div class="metric-val">ゲーマー→汎用</div><div class="metric-lbl">ニッチからの拡大</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム（Nitro/Nitro Basic サブスク）+ サーバーブースト</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「ニッチで圧勝→汎用化」はプラットフォーム成長の王道パターン</li><li>失敗したプロダクトの中に次の成功のヒントがある — 注意深く観察する</li><li>コミュニティの「熱量」を最優先に設計することで自然な口コミ成長を実現</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.snapchat.com" target="_blank">Snapchat</a></div>
+    </div>
+    <span class="tag tag-green">$5.3B Revenue</span>
+  </div>
+  <p class="card-desc">スタンフォードの学生プロジェクトから生まれ「消えるメッセージ」と「ストーリーズ」でSNSの概念を変えた</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>写真・動画メッセージが開封後に消える「エフェメラルメッセージング」を発明したSNS。ストーリーズ機能（24時間で消える投稿）を最初に導入し、後にInstagramやFacebookにコピーされた。ARフィルターでも先駆者。<br><br>
+    <b>ストーリー：</b>Evan SpiegelがスタンフォードのReggie Brownのアイデアを基に開発。「写真が消える」というコンセプトは当初「セクスティング用」と嘲笑されたが、若者の「完璧でなくていい」というニーズを正確に捉えた。Facebookの$3B買収オファーを断り、2017年にIPO。ストーリーズ機能は世界中のSNSに模倣された。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$5.3B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">800M+</div><div class="metric-lbl">月間ユーザー</div></div>
+    <div class="metric"><div class="metric-val">Stories発明</div><div class="metric-lbl">SNS史上最大の影響</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>広告収入 + Snapchat+ サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「嘲笑されるアイデア」こそ巨大な機会のサイン — 逆張りの価値</li><li>新しいUIパターン（ストーリーズ）を発明するとSNS全体に影響を与えられる</li><li>若者の「本音」を理解したプロダクトは既存大手も模倣せざるを得ない</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-16 ==================== -->
+
+<!-- ==================== 2026-04-17 Legends 4: Community Platforms ==================== -->
+<div class="report" id="rlegends4">
+
+<div class="summary">
+  <h2>Legends Vol.4 — Community Platforms</h2>
+  <ul>
+    <li>RedditはYC第1期（2005年）出身で19年かけてIPO — 「長期戦」の究極の成功例</li>
+    <li>Pinterestは最初の9000ユーザーを完全手動で獲得 — スケールしないことの価値</li>
+    <li>Bumbleは「女性ファースト」という差別化で$1B+企業に — 逆転のストーリー</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.reddit.com" target="_blank">Reddit</a></div>
+    </div>
+    <span class="tag tag-pink">IPO (19年)</span>
+  </div>
+  <p class="card-desc">YC第1期出身、19年の歳月を経てIPOを果たした「インターネットのフロントページ」</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>コミュニティベースのソーシャルニュース・ディスカッションプラットフォーム。10万以上のサブレディット（テーマ別コミュニティ）で、ニュース・趣味・質問・議論があらゆるトピックで展開される。投票システムで質の高いコンテンツが上位に表示される。<br><br>
+    <b>ストーリー：</b>Steve HuffmanとAlexis Ohanianが2005年にYCの第1期バッチで創業。初期はユーザーがいなかったため、偽アカウントで自ら投稿してコミュニティを活性化。何度もCEO交代や論争を経ながら19年間成長を続け、2024年にIPO。時価総額$10B超に。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1B+</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">19年</div><div class="metric-lbl">創業→IPO</div></div>
+    <div class="metric"><div class="metric-val">YC #1</div><div class="metric-lbl">第1期バッチ</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>広告収入 + Reddit Premium + データライセンス（AI企業向け）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>19年かかってもIPOできる — スタートアップは短距離走ではなくマラソン</li><li>初期の「スケールしない施策」（偽アカウント投稿）がコミュニティの種を蒔いた</li><li>ユーザー生成コンテンツのプラットフォームはAI時代に「データ資産」として新たな価値を持つ</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.pinterest.com" target="_blank">Pinterest</a></div>
+    </div>
+    <span class="tag tag-green">$3.6B Revenue</span>
+  </div>
+  <p class="card-desc">最初の9000ユーザーを手動で一人ずつ招待して獲得。「スケールしないことをやれ」の教科書的成功</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ビジュアル発見・ブックマークプラットフォーム。画像（ピン）をボードに保存・整理し、インテリア・ファッション・レシピ・旅行などのアイデアを収集。購買意欲の高いユーザーが集まるため、ECとの親和性が極めて高い。<br><br>
+    <b>ストーリー：</b>Ben Silbermannは元Google社員。Pinterestのアイデアを持っていたが、投資家に何度も断られる。ローンチ後もユーザーが集まらず、最初の9000ユーザーは一人ずつ手動でメール・対面で招待して獲得。この「スケールしないこと」がPaul Grahamの有名なアドバイスの実例となった。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$3.6B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">9000人</div><div class="metric-lbl">手動獲得した初期ユーザー</div></div>
+    <div class="metric"><div class="metric-val">450M+</div><div class="metric-lbl">月間ユーザー</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>広告収入（ショッピング広告 + プロモーテッドピン）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>最初の1000人は手動で獲得する覚悟が必要 — 「Do things that don't scale」</li><li>購買意欲の高いユーザーが集まるプラットフォームはEC広告の理想的な場</li><li>「保存・整理」という行動はユーザーの意図データの宝庫になる</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.twitch.tv" target="_blank">Twitch</a></div>
+    </div>
+    <span class="tag tag-orange">Amazon $970M買収</span>
+  </div>
+  <p class="card-desc">24時間生放送サイト「Justin.tv」からピボット。ゲーム実況ニッチで爆発し、Amazonが$970Mで買収</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ゲーム実況を中心としたライブストリーミングプラットフォーム。配信者がリアルタイムで視聴者とチャットしながらゲームプレイや雑談を行う。サブスクリプション・投げ銭・広告でクリエイターが収益化可能。<br><br>
+    <b>ストーリー：</b>Justin Kanは2007年にJustin.tvという「自分の生活を24時間ライブ配信する」サイトを開始。汎用ライブ配信サービスとして運営したが成長に苦戦。ゲーム実況カテゴリだけが異常に伸びていることに気づき、2011年にTwitchとして分離。2014年にAmazonが$970Mで買収。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$970M</div><div class="metric-lbl">Amazon買収額</div></div>
+    <div class="metric"><div class="metric-val">140M+</div><div class="metric-lbl">月間ユーザー</div></div>
+    <div class="metric"><div class="metric-val">ゲーム実況</div><div class="metric-lbl">ニッチからの急成長</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>広告 + サブスクリプション分配 + Bits（投げ銭）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>データが教えてくれる — 「伸びているカテゴリだけを切り出す」ピボットは強い</li><li>ニッチコミュニティの熱量を信じてフォーカスする勇気が$970M買収につながった</li><li>クリエイター収益化機能の充実がプラットフォーム成長のエンジンになる</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://bereal.com" target="_blank">BeReal</a></div>
+    </div>
+    <span class="tag tag-orange">Voodoo $500M買収</span>
+  </div>
+  <p class="card-desc">加工・フィルター文化への反動から生まれた「ありのまま」SNS。Gen Zに刺さり$500Mで買収</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>1日1回ランダムな時間に通知が届き、2分以内にフロント&バックカメラで「今の自分」を撮影・投稿するSNS。フィルター・加工は一切なし。「映え」文化へのアンチテーゼとしてGen Zに支持された。<br><br>
+    <b>ストーリー：</b>フランスのAlexis Barreyadが2020年に設立。InstagramやTikTokの「完璧な自分を見せる」文化に疲れたGen Zの本音を捉えた。2022年にApp Store無料アプリ1位を獲得しバイラル。2024年にフランスのゲーム会社Voodooが$500Mで買収。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$500M</div><div class="metric-lbl">Voodoo買収額</div></div>
+    <div class="metric"><div class="metric-val">40M+</div><div class="metric-lbl">デイリーユーザー（ピーク）</div></div>
+    <div class="metric"><div class="metric-val">App Store #1</div><div class="metric-lbl">2022年</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>プレミアム機能（RealMoji+等）+ 将来の広告モデル</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>既存トレンドの「反動」には常にチャンスがある — フィルター疲れ→ありのまま</li><li>制約のあるUI（2分以内・加工不可）がユニークな体験を生む</li><li>Gen Zの「本音」を理解することが次世代SNSの鍵</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://bumble.com" target="_blank">Bumble</a></div>
+    </div>
+    <span class="tag tag-green">$1B+ Revenue</span>
+  </div>
+  <p class="card-desc">Tinderでハラスメントを受けた女性が「女性ファースト」のマッチングアプリを作り$1B企業に</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「女性が最初にメッセージを送る」ルールを導入したマッチングアプリ。女性主導のコミュニケーションにより、ハラスメントや不快なメッセージを大幅に削減。恋愛だけでなく友人作り（Bumble BFF）やビジネスネットワーク（Bumble Bizz）にも展開。<br><br>
+    <b>ストーリー：</b>Whitney Wolfe HerdはTinderの共同創業者だったが、社内でのセクハラを受けて退社。その経験から「女性が安心して使えるマッチングアプリ」を2014年に創業。「女性ファースト」という明確なポジションが支持され、2021年にIPO。31歳で世界最年少の女性IPO創業者に。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1B+</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">42M+</div><div class="metric-lbl">月間ユーザー</div></div>
+    <div class="metric"><div class="metric-val">31歳</div><div class="metric-lbl">IPO時の年齢</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + Bumble Premium/Boost サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>逆境（ハラスメント経験）が最強のプロダクトビジョンの源泉になる</li><li>1つのルール変更（女性先行メッセージ）で市場全体を差別化できる</li><li>「安全・安心」をコアバリューに据えたプロダクトは信頼というバリアを構築</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-17 ==================== -->
+
+<!-- ==================== 2026-04-18 Legends 5: Dating & Communication ==================== -->
+<div class="report" id="rlegends5">
+
+<div class="summary">
+  <h2>Legends Vol.5 — Dating & Communication</h2>
+  <ul>
+    <li>Tinderは大学のパーティで始まった「スワイプUI」がデジタル出会いの世界標準に</li>
+    <li>Spotifyは海賊版の代替として合法音楽ストリーミングを確立 — 6.75億MAUの巨人</li>
+    <li>Substackがニュースレター革命を起こし、クリエイターエコノミーの新章を開いた</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://tinder.com" target="_blank">Tinder</a></div>
+    </div>
+    <span class="tag tag-green">$1.9B Revenue</span>
+  </div>
+  <p class="card-desc">USC（南カリフォルニア大学）のパーティで始まった「右スワイプ」が、世界のデートカルチャーを変えた</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>位置情報ベースのマッチングアプリ。「右スワイプ = Like」「左スワイプ = Pass」というシンプルなUIで、マッチングの摩擦を極限まで削減。世界190ヵ国で利用される出会い系アプリの代名詞。<br><br>
+    <b>ストーリー：</b>Sean Radら数名がMatch Group傘下のスタートアップスタジオで開発。USCのパーティで初期テストを行い、学生間で爆発的に広まった。「スワイプ」というUI発明がデジタル出会い文化を根本的に変え、あらゆるアプリにスワイプUIが模倣された。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1.9B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">190ヵ国</div><div class="metric-lbl">展開国数</div></div>
+    <div class="metric"><div class="metric-val">75B+</div><div class="metric-lbl">累計マッチ数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + Tinder Plus/Gold/Platinum サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>UIの発明（スワイプ）一つでカテゴリ全体を定義できる — 体験デザインの力</li><li>大学キャンパスという密度の高い環境で初期テストする戦略は再現性が高い</li><li>「ゲーム化」された体験はエンゲージメントと中毒性を生む</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.skype.com" target="_blank">Skype</a></div>
+    </div>
+    <span class="tag tag-orange">Microsoft $8.5B買収</span>
+  </div>
+  <p class="card-desc">P2P技術で国際電話を無料にした革命的サービス。Microsoftが$8.5Bで買収</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>インターネット経由の無料音声・ビデオ通話サービス。P2P（ピアツーピア）技術により、従来の電話回線を通さずにPC同士で無料通話を実現。国際電話料金という巨大な「ペインポイント」を解消した。<br><br>
+    <b>ストーリー：</b>エストニアのNiklas ZennstromとJanus Friisが2003年に設立。Kazaa（P2Pファイル共有）で培った技術を合法的なビジネスに転用。「国際電話が無料」という衝撃的な価値提案で急成長。eBayが$2.6Bで買収後、Microsoftが$8.5Bで再買収。Zoomの登場まで約15年間、ビデオ通話の代名詞であり続けた。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$8.5B</div><div class="metric-lbl">Microsoft買収額</div></div>
+    <div class="metric"><div class="metric-val">P2P</div><div class="metric-lbl">革新的な通話技術</div></div>
+    <div class="metric"><div class="metric-val">15年間</div><div class="metric-lbl">ビデオ通話の代名詞</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム（PC間無料）+ SkypeOut（固定/携帯電話への有料通話）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>既存インフラ（電話回線）をインターネットで破壊する — 「高すぎるもの」を無料にする力</li><li>技術的に疑わしい出自（Kazaa）の技術も合法ビジネスに転用できる</li><li>先行者でも油断するとZoomのような後発に追い抜かれる — 継続的イノベーションが必須</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://substack.com" target="_blank">Substack</a></div>
+    </div>
+    <span class="tag tag-purple">35M+ Subscriptions</span>
+  </div>
+  <p class="card-desc">ニュースレター革命を起こし、ジャーナリストやクリエイターが直接読者から収益を得る仕組みを確立</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>有料ニュースレター・ブログ配信プラットフォーム。作家・ジャーナリスト・クリエイターが記事を書き、読者から直接サブスクリプション収益を得られる。テック知識ゼロで美しいニュースレターを発行可能。<br><br>
+    <b>ストーリー：</b>Chris Bestらが2017年に設立。広告モデルに依存するメディアの「クリックベイト化」に疑問を持ち、「良質なコンテンツに読者が直接お金を払う」モデルを構築。コロナ禍でジャーナリストの独立が加速し、大手メディア記者が次々とSubstackに移籍する「Substack exodus」が話題に。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">35M+</div><div class="metric-lbl">有料サブスク数</div></div>
+    <div class="metric"><div class="metric-val">数百万</div><div class="metric-lbl">アクティブライター</div></div>
+    <div class="metric"><div class="metric-val">手数料10%</div><div class="metric-lbl">クリエイターは90%獲得</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>クリエイター収益の10%手数料</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>広告モデルの弊害（クリックベイト）への反動がサブスク直接課金モデルを生んだ</li><li>クリエイターに90%の収益を還元する「クリエイターファースト」がプラットフォーム成長の鍵</li><li>既存メディアの「中間搾取」を排除するD2C（Direct to Consumer）メディアモデル</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.patreon.com" target="_blank">Patreon</a></div>
+    </div>
+    <span class="tag tag-green">$130M+ ARR</span>
+  </div>
+  <p class="card-desc">YouTubeの広告収益に不満を持ったクリエイターが、ファンからの直接支援モデルを確立</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>クリエイターがファンから直接的な月額支援を受けられるメンバーシッププラットフォーム。限定コンテンツ・早期アクセス・コミュニティ参加権などを特典として提供。YouTube広告に依存しない安定収入を実現。<br><br>
+    <b>ストーリー：</b>ミュージシャンのJack Conteは自身のYouTubeチャンネルで数百万回再生されても広告収益が数百ドルしか入らないことに不満を感じ、2013年にPatreonを設立。「ファンがクリエイターを直接支援する」というシンプルなモデルが共感を呼び、クリエイターエコノミーの基盤インフラに成長。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$130M+</div><div class="metric-lbl">ARR</div></div>
+    <div class="metric"><div class="metric-val">$3.5B+</div><div class="metric-lbl">クリエイターへの累計支払い</div></div>
+    <div class="metric"><div class="metric-val">25万+</div><div class="metric-lbl">アクティブクリエイター</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>クリエイター収益の5-12%手数料（プランにより変動）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「自分の痛み」から生まれたプロダクトは最も強い — クリエイター自身がクリエイター向けに作った</li><li>プラットフォーム依存（YouTube広告）のリスクを解消するD2Cモデルは需要が尽きない</li><li>「ファンとクリエイターの直接的な関係」はどのプラットフォームにも奪われない資産</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.spotify.com" target="_blank">Spotify</a></div>
+    </div>
+    <span class="tag tag-green">$16.4B Revenue</span>
+  </div>
+  <p class="card-desc">音楽の違法ダウンロード問題を解決し、合法ストリーミングの世界標準を確立した6.75億MAUの巨人</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>世界最大の音楽ストリーミングプラットフォーム。1億曲以上の楽曲をオンデマンドで視聴可能。AIレコメンデーション（Discover Weekly等）がユーザー体験の核。ポッドキャスト・オーディオブックにも拡大。<br><br>
+    <b>ストーリー：</b>スウェーデンのDaniel EkとMartin Lorentzonが2006年に設立。当時はNapster以降の音楽海賊版が蔓延しており、「違法DLより便利で合法な選択肢」を提供するというビジョンで創業。音楽業界との複雑なライセンス交渉を乗り越え、2018年にNYSE直接上場。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$16.4B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">675M</div><div class="metric-lbl">月間ユーザー</div></div>
+    <div class="metric"><div class="metric-val">1億曲+</div><div class="metric-lbl">楽曲数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム（広告付き無料版）+ Premium サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「違法な行為より便利な合法サービス」を作れば市場は必ず移行する</li><li>レコメンデーションAIがユーザー体験の差別化とスティッキーさの源泉</li><li>音楽→ポッドキャスト→オーディオブックとプラットフォーム拡大する横展開戦略</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-18 ==================== -->
+
+<!-- ==================== 2026-04-19 Legends 6: Education & Fitness ==================== -->
+<div class="report" id="rlegends6">
+
+<div class="summary">
+  <h2>Legends Vol.6 — Education & Fitness</h2>
+  <ul>
+    <li>Duolingoは「CAPTCHA発明者」がゲーミフィケーションで語学学習を再発明 — $643M売上</li>
+    <li>Morning Brewは2人の大学生が「退屈なビジネスニュース」を面白くして$75M買収</li>
+    <li>Udemyはトルコの村からNASDAQへ — 教育の完全民主化</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="Marketing">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.morningbrew.com" target="_blank">Morning Brew</a></div>
+    </div>
+    <span class="tag tag-orange">$75M買収</span>
+  </div>
+  <p class="card-desc">2人の大学生が「退屈なビジネスニュース」を毎朝楽しく読めるメールに。$75Mで買収された</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>毎朝届くビジネスニュースのメールマガジン。ウォール街やテック業界のニュースを、カジュアルでウィットに富んだ文体で5分で読める形にまとめる。「退屈なビジネスニュースを面白く」というシンプルなコンセプト。<br><br>
+    <b>ストーリー：</b>ミシガン大学のAlex LiebermanとAustin Riefが2015年に大学の講義室でGoogleフォームで購読者を集めて開始。最初の読者は同級生数十人。紹介プログラム（友人紹介でグッズ獲得）がバイラルを生み、400万購読者まで成長。2020年にBusiness Insiderの親会社が$75Mで買収。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$75M</div><div class="metric-lbl">買収額</div></div>
+    <div class="metric"><div class="metric-val">4M+</div><div class="metric-lbl">購読者</div></div>
+    <div class="metric"><div class="metric-val">大学生2人</div><div class="metric-lbl">創業者</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>スポンサー広告 + ブランドコンテンツ</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「退屈なもの」を面白くするだけで巨大ビジネスになる — コンテンツ×トーンの力</li><li>紹介プログラムはメディアビジネスの最強グロースエンジン</li><li>メールという「古いチャネル」でも、コンテンツの質で$75M企業は作れる</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.udemy.com" target="_blank">Udemy</a></div>
+    </div>
+    <span class="tag tag-green">$750M+ Revenue</span>
+  </div>
+  <p class="card-desc">トルコの村からNASDAQへ。22万以上のコースを持つ世界最大のオンライン学習マーケットプレイス</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>誰でも講師になれるオンライン学習マーケットプレイス。プログラミング・ビジネス・デザイン・音楽まで22万以上のコースが揃う。個人向け＋企業研修（Udemy Business）の二本立て。<br><br>
+    <b>ストーリー：</b>Eren Bilはトルコの小さな村で育ち、インターネットで独学。「世界中の誰もが質の高い教育にアクセスできるべき」という信念でUdemyを構想。アメリカに移住し、何度も資金難に直面しながら粘り強く開発。2021年にNASDAQに上場。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$750M+</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">220K+</div><div class="metric-lbl">コース数</div></div>
+    <div class="metric"><div class="metric-val">75M+</div><div class="metric-lbl">学習者数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>マーケットプレイス（講師との収益分配）+ Udemy Business（企業サブスク）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「教育の民主化」は世界中で通用する普遍的ミッション</li><li>マーケットプレイス + B2B SaaS（Udemy Business）の二本立てで安定収益を確保</li><li>出身地や環境は制約にならない — インターネットがあれば世界を変えられる</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.duolingo.com" target="_blank">Duolingo</a></div>
+    </div>
+    <span class="tag tag-green">$643M Revenue</span>
+  </div>
+  <p class="card-desc">CAPTCHA発明者がゲーミフィケーションの力で語学学習を再発明。毎日の学習を「習慣」に変えた</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ゲーミフィケーションを極限まで活用した語学学習アプリ。連続記録（ストリーク）・XPポイント・リーグ制・キャラクター（Duoフクロウ）が学習の継続を促す。40以上の言語に対応。<br><br>
+    <b>ストーリー：</b>グアテマラ出身のLuis von AhnはreCAPTCHA（Googleに買収）の発明者。「世界中の人が無料で語学を学べる」というミッションで2011年にDuolingoを設立。ゲームデザインの原則を教育に適用し、「学習＝楽しい」を実現。SNSでのDuoフクロウのミーム化がバイラルを生み、2021年にNASDAQ上場。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$643M</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">100M+</div><div class="metric-lbl">月間ユーザー</div></div>
+    <div class="metric"><div class="metric-val">40+</div><div class="metric-lbl">対応言語数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + Duolingo Super/Max サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>ゲーミフィケーションは「継続」という最大の課題を解決する魔法の武器</li><li>マスコットキャラのミーム化はSNS時代の最強マーケティング（広告費ゼロ）</li><li>「教育 × ゲーム」の交差点は巨大なブルーオーシャン</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.cambly.com" target="_blank">Cambly</a></div>
+    </div>
+    <span class="tag tag-green">$100M+ ARR</span>
+  </div>
+  <p class="card-desc">元Googleエンジニアが「ワンタップでネイティブスピーカーと会話」を実現した英会話プラットフォーム</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ワンタップでネイティブスピーカーとビデオ通話できるオンライン英会話プラットフォーム。予約不要で即座にレッスンを開始できる「オンデマンド」モデルが最大の特徴。中東・南米・アジアで特に人気。<br><br>
+    <b>ストーリー：</b>Sameer ShariffとKevin Lawは元Googleエンジニア。「英語を学びたい人は世界に10億人以上いるが、ネイティブスピーカーへのアクセスは限られている」という課題を発見。テクノロジーで「いつでもどこでもネイティブと会話」を実現し、特に中東市場で爆発的に成長。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$100M+</div><div class="metric-lbl">ARR</div></div>
+    <div class="metric"><div class="metric-val">即時接続</div><div class="metric-lbl">予約不要</div></div>
+    <div class="metric"><div class="metric-val">150+国</div><div class="metric-lbl">利用国数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスクリプション（月額/年額プラン）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「予約の摩擦」を排除する「オンデマンド」モデルは教育業界を変える</li><li>英語圏以外の市場（中東・南米）に先にフォーカスする戦略で競合を回避</li><li>元大手テックエンジニアの技術力 × 教育市場の組み合わせ</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://buildspace.so" target="_blank">Buildspace</a></div>
+    </div>
+    <span class="tag tag-purple">400K+ Builders</span>
+  </div>
+  <p class="card-desc">Web3コミュニティから汎用ビルダーコミュニティへのピボットで40万人以上のクリエイターを集めた</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「何かを作りたい人」のための学習コミュニティ。6週間でアイデアをプロダクトにする「Nights & Weekends」プログラムが核。参加者は週末の時間を使って実際にプロダクトを作り、コミュニティからフィードバックを得る。<br><br>
+    <b>ストーリー：</b>Farza Majeedが設立。当初はWeb3/ブロックチェーン開発の学習コミュニティだったが、Web3バブル崩壊を受けて「あらゆるビルダー向け」に大胆にピボット。a]6k starのGitHub人気と口コミで40万人以上のビルダーコミュニティに成長。2024年に惜しまれつつ運営終了。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">400K+</div><div class="metric-lbl">ビルダー数</div></div>
+    <div class="metric"><div class="metric-val">6週間</div><div class="metric-lbl">プログラム期間</div></div>
+    <div class="metric"><div class="metric-val">Web3→汎用</div><div class="metric-lbl">大胆なピボット</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>無料コミュニティ + プレミアムプログラム</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>市場が崩壊しても素早くピボットすれば生き残れる — Web3→汎用の転換力</li><li>「学ぶ」より「作る」に焦点を当てたコミュニティは熱量が高い</li><li>コミュニティの文化（Buildspaceの独特な雰囲気）自体が差別化と参入障壁になる</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-19 ==================== -->
+
+<!-- ==================== 2026-04-20 Legends 7: Fitness & Music ==================== -->
+<div class="report" id="rlegends7">
+
+<div class="summary">
+  <h2>Legends Vol.7 — Fitness & Music</h2>
+  <ul>
+    <li>Gymsharkは19歳のピザ配達少年がガレージで始めたフィットネスブランド — $500M+売上の帝国に</li>
+    <li>Shazamは2002年にSMSサービスとして始まり、Appleが$400Mで買収した音楽認識の先駆者</li>
+    <li>Stravaはセグメントランキングという競争要素で1.2億アスリートを熱狂させた</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.strava.com" target="_blank">Strava</a></div>
+    </div>
+    <span class="tag tag-purple">120M Athletes</span>
+  </div>
+  <p class="card-desc">ハーバードのボート選手が「一緒に走れなくても競争できる」ツールを作り、1.2億アスリートのコミュニティに</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ランニング・サイクリングのGPSトラッキング + ソーシャルネットワーク。「セグメント」と呼ばれるルート区間のランキング機能が中毒性の源泉。他のアスリートとリアルタイムで競争できる。<br><br>
+    <b>ストーリー：</b>Mark GainfieldとMichael Horvathはハーバード大学のボートチームのチームメイト。卒業後、離れた場所にいてもお互いのトレーニングを共有・競争したいという思いからStravaを構想。2009年にローンチ。セグメントランキングの「もう一度走って記録を更新したい」という競争心がエンゲージメントの鍵。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">120M</div><div class="metric-lbl">アスリート数</div></div>
+    <div class="metric"><div class="metric-val">セグメント</div><div class="metric-lbl">競争エンジン</div></div>
+    <div class="metric"><div class="metric-val">195国</div><div class="metric-lbl">利用国数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム + Strava Summit サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「競争」要素はエンゲージメントの最強ドライバー — ランキングが再利用を促す</li><li>個人ツール + ソーシャル要素の組み合わせはスティッキーなプロダクトを生む</li><li>自分の課題（離れたチームメイトとの競争）から始まったプロダクトはPMFが強い</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.shazam.com" target="_blank">Shazam</a></div>
+    </div>
+    <span class="tag tag-orange">Apple $400M買収</span>
+  </div>
+  <p class="card-desc">2002年にSMSサービスとして始まった音楽認識技術が、Appleに$400Mで買収された</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>周囲で流れている音楽をスマホのマイクで聞かせるだけで楽曲名・アーティスト名を特定するアプリ。シンプルな「何の曲？」という問いに瞬時に答える。<br><br>
+    <b>ストーリー：</b>Chris Bartonらが1999年に設立。スマートフォン以前の2002年、英国で「2580」にダイヤルして電話を音楽に近づけると、SMSで曲名が届くサービスとして開始。スマートフォン時代にアプリ化して爆発。2018年にAppleが$400Mで買収し、iOS・Apple Watchに深く統合。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$400M</div><div class="metric-lbl">Apple買収額</div></div>
+    <div class="metric"><div class="metric-val">2002年</div><div class="metric-lbl">SMSサービス開始</div></div>
+    <div class="metric"><div class="metric-val">70B+</div><div class="metric-lbl">累計楽曲認識数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>無料アプリ（Apple統合後は広告・アフィリエイト）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>技術が時代に追いつくまで20年以上待った忍耐力 — SMS→スマホアプリの進化</li><li>「1つのことを完璧に」というフォーカスがApple買収につながった</li><li>プラットフォーム統合（iOS組み込み）で究極のディストリビューションを獲得</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.gymshark.com" target="_blank">Gymshark</a></div>
+    </div>
+    <span class="tag tag-green">$500M+ Revenue</span>
+  </div>
+  <p class="card-desc">19歳のピザ配達少年がガレージのミシンで始めたフィットネスブランドが$500M+売上の帝国に</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>フィットネスウェアブランド。機能性とデザイン性を両立したジムウェアをD2C（自社EC直販）で販売。インフルエンサーマーケティングの先駆者で、フィットネスYouTuberとのコラボで急成長。<br><br>
+    <b>ストーリー：</b>Ben Francisは19歳のピザ配達員兼大学生。自宅ガレージにミシンとスクリーン印刷機を設置し、フィットネスウェアの製作を開始。フィットネスYouTuberにウェアを無料提供する戦略が当たり、YouTube発のD2Cブランドとして急成長。外部資金ゼロで$500M+売上を達成。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$500M+</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">19歳</div><div class="metric-lbl">創業時年齢</div></div>
+    <div class="metric"><div class="metric-val">D2C</div><div class="metric-lbl">自社EC直販モデル</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>D2C EC直販（自社サイト + 一部リテール）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>インフルエンサーマーケの先駆者 — 広告費の代わりに無料商品提供でバイラル</li><li>D2C × SNSの組み合わせは従来の小売の中間マージンを排除</li><li>19歳・ガレージ・ピザ配達 — バックグラウンドは成功の制約にならない</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.glossier.com" target="_blank">Glossier</a></div>
+    </div>
+    <span class="tag tag-green">$300M+ Revenue</span>
+  </div>
+  <p class="card-desc">美容ブログ「Into The Gloss」から生まれたD2Cコスメブランド。コミュニティの声で商品を開発</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「Skin First, Makeup Second（スキンケアが先、メイクは後）」をコンセプトにしたD2Cビューティーブランド。シンプルでナチュラルなコスメ・スキンケア製品を自社EC中心に販売。<br><br>
+    <b>ストーリー：</b>Emily WeissはVogue誌のインターンから美容ブログ「Into The Gloss」を開始。読者コミュニティの「こんな製品が欲しい」という声を直接商品開発に反映する手法で2014年にGlossierを設立。「コミュニティが商品を作る」というモデルが共感を呼び、ミレニアル世代のアイコンブランドに成長。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$300M+</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">ブログ発</div><div class="metric-lbl">Into The Gloss</div></div>
+    <div class="metric"><div class="metric-val">コミュニティ駆動</div><div class="metric-lbl">商品開発モデル</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>D2C EC直販 + 直営店舗</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>コンテンツ（ブログ）→ コミュニティ → プロダクトの順序が最強の立ち上げパターン</li><li>ユーザーの声を直接商品に反映する「コミュニティ駆動開発」はD2Cの核</li><li>メディア + ブランドの融合は従来の広告費を不要にする</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.vfressi.com" target="_blank">Vessi</a></div>
+    </div>
+    <span class="tag tag-green">$100M+ Revenue</span>
+  </div>
+  <p class="card-desc">バンクーバーの雨から生まれた完全防水スニーカー。ニッチ課題をD2Cで$100M+に成長させた</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>世界初の完全防水ニットスニーカー。バンクーバーの多雨環境から着想を得て、水を100%通さないのに通気性がある独自素材「Dyma-tex」を開発。スタイリッシュなデザインで防水靴の概念を変えた。<br><br>
+    <b>ストーリー：</b>Andy WangとMikaella Goは雨の多いバンクーバーに住み、おしゃれで防水な靴がないことに不満を持っていた。Kickstarterで$400K以上を調達して製品化。D2CとSNSマーケティング（特にインフルエンサーコラボ）で急成長し、$100M+の売上を達成。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$100M+</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">$400K+</div><div class="metric-lbl">Kickstarter調達額</div></div>
+    <div class="metric"><div class="metric-val">Dyma-tex</div><div class="metric-lbl">独自防水素材</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>D2C EC直販（自社サイト）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>地元の天候という「超ローカルな課題」からグローバルビジネスが生まれる</li><li>Kickstarterでの市場検証 → D2C直販への移行は物理プロダクトの王道パターン</li><li>独自技術（Dyma-tex）が模倣困難な参入障壁を作る</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-20 ==================== -->
+
+<!-- ==================== 2026-04-21 Legends 8: Young Founders ==================== -->
+<div class="report" id="rlegends8">
+
+<div class="summary">
+  <h2>Legends Vol.8 — Young Founders</h2>
+  <ul>
+    <li>Smart Sweetsは21歳の女性が祖母の砂糖依存をきっかけに創業 — TPGが$360Mで買収</li>
+    <li>Odd Museは22歳が投資ゼロ・TikTokのみで初年度$10M+を達成した新世代ブランド</li>
+    <li>Red Bullはタイのエナジードリンクを西洋向けにリブランドし$10B+帝国を構築</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://smartsweets.com" target="_blank">Smart Sweets</a></div>
+    </div>
+    <span class="tag tag-orange">TPG $360M買収</span>
+  </div>
+  <p class="card-desc">21歳の女性が祖母の砂糖依存をきっかけに低糖キャンディを開発。TPGが$360Mで買収</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>従来のグミやキャンディと同じ味と食感を保ちながら、砂糖を大幅にカットした「ギルティフリー」スイーツブランド。食物繊維を使った独自製法で甘さを実現。<br><br>
+    <b>ストーリー：</b>カナダのTara Boschは21歳の時、祖母の砂糖依存症を目の当たりにし、「おいしいのに砂糖が少ないキャンディ」を作ることを決意。キッチンで試作を繰り返し、低糖でもおいしいグミを開発。北米のスーパーで急速に棚を獲得し、2022年にTPG Capitalが$360Mで買収。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$360M</div><div class="metric-lbl">TPG買収額</div></div>
+    <div class="metric"><div class="metric-val">21歳</div><div class="metric-lbl">創業時年齢</div></div>
+    <div class="metric"><div class="metric-val">低糖</div><div class="metric-lbl">ギルティフリーお菓子</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>D2C + リテール（スーパー・ドラッグストア棚卸し）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>家族の健康問題がビジネスの原点 — 個人的な動機は最強のモチベーション</li><li>「罪悪感なく楽しめる」カテゴリは食品業界の巨大トレンド</li><li>21歳でも$360M企業を作れる — 年齢は言い訳にならない</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://oddmuse.com" target="_blank">Odd Muse</a></div>
+    </div>
+    <span class="tag tag-purple">$10M+ First Year</span>
+  </div>
+  <p class="card-desc">22歳が外部投資ゼロ、TikTokマーケティングのみで初年度$10M+を達成した新世代ファッションブランド</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>手頃な価格のラグジュアリー風ファッションブランド。クリーンでミニマルなデザインが特徴。自社ECのみでの販売（D2C）で中間マージンをカット。<br><br>
+    <b>ストーリー：</b>22歳のAmy Sherらが外部投資ゼロで立ち上げ。マーケティングはTikTokのみに集中し、バイラルコンテンツ戦略で初年度から$10M+の売上を達成。従来のファッション業界の「広告費 → 認知 → 販売」モデルを完全に覆し、「TikTokバイラル → 即購入」の新モデルを証明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$10M+</div><div class="metric-lbl">初年度売上</div></div>
+    <div class="metric"><div class="metric-val">$0</div><div class="metric-lbl">外部投資</div></div>
+    <div class="metric"><div class="metric-val">TikTokのみ</div><div class="metric-lbl">マーケティングチャネル</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>D2C EC直販</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>TikTokだけで$10M+は可能 — SNSネイティブ世代の新しいビジネスモデル</li><li>外部投資ゼロ = 100%オーナーシップ。利益率と自由度が圧倒的に高い</li><li>「1つのチャネルに全集中」する大胆さが初期の爆発力を生む</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.chipotle.com" target="_blank">Chipotle</a></div>
+    </div>
+    <span class="tag tag-green">$11.3B Revenue</span>
+  </div>
+  <p class="card-desc">ファストカジュアル革命を起こしたメキシカンチェーン。デジタル注文が売上の40%以上</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>カスタマイズ可能なブリトー・ボウル・タコスをファストフードの速度で提供するメキシカンレストランチェーン。「Food with Integrity（誠実な食）」をミッションに、新鮮な素材と透明性を重視。<br><br>
+    <b>ストーリー：</b>シェフのSteve Ellsが1993年にデンバーに1号店を開業。ファストフード（安い・早い・不健康）とレストラン（高い・遅い・健康的）の間の「ファストカジュアル」カテゴリを発明。デジタル化にも早期対応し、モバイル注文・専用ピックアップラインで売上のデジタル比率40%以上を達成。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$11.3B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">3600+</div><div class="metric-lbl">店舗数</div></div>
+    <div class="metric"><div class="metric-val">40%+</div><div class="metric-lbl">デジタル売上比率</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>店舗直販 + デジタル注文（モバイル・デリバリー）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>既存カテゴリの「間」に新カテゴリを作る — ファストカジュアルの発明</li><li>「透明性」と「品質」は価格プレミアムを正当化する強力なブランド戦略</li><li>デジタル化への早期投資が実店舗ビジネスのスケーラビリティを変える</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.redbull.com" target="_blank">Red Bull</a></div>
+    </div>
+    <span class="tag tag-green">$10B+ Revenue</span>
+  </div>
+  <p class="card-desc">タイのエナジードリンクを西洋向けにリブランドし、コンテンツ帝国として$10B+企業に</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>世界最大のエナジードリンクブランド。「Red Bull gives you wings（翼をさずける）」のキャッチコピーで知られる。製品以上に、エクストリームスポーツ・音楽・ゲーミングのコンテンツメディア帝国を構築。<br><br>
+    <b>ストーリー：</b>オーストリアのDietrich Mateschitzがタイで「Krating Daeng（クラティン・デーン）」というエナジードリンクに出会い、味を西洋向けに調整して1987年にRed Bullを設立。「エナジードリンク」というカテゴリ自体を西洋で発明。マーケティングはF1チーム所有・成層圏からのスカイダイビング等、コンテンツ制作に年間$2B以上を投資する「メディア企業がドリンクを売っている」モデル。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$10B+</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">12B+缶</div><div class="metric-lbl">年間販売本数</div></div>
+    <div class="metric"><div class="metric-val">$2B+/年</div><div class="metric-lbl">コンテンツ投資額</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>飲料販売（製造外注・マーケ自社） + メディア収益</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>カテゴリそのものを発明する — 「エナジードリンク」は存在しなかった市場</li><li>「メディア企業が商品を売る」モデルはブランド忠誠度を極限まで高める</li><li>海外の既存プロダクトをローカライズする「コピー&リブランド」は有効な戦略</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://bluebottlecoffee.com" target="_blank">Blue Bottle Coffee</a></div>
+    </div>
+    <span class="tag tag-orange">Nestle $500M+買収</span>
+  </div>
+  <p class="card-desc">クラリネット奏者がガレージで始めたスペシャルティコーヒーが、Nestleに$500M+で買収された</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>「焙煎から48時間以内」の新鮮なコーヒーのみを提供するスペシャルティコーヒーブランド。シンプルなメニュー・美しい店舗デザイン・コーヒーへの極端なこだわりが特徴。<br><br>
+    <b>ストーリー：</b>James Freemanはプロのクラリネット奏者だったが、コーヒーへの情熱から2002年にオークランドのガレージで焙煎を開始。「焙煎から48時間以内の豆しか売らない」という極端なルールを設定。ファーマーズマーケットでの販売からスタートし、口コミで人気が広がった。2017年にNestleが$500M+で株式の大半を取得。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$500M+</div><div class="metric-lbl">Nestle買収額</div></div>
+    <div class="metric"><div class="metric-val">48h以内</div><div class="metric-lbl">焙煎鮮度ルール</div></div>
+    <div class="metric"><div class="metric-val">ガレージ</div><div class="metric-lbl">創業の場所</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>直営店舗 + EC（サブスク豆販売）+ 卸売</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「極端なこだわり」はブランドストーリーと差別化の源泉 — 48時間ルール</li><li>異業種（音楽家）からの参入が「業界の常識」を疑える視点を持つ</li><li>ファーマーズマーケットという低コストの検証場で始める「リーンスタートアップ」の実例</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-21 ==================== -->
+
+<!-- ==================== 2026-04-22 Legends 9: Creator Brands & Food ==================== -->
+<div class="report" id="rlegends9">
+
+<div class="summary">
+  <h2>Legends Vol.9 — Creator Brands & Food</h2>
+  <ul>
+    <li>Blank Street Coffeeはスタバの半額戦略で$67M調達、70+店舗を急拡大 — 価格破壊の力</li>
+    <li>Too Good To Goは「サプライズバッグ」で食品廃棄を減らし1億ユーザー — 社会課題×ビジネス</li>
+    <li>LTKはインフルエンサーコマースのパイオニアとして$2B+評価、年間$4B+の売上を創出</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://blankstreet.com" target="_blank">Blank Street Coffee</a></div>
+    </div>
+    <span class="tag tag-purple">$67M Raised</span>
+  </div>
+  <p class="card-desc">スターバックスの半額で高品質コーヒーを提供。超小型店舗モデルで70+店舗に急拡大</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>高品質なスペシャルティコーヒーをスターバックスの約半額で提供するコーヒーチェーン。超小型店舗（キオスク型）で家賃コストを大幅削減し、低価格を実現。<br><br>
+    <b>ストーリー：</b>Issam FrissとVinay Menonが2020年にNYCで創業。「なぜおいしいコーヒーは高いのか？」を分析し、家賃が最大のコスト要因であることを発見。コーヒーカート→超小型店舗（従来の1/3のスペース）モデルで固定費を劇的に削減。$67M調達して70+店舗に急拡大中。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$67M</div><div class="metric-lbl">調達額</div></div>
+    <div class="metric"><div class="metric-val">70+</div><div class="metric-lbl">店舗数</div></div>
+    <div class="metric"><div class="metric-val">約半額</div><div class="metric-lbl">スタバ比価格</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>店舗直販（超小型店舗で固定費削減）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>コスト構造を分析して最大コスト（家賃）を削減する — 価格破壊の本質</li><li>「小さく始める」をそのままビジネスモデルにした超小型店舗戦略</li><li>既存大手（スタバ）の価格プレミアムに不満を持つ層は常に存在する</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.chamberlaincoffee.com" target="_blank">Chamberlain Coffee</a></div>
+    </div>
+    <span class="tag tag-purple">$100M+ Valuation</span>
+  </div>
+  <p class="card-desc">19歳のYouTuberが自分のコーヒー愛を形にしたブランドが$100M+評価に。クリエイターブランドの成功例</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>YouTuber Emma Chamberlainの個人ブランドとして立ち上げたコーヒーブランド。ドリップバッグ・コールドブリュー・抹茶など幅広いラインナップ。ポップでカラフルなパッケージデザインがGen Zに人気。<br><br>
+    <b>ストーリー：</b>Emma Chamberlainは19歳の時、YouTubeで1200万人以上のチャンネル登録者を持つトップクリエイター。動画で常にコーヒーを飲む姿が印象的で、視聴者からの「Emmaのコーヒーブランドを作って」という声に応えて2020年に設立。クリエイターの個人ブランドがVC調達を行い本格的なビジネスに成長した代表例。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$100M+</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">19歳</div><div class="metric-lbl">創業時年齢</div></div>
+    <div class="metric"><div class="metric-val">12M+</div><div class="metric-lbl">YouTube登録者</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>D2C + リテール（Target、Walmart等）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>クリエイターのオーディエンスは最強のディストリビューションチャネル</li><li>「ファンの声」に応えてブランドを作る — オーディエンスファーストの商品開発</li><li>クリエイターブランドは「人」がブランドストーリーそのものになる</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.toogoodtogo.com" target="_blank">Too Good To Go</a></div>
+    </div>
+    <span class="tag tag-purple">100M+ Users</span>
+  </div>
+  <p class="card-desc">「サプライズバッグ」で飲食店の売れ残り食品を割引販売。食品廃棄削減で1億ユーザーを突破</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>飲食店やスーパーの売れ残り食品を「サプライズバッグ」として定価の1/3程度で販売するマーケットプレイス。何が入っているかは開けるまでわからない「ガチャ」要素がエンタメ性を追加。<br><br>
+    <b>ストーリー：</b>デンマークで2016年に設立。世界の食品の1/3が廃棄されているという社会問題に着目。飲食店は廃棄コスト削減、消費者はお得に食事、環境にも良いという「三方良し」モデルを構築。ヨーロッパを中心に17カ国で展開し、1億ユーザーを突破。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">100M+</div><div class="metric-lbl">ユーザー数</div></div>
+    <div class="metric"><div class="metric-val">17カ国</div><div class="metric-lbl">展開国数</div></div>
+    <div class="metric"><div class="metric-val">1/3価格</div><div class="metric-lbl">通常価格の約3分の1</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>マーケットプレイス手数料（サプライズバッグ1つあたり固定手数料）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>社会課題（食品廃棄）× ビジネスモデルの融合 — 「三方良し」の設計</li><li>「サプライズ」要素がリピート利用と口コミの原動力 — ガチャの中毒性</li><li>店側のインセンティブ（廃棄コスト削減）が供給サイドの自然な拡大を生む</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.misfitsmarket.com" target="_blank">Misfits Market</a></div>
+    </div>
+    <span class="tag tag-purple">$2B+ Valuation</span>
+  </div>
+  <p class="card-desc">「見た目が悪い」だけで廃棄される野菜を40%オフで宅配。フードウェイスト問題を収益化</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>規格外（見た目が不揃い・サイズ違い）の農産物をスーパーの40%オフで宅配するオンライン食料品サービス。「Ugly produce（ブサイクな野菜）」のリブランドで食品廃棄を削減。<br><br>
+    <b>ストーリー：</b>Abhi Rameshが2018年に設立。スーパーの厳格な外観基準で全農産物の30-40%が廃棄されている事実を知り、「見た目は悪いが味は同じ」野菜を安く消費者に届けるモデルを構想。コロナ禍のオンライン食料品需要急増で爆発的に成長し、$2B+の評価額に。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$2B+</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">40%OFF</div><div class="metric-lbl">スーパー比価格</div></div>
+    <div class="metric"><div class="metric-val">30-40%</div><div class="metric-lbl">廃棄される農産物比率</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスクリプション宅配（週1回のボックス配送）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「捨てられるもの」に価値を見出す逆転の発想 — 廃棄 = 仕入れコストゼロに近い</li><li>環境意識 × 節約ニーズの交差点はマーケティングメッセージが作りやすい</li><li>サプライチェーンの非効率（外観基準）を解消するだけで巨大ビジネスが生まれる</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.shopltk.com" target="_blank">LTK</a></div>
+    </div>
+    <span class="tag tag-green">$2B+ Valuation</span>
+  </div>
+  <p class="card-desc">インフルエンサーコマースのパイオニア。年間$4B+の売上を創出し、クリエイターエコノミーを牽引</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>インフルエンサーが自分のおすすめ商品をリンク化してフォロワーに共有し、購入されるとコミッションを得られるプラットフォーム。元は「LIKEtoKNOW.it」「rewardStyle」として知られていた。<br><br>
+    <b>ストーリー：</b>Amber VenzはファッションブロガーとしてSNSでスタイルを紹介していたが、フォロワーが「どこで買えるの？」と聞いても収益化できなかった。2011年にrewardStyleを設立し、インフルエンサーとブランドを繋ぐアフィリエイトプラットフォームを構築。現在は20万人以上のクリエイターが参加し、年間$4B以上の売上を創出。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$2B+</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">$4B+</div><div class="metric-lbl">年間創出売上</div></div>
+    <div class="metric"><div class="metric-val">200K+</div><div class="metric-lbl">参加クリエイター</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>アフィリエイト手数料（ブランド側からのコミッション分配）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「インフルエンサーの収益化課題」を解決するプラットフォームは巨大市場</li><li>自分自身がインフルエンサーだったからこそ「本当の課題」が見えた</li><li>クリエイターエコノミーの基盤インフラ（決済・トラッキング・分析）は長期的に価値が高い</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-22 ==================== -->
+
+<!-- ==================== 2026-04-23 Legends 10: Innovation Models ==================== -->
+<div class="report active" id="rlegends10">
+
+<div class="summary">
+  <h2>Legends Vol.10 — Innovation Models</h2>
+  <ul>
+    <li>Instacartは20回の起業失敗を経てIPO — 「諦めない」の究極の成功例</li>
+    <li>Alibaba は英語教師Jack Maがアパートで18人と始め$130B+の帝国を築いた — 出自は関係ない</li>
+    <li>LENA the Fashion Libraryは「服を所有しない」サブスクで循環型ファッションを実践</li>
+  </ul>
+</div>
+
+<div class="section-title">Success Stories</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.lfrena.nl" target="_blank">LENA the Fashion Library</a></div>
+    </div>
+    <span class="tag tag-purple">循環型ファッション</span>
+  </div>
+  <p class="card-desc">アムステルダム発「服の図書館」。月額サブスクで服を借りて返す、所有しないファッションの先駆者</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>月額サブスクリプションで服を借りて着用し、飽きたら返却して別の服を借りられる「衣服のレンタルライブラリー」。ファストファッションの大量廃棄問題に対する実践的な解決策。<br><br>
+    <b>ストーリー：</b>アムステルダムで設立。ファッション業界が年間9200万トンの繊維廃棄物を生む現状に対し、「所有から利用へ」の転換を提案。図書館のように服を借りて返す仕組みで、消費者は少ない費用で多様なスタイルを楽しめる。サステナブルファッションの先駆的モデルとして注目を集めている。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">サブスク型</div><div class="metric-lbl">月額レンタル</div></div>
+    <div class="metric"><div class="metric-val">アムステルダム</div><div class="metric-lbl">発祥地</div></div>
+    <div class="metric"><div class="metric-val">9200万t</div><div class="metric-lbl">年間繊維廃棄量</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>月額サブスクリプション（借り放題プラン）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>「所有→利用」のシフトはあらゆる物理プロダクトに適用できる普遍的モデル</li><li>サステナビリティは「値段が安い」と同時に実現すると爆発力がある</li><li>「図書館」という既存概念の転用がわかりやすいプロダクトメッセージを生む</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.instacart.com" target="_blank">Instacart</a></div>
+    </div>
+    <span class="tag tag-pink">IPO ($2.9B Revenue)</span>
+  </div>
+  <p class="card-desc">20回の起業に失敗した創業者が「最後のチャレンジ」で食料品デリバリーのIPOを達成</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>スマホで注文するとショッパー（買い物代行者）がスーパーで商品を選び、最短1時間で自宅に届けてくれる食料品デリバリーサービス。既存スーパーのEC化を代行するプラットフォーム。<br><br>
+    <b>ストーリー：</b>Apoorva Mehtaはカナダの元Amazon社員。Instacart以前に20個のスタートアップを立ち上げてすべて失敗。「最後に一つだけ試す」と決めて食料品デリバリーに挑戦。YCに参加し、コロナ禍で食料品デリバリー需要が爆発して急成長。2023年にIPO、$2.9Bの年間売上。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$2.9B</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">20回失敗</div><div class="metric-lbl">起業失敗回数</div></div>
+    <div class="metric"><div class="metric-val">2023 IPO</div><div class="metric-lbl">NASDAQ上場</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>配送手数料 + サービス料 + Instacart+ サブスク + 広告収入</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>20回失敗しても21回目で成功できる — 失敗は成功のためのデータ収集</li><li>既存インフラ（スーパー）のEC化代行はプラットフォームとして巨大な価値を持つ</li><li>パンデミックという外部要因に「準備ができていた」ことが爆発的成長の条件</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://usebounce.com" target="_blank">Bounce</a></div>
+    </div>
+    <span class="tag tag-purple">$52M Raised</span>
+  </div>
+  <p class="card-desc">「荷物預かりのAirbnb」として100ヵ国以上で展開。旅行者の「荷物問題」をシンプルに解決</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>世界中のホテル・カフェ・ショップの空きスペースを荷物預かり所として活用するマーケットプレイス。旅行者がチェックイン前やチェックアウト後にスーツケースを安全に預けられる。<br><br>
+    <b>ストーリー：</b>Cody Candeeが旅行中に「チェックアウト後にスーツケースを引きずって観光するのが嫌だ」という自分の経験から着想。地元ビジネスの未活用スペースを荷物預かり所に変えるマーケットプレイスを構築。$52M調達し、100ヵ国以上の1万+拠点に拡大。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$52M</div><div class="metric-lbl">調達額</div></div>
+    <div class="metric"><div class="metric-val">100+国</div><div class="metric-lbl">展開国数</div></div>
+    <div class="metric"><div class="metric-val">10K+</div><div class="metric-lbl">預かり拠点数</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>マーケットプレイス手数料（預かり料から手数料）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>旅行中の「小さな不便」からグローバルビジネスが生まれる — 荷物問題は世界共通</li><li>Airbnbモデル（未活用スペースの活用）はあらゆるカテゴリに応用可能</li><li>「すべての旅行者が経験する」普遍的な課題は市場規模が巨大</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.trykarat.com" target="_blank">Karat Financial</a></div>
+    </div>
+    <span class="tag tag-purple">$70M Raised</span>
+  </div>
+  <p class="card-desc">SNSのフォロワー数やエンゲージメントを「信用スコア」に変換するクリエイター向けクレジットカード</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>クリエイター向けのクレジットカード・金融サービス。従来の銀行が評価しない「SNSフォロワー数」「エンゲージメント率」「スポンサー収益」をソーシャルデータとして信用審査に活用。<br><br>
+    <b>ストーリー：</b>Eric WeiはYouTuberの友人が銀行でローンを断られるのを見て着想。「年間$50万稼ぐクリエイターが、従来の信用スコアが低いだけでクレジットカードを作れない」という不条理を解決するため、ソーシャルデータベースの信用評価モデルを構築。$70M調達。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$70M</div><div class="metric-lbl">調達額</div></div>
+    <div class="metric"><div class="metric-val">ソーシャルデータ</div><div class="metric-lbl">新しい信用評価</div></div>
+    <div class="metric"><div class="metric-val">クリエイター</div><div class="metric-lbl">特化ターゲット</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>クレジットカード手数料（インターチェンジフィー）+ 金融商品</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>既存の信用評価システムでは評価できない「新しい経済」にはフィンテックの機会がある</li><li>クリエイターエコノミーの「金融インフラ不足」は巨大なブルーオーシャン</li><li>「友人の課題」を解決する創業動機は情熱と持続力の源泉</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div>
+      <div class="card-title"><a href="https://www.alibaba.com" target="_blank">Alibaba</a></div>
+    </div>
+    <span class="tag tag-green">$130B+ Revenue</span>
+  </div>
+  <p class="card-desc">英語教師Jack Maが18人の共同創業者とアパートで始めたB2Bマーケットプレイスが$130B+の帝国に</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>世界最大級のB2B/B2C/C2Cマーケットプレイス群（Alibaba.com、Taobao、Tmall、AliExpress）。クラウドコンピューティング（Alibaba Cloud）、決済（Alipay/Ant Group）、物流（Cainiao）まで統合するエコシステム。<br><br>
+    <b>ストーリー：</b>Jack Ma（馬雲）は英語教師で、月給$12。1995年にアメリカでインターネットに出会い衝撃を受ける。1999年、杭州の自宅アパートに18人の共同創業者を集めてAlibabaを設立。「中国の中小企業を世界に繋ぐ」というビジョンで、B2Bマーケットプレイスからスタート。VCに30回以上断られたが、ソフトバンク孫正義から$20Mの出資を獲得。2014年にNYSE上場、当時史上最大のIPO（$25B）を達成。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$130B+</div><div class="metric-lbl">年間売上</div></div>
+    <div class="metric"><div class="metric-val">18人</div><div class="metric-lbl">アパート創業</div></div>
+    <div class="metric"><div class="metric-val">$25B IPO</div><div class="metric-lbl">史上最大のIPO（当時）</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>マーケットプレイス手数料 + 広告 + クラウド + 金融サービス</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>英語教師・月給$12でも世界を変えられる — 出自やバックグラウンドは成功の制約にならない</li><li>「中小企業をグローバルに繋ぐ」というミッションは時代を超えて拡張可能</li><li>エコシステム戦略（EC→決済→クラウド→物流）で圧倒的なロックイン効果を構築</li></ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-04-23 ==================== -->
+
 <!-- ==================== 2026-04-13 (Report 5) ==================== -->
-<div class="report active" id="r20260413">
+<div class="report" id="r20260413">
 
 <div class="summary">
   <h2>Today's Signal</h2>
@@ -1193,6 +2563,16 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-04-23', id: 'rlegends10', count: 5 },
+  { date: '2026-04-22', id: 'rlegends9', count: 5 },
+  { date: '2026-04-21', id: 'rlegends8', count: 5 },
+  { date: '2026-04-20', id: 'rlegends7', count: 5 },
+  { date: '2026-04-19', id: 'rlegends6', count: 5 },
+  { date: '2026-04-18', id: 'rlegends5', count: 5 },
+  { date: '2026-04-17', id: 'rlegends4', count: 5 },
+  { date: '2026-04-16', id: 'rlegends3', count: 5 },
+  { date: '2026-04-15', id: 'rlegends2', count: 5 },
+  { date: '2026-04-14', id: 'rlegends1', count: 5 },
   { date: '2026-04-13', id: 'r20260413', count: 5 },
   { date: '2026-04-11', id: 'r20260411', count: 5 },
   { date: '2026-04-10', id: 'r20260410', count: 5 },
