@@ -29,3 +29,14 @@
 | 2026-04-13 | Ray | SaaS | PH Apr 12 #2 (250票) | ターミナルで動くパーソナルCFO。開発者向けCLI財務管理ツール |
 | 2026-04-13 | R0Y AI | AI/SaaS | PH Apr 12 #4 (194票) | 自然言語で投資ダッシュボードを即生成。Bloomberg Terminalの民主化ツール |
 | 2026-04-13 | Layered | AI/Mobile | PH Apr 12 #7 (135票) | セルフィー→AIパーソナルスタイリスト。Cal AIのファッション版として注目 |
+| 2026-04-27 | FurtherAI | AI/Vertical | $25M Series A | 保険業界（$7T市場）特化バーティカルAI。引受・クレーム・コンプライアンス自動化 |
+| 2026-04-27 | EvenUp | AI/Vertical | $150M Series E ($2B Val) | 人身傷害弁護士向けAI。医療記録から需要文書を自動生成、全米1,000+事務所が利用 |
+| 2026-04-27 | Rebar | AI/Vertical | $14M Series A | HVAC・電気・配管業者向けAI OS。CVで設計図面解析→見積60-70%短縮 |
+| 2026-04-27 | Chapter | AI/Vertical | $100M Series E | 米シニア6,500万人向けMedicareナビAI。Generation Investment Mgmt主導 |
+| 2026-04-27 | Dune | SaaS/Hardware | PH Week 4/20 #1 (588票) | コンテキスト認識Macキーパッド。AIがアプリに応じてボタン機能を動的切替 |
+| 2026-05-07 | Legora | AI/Vertical | $550M Series D ($5.55B Val) + $50M Nvidia | ストックホルム発リーガルAI。契約レビュー・ドラフト・リサーチ一気通貫、法律AI史上最大ラウンド |
+| 2026-05-07 | Loop | AI/Vertical | $95M Series C (Valor主導) | 荷主・3PL向けフルスタック物流AI。倉庫・ERP・TMSの請求書照合と運賃監査を自動化 |
+| 2026-05-07 | Gizmo | AI/Vertical | $22M Series A | PDF・授業ノートを放り込むとAIが自動でクイズ・フラッシュカード生成、忘却曲線で配信 |
+| 2026-05-07 | Clera | AI/Vertical | PH Week 18 #2 (698票) | 候補者ファーストのAIタレントエージェント。WhatsApp/SMSで会話、向こうから求人が来る |
+| 2026-05-07 | Open Wearables | AI/Vertical | PH Week 18 #3 (623票) | Apple Watch・Whoop・Oura・Garminを単一APIで束ねるヘルスデータインフラ「Plaidの医療版」 |
+| 2026-05-07 | Plurai | AI/Infra | PH Week 18 #1 (732票) | AIエージェントの劣化検知をvibe-trainで自動化。eval/guardrailsを数時間で生成 |
