@@ -40,3 +40,24 @@
 | 2026-05-07 | Clera | AI/Vertical | PH Week 18 #2 (698票) | 候補者ファーストのAIタレントエージェント。WhatsApp/SMSで会話、向こうから求人が来る |
 | 2026-05-07 | Open Wearables | AI/Vertical | PH Week 18 #3 (623票) | Apple Watch・Whoop・Oura・Garminを単一APIで束ねるヘルスデータインフラ「Plaidの医療版」 |
 | 2026-05-07 | Plurai | AI/Infra | PH Week 18 #1 (732票) | AIエージェントの劣化検知をvibe-trainで自動化。eval/guardrailsを数時間で生成 |
+| 2026-05-08 | Conduzy | Mobile/AI | $13.6K MRR / 5ヶ月 | チリ運転免許試験AI対策（スペイン語）。国×規制ロック |
+| 2026-05-08 | nutrIA | Web/Health | $10.6K MRR / 8ヶ月 / 利益率65% | ラテンアメリカ食材特化AI栄養。Easter週末ハッカソン発 |
+| 2026-05-08 | Glamour | Mobile/Beauty | $17K MRR / 4ヶ月 / トルコ単一国 | AIパーソナルカラー診断。Meta単一国広告で達成 |
+| 2026-05-08 | EverythingWeather | Mobile/Niche | $6.5K MRR / 全国メディア | 現役NWS気象官本人の米国気象データ可視化アプリ |
+| 2026-05-08 | StudyScout | Web/SaaS | $21K MRR / 3ヶ月 / オーガニック | 高単価リサーチ案件アグリゲーター。UGCバイラル爆発 |
+| 2026-05-09 | Tolan | Mobile/AI | $12M ARR / $20M Series A | 性格テスト→専用「異星人キャラ」が感情会話相手に |
+| 2026-05-09 | Base44 | SaaS/AI | $80M キャッシュ買収（Wix） | テキスト→フルスタックアプリ生成。ソロ6ヶ月で買収 |
+| 2026-05-09 | Cluely | AI/Desktop | $15M Series A (a16z) | "Cheat on Everything" Zoomで AI リアルタイム回答 |
+| 2026-05-09 | fly.pieter.com 👑 | Web/Game | $1M ARR / 17日 | levelsioが1日で作ったブラウザフライトシム。広告モデル革新 |
+| 2026-05-09 | Leadmore AI | Web/AI | $1M ARR / Reddit特化 | コード前300人コミュニティ→4ヶ月$30K MRR、$0広告費 |
+| 2026-05-10 | Halo AI | Mobile/AI | $300K MRR/45日 + TikTok 1.2B views | スマホ写真→AIでglow-up変換。1フォーマット狂信UGCで300投稿/日 |
+| 2026-05-10 | Cal AI | Mobile/Health | $40M ARR + MyFitnessPal買収 | 食事写真→AIカロリー算出。18歳高校生2人組 |
+| 2026-05-10 | SBTI | Web/Meme | 1日 2M views / WeChat 40.85M | MBTIパロディ27ミーム性格判定。Bilibili user ソロ |
+| 2026-05-10 | Your AI Slop Bores Me | Web/Game | 1ヶ月 50M ヒット / 16K 同時 | 人間がAIのフリしてプロンプト60秒で答えるゲーム。Show HN front |
+| 2026-05-10 | Wordware Twitter Roast | Web/Meme | 8.1M users / $100K+ | XアカウントをAIが辛辣ロースト。自虐シェア衝動×ゼロ入力 |
+| 2026-05-11 | Kilo Code v7 | AI/OSS Dev | PH Week 19 #1 (633票) / 2M users / 30T+ tokens | VS Code・JetBrains両対応のOSS AIコーディングアシスタント。並列エージェント+マルチモデル比較が差別化 |
+| 2026-05-11 | RankSpot | Marketing/AI | PH Week 19 #2 (592票) | 競合インテリジェンスで毎日SEO記事を自動執筆・公開するAIエージェント。Google+LLM引用のデュアル最適化 |
+| 2026-05-11 | Shadow 2.0 | AI/Productivity | PH Week 19 #4 (521票) | 営業/コンサル向けリアルタイム会議AI。会議中にPDF・スライド・CRM更新まで実行完了 |
+| 2026-05-11 | FlowMarket | AI/Sales | PH Week 19 #6 (482票) | 『AIエージェントのSNS』。エージェント同士が交渉してB2Bディール生成。post-LinkedIn実験 |
+| 2026-05-11 | Empathy | AI/Vertical | $72M Series C (Adams Street主導) | 死別・遺品テック。家族死別後の数百タスクをAIガイド。生命保険会社経由B2B2C |
+| 2026-05-11 | Sleek (AI Design Tool) | Indie/AI | $10K MRR / 6週間 / $0 ペイドマーケ | モバイル特化AIデザインツール。3週間開発・オーガニックグロースのみで$10K MRR |

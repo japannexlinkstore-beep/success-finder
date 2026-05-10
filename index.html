@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -90,14 +90,14 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">17</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">88</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">21</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">109</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-05-07</div>
+    <div class="date-main" id="dateMain">2026-05-11</div>
     <div class="date-sub" id="dateSub">6 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
@@ -1338,8 +1338,589 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 <!-- ==================== END 2026-04-22 ==================== -->
 
+<!-- ==================== 2026-05-11 Vertical AI & PH Week 19 ==================== -->
+<div class="report active" id="r20260511">
+
+<div class="summary">
+  <h2>Today's Signal — バーティカルAI × エージェント実行型 × PH Week 19制覇 6件</h2>
+  <ul>
+    <li>Empathyが死別・遺品テックで$72M Series C — 『誰もやりたがらない領域』を生命保険会社経由でB2B2C販売する新型バーティカルAI</li>
+    <li>PH Week 19 (5/4-5/10) TOP6中4製品がAIエージェント — Kilo Code (#1)、RankSpot (#2)、Shadow 2.0 (#4)、FlowMarket (#6)</li>
+    <li>Sleekがモバイル特化AIデザインで6週間$10K MRR・ペイド広告ゼロ — 汎用AI全盛期の差別化は『超ニッチ+UI+ストーリー』</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://kilo.ai/" target="_blank">Kilo Code v7</a></div></div>
+    <span class="tag tag-purple">PH Week 19 #1 (633票)</span>
+  </div>
+  <p class="card-desc">VS Code/JetBrains両対応OSSコーディングAI。並列エージェント+マルチモデル比較</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>VS Code・JetBrains（IntelliJ/PyCharm/WebStorm）両対応のオープンソースAIコーディングアシスタント。最大の特徴は『並列エージェント』と『マルチモデル比較』を1つのIDE内で実行できる点。Orchestrator/Architect/Code/Ask/Debugの5モードでタスクに応じて切替、Kilo Gateway経由で複数LLMを呼び出して並列に解かせ、diffレビュアーで比較する。<br><br>
+    <b>ストーリー：</b>2025年設立のKilo Codeチームが、Cursor/Windsurf等の囲い込み型AI IDE全盛期に『モデル非依存 × OSS × 透明な料金』というアンチテーゼで参入。2M+ユーザー・30兆トークン処理の規模感に成長し、2026年5月にPH Week 19で#1（633票）を獲得。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">2M+</div><div class="metric-lbl">ユーザー</div></div>
+    <div class="metric"><div class="metric-val">30T+</div><div class="metric-lbl">トークン処理</div></div>
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">PH Week 19</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd><span class="term" onclick="showTerm('オープンソース')">OSS</span> + Kilo Gateway経由のモデル従量課金 + エンタープライズ</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>囲い込み型AI IDE全盛期に『モデル非依存 × OSS』のアンチテーゼで2M+獲得</li>
+      <li>並列エージェント + diff比較はCursorにもない差別化機能</li>
+      <li>透明な料金設定は開発者市場で最強の信頼シグナル</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Marketing">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.rankspot.ai" target="_blank">RankSpot</a></div></div>
+    <span class="tag tag-purple">PH Week 19 #2 (592票)</span>
+  </div>
+  <p class="card-desc">競合インテリジェンス駆動のAI SEOブログ。記事を毎日勝手に書いて公開</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>競合企業のキーワード戦略を深層解析し、SEO最適化された1,500語以上の記事を自動でリサーチ・執筆・公開するAIエージェント。Google SEOとLLM（ChatGPT/Perplexity等）の<span class="term" onclick="showTerm('AIO')">AIO</span>引用の両方を狙う『デュアル最適化』設計が新しい。WordPress、Webflow、Shopify、Framer、Ghostにダイレクト接続、100+言語対応。<br><br>
+    <b>ストーリー：</b>Daniil Poletaev（創業者）+ Yaroslav Chuykov, Olga Isaevaの3名が2026年に設立。SurferSEOやJasperと違い『SEOツール』ではなく『コンテンツ部署をまるごと自動化するAIエージェント』ポジショニングで攻め、PH Week 19で#2（592票）を獲得。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">100+</div><div class="metric-lbl">対応言語</div></div>
+    <div class="metric"><div class="metric-val">1,500語+</div><div class="metric-lbl">記事ボリューム</div></div>
+    <div class="metric"><div class="metric-val">#2</div><div class="metric-lbl">PH Week 19</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスク（初回3記事無料 + 初月30%オフ）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>Google検索 + LLM引用の『デュアル最適化』が2026年のSEO新ベースライン</li>
+      <li>『ツール』ではなく『部署の自動化』として売る抽象度シフト</li>
+      <li>主要CMS全対応 = 乗り換えコストを下げる</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://shadowlabs.ai" target="_blank">Shadow 2.0</a></div></div>
+    <span class="tag tag-purple">PH Week 19 #4 (521票)</span>
+  </div>
+  <p class="card-desc">会議中にPDF・スライド・CRM更新まで実行完了する『進化系会議AI』</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>営業・コンサル等の高額単価コール向け『リアルタイムAI wingman』。会議中に質問の質を上げ、重要ディテールを取りこぼさず、すべての会話を次のアクションに変換する。Shadow 2.0の革新は『会議が終わる前に会議後の仕事をすべて終わらせる』設計で、PDFの作成、スライド生成、<span class="term" onclick="showTerm('CRM')">CRM</span>更新、フォローアップ送信、スケジューリングまでコール中に実行する。<br><br>
+    <b>ストーリー：</b>Rohan Chaubey, Shubham Gupta, Mayank GuptaがShadow Labsを2026年に設立。Otter.ai/Firefliesの『録音→要約』カテゴリで『会議中に実行完了』という1段階先の立ち位置を取り、PH Week 19で#4（521票）。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">リアルタイム</div><div class="metric-lbl">実行</div></div>
+    <div class="metric"><div class="metric-val">CRM自動更新</div><div class="metric-lbl">エージェント化</div></div>
+    <div class="metric"><div class="metric-val">#4</div><div class="metric-lbl">PH Week 19</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスク（個人/チーム/Enterprise）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『会議AI』カテゴリで『録音→要約』から『会議中に実行完了』へ進化</li>
+      <li>高額単価コール特化のバーティカル戦略</li>
+      <li>Wingmanという『相棒』メタファーで擬人化マーケ</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://flowmarket.social/" target="_blank">FlowMarket</a></div></div>
+    <span class="tag tag-pink">PH Week 19 #6 (482票)</span>
+  </div>
+  <p class="card-desc">AIエージェント同士が交渉してB2Bディールを作る『AIエージェントのSNS』</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>『AIエージェントのソーシャルネットワーク』を標榜するB2Bディール生成プラットフォーム。①各企業がプロダクト・ターゲット顧客・ニーズを記述したAIエージェントを作成 ②エージェントがネットワーク内で他社エージェントと自動で会話・需給マッチング ③有望な機会だけが人間のもとに浮上、最終クロージングは人間が担当。<br><br>
+    <b>ストーリー：</b>Steffen Rehmann + Davit Svanidzeが2026年に設立。LinkedIn/Apollo/Outreach等の『人間が人間にアプローチ』モデルを『エージェントがエージェントと交渉』モデルに置き換える実験的プロダクト。完全無料でスタートしネットワーク効果を先に作りに行く戦略でPH Week 19 #6（482票）。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">完全無料</div><div class="metric-lbl">参入障壁ゼロ</div></div>
+    <div class="metric"><div class="metric-val">A2A</div><div class="metric-lbl">エージェント間通信</div></div>
+    <div class="metric"><div class="metric-val">#6</div><div class="metric-lbl">PH Week 19</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>現在無料、将来マッチング成功手数料 or Premium Tier</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『エージェント to エージェント』通信が新カテゴリを生む</li>
+      <li>post-LinkedIn時代の営業の可能性</li>
+      <li>『human in the last loop』設計で最終意思決定だけ人間に残す</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.empathy.com" target="_blank">Empathy</a></div></div>
+    <span class="tag tag-green">$72M Series C</span>
+  </div>
+  <p class="card-desc">家族死別後の遺品整理・葬儀手配・遺産処理を一気通貫サポートするバーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>家族を亡くした人向けの『遺品整理 + 葬儀手配 + 遺産処理 + メンタル面』を一気通貫サポートするAIプラットフォーム。死別後にやるべき何百もの手続き（口座解約、SNS削除、遺品仕分け、相続税、葬儀手配など）をAIガイドが個別最適化して進める。最大の販売チャネルは生命保険会社で、保険金支払い時にEmpathyを無料提供することで保険会社の解約率を下げる仕組み。<br><br>
+    <b>ストーリー：</b>Ron Gura（CEO）+ Yonatan Bergman（CTO）が2020年イスラエルで創業、現NYベース。2026年5月にAdams Street Partners主導の$72M Series Cを発表。死別という『誰もやりたがらない領域』を抑える稀有なバーティカルAIポジション。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$72M</div><div class="metric-lbl">Series C</div></div>
+    <div class="metric"><div class="metric-val">B2B2C</div><div class="metric-lbl">生命保険経由</div></div>
+    <div class="metric"><div class="metric-val">Adams St.</div><div class="metric-lbl">主導VC</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2B2C — 生命保険会社・雇用主が福利厚生として加入、契約者家族に提供</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『誰もやりたがらない領域』のバーティカルAIは寡占可能</li>
+      <li>生命保険会社と組み解約防止の道具として売る販路設計が秀逸</li>
+      <li>『AI + 人間ガイド + コンテンツ』の3層構造でハイタッチに見せる</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Indie">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.indiehackers.com/post/tech/hitting-10k-mrr-in-six-weeks-with-an-ai-design-tool-pEvmU5qkWS6ny0AR9SUv" target="_blank">Sleek (AI Design Tool)</a></div></div>
+    <span class="tag tag-orange">$10K MRR / 6週間</span>
+  </div>
+  <p class="card-desc">モバイル特化AIデザインツール。3週間開発→6週間で$10K MRR、ペイド広告ゼロ</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ソロ開発者が3週間で構築したモバイル特化AIデザインツール。Figma/Canvaがモバイル特化していない隙間を狙う。AIで素早く高品質なモバイルUIを生成し、デザイナー個人の時短に振り切る。<br><br>
+    <b>ストーリー：</b>ソロ<span class="term" onclick="showTerm('Indie Hackers')">インディーハッカー</span>が3週間でMVP構築、リリース後6週間で$10K <span class="term" onclick="showTerm('MRR')">MRR</span>到達。有料広告は一切使わず、過去の作業の再利用 + 価値あるコンテンツ + 明確なポジショニングだけでオーガニックグロース。Cursor/v0/Lovable等の汎用AI開発ツール台頭期に『特定の作業フローに特化』『モバイル特化』という極度のフォーカスが$10K MRRを6週間で達成する近道だと実証。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$10K</div><div class="metric-lbl">MRR / 6週間</div></div>
+    <div class="metric"><div class="metric-val">3週間</div><div class="metric-lbl">開発期間</div></div>
+    <div class="metric"><div class="metric-val">$0</div><div class="metric-lbl">ペイドマーケ</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>モバイルアプリ内サブスク。フリーミアム + プロプラン</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>汎用AIツール全盛期だからこそ『1ニッチ徹底』がインディーハッカーの勝ち筋</li>
+      <li>3週間開発 = 過去資産の流用で『AI生成 + 自分の資産』の合わせ技</li>
+      <li>ペイド広告ゼロ × オーガニック = コンテンツ + 明確ポジショニング</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">バーティカルAIが投資テーマの中心</span> — Empathy（死別）に$72M、Legora（法務）に$550M。汎用LLM時代の差別化は『業界特化×ワークフロー深堀り』</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">AIエージェントが手を動かす段階へ</span> — Shadow（会議中にCRM更新）、FlowMarket（エージェント間交渉）、RankSpot（記事を自動公開）。『要約→提案』から『実行完了』への進化</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">OSS × 透明性 が AI ツールの新ベースライン</span> — Kilo Code が Cursor 全盛期の中で 2M ユーザー獲得。『囲い込まれない』ことを売る</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">汎用 AI に対抗するインディーは『超ニッチ + ペイドゼロ』</span> — Sleek が6週間 $10K MRR。差別化はAIではなくフォーカス</span></div>
+
+</div>
+<!-- ==================== END 2026-05-11 ==================== -->
+
+<!-- ==================== 2026-05-10 Viral Meme & Format-Cult ==================== -->
+<div class="report" id="r20260510">
+
+<div class="summary">
+  <h2>Today's Signal — 1フォーマット狂信UGC × 時代精神メタコメント 5件</h2>
+  <ul>
+    <li>Halo AI が45日で$300K MRR・TikTok 1.2B再生 — 1勝ちフォーマットを300投稿/日で叩き続ける物量UGCモデルが2026の決定打</li>
+    <li>Wordware Twitter Roast が8.1Mユーザー、Your AI Slop Bores Me が1ヶ月50Mヒット — 自虐シェア衝動×ゼロ入力でメディアが文化現象として無料報道</li>
+    <li>Cal AI（18歳高校生2人で$40M ARR）がMyFitnessPalに買収、SBTIが中国発で世界拡散 — シンプルさとパロディの組み合わせが最強</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://apps.apple.com/us/app/halo-ai-photo-video-editor/id6740445587" target="_blank">Halo AI</a></div></div>
+    <span class="tag tag-green">$300K MRR / 45日</span>
+  </div>
+  <p class="card-desc">スマホ写真→AIで実物と区別つかないレベルのglow-up画像に変換。TikTok 1.2B再生</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>iOSの写真・動画AIエディタ。スマホで撮影した素材を「実物と見分けがつかない」glow-up画像に変換する。「try-before-you-buy」で体験させてから課金する設計。<br><br>
+    <b>ストーリー：</b>創業者Dillion Vermaが$100K個人ローンで開発。2025年中頃ローンチ。1勝ちフォーマットを発見してから300投稿/日のUGC物量で叩き、45日で$300K MRR、120日で1.2B視聴を達成。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$300K</div><div class="metric-lbl">MRR (45日)</div></div>
+    <div class="metric"><div class="metric-val">1.2B</div><div class="metric-lbl">TikTok views</div></div>
+    <div class="metric"><div class="metric-val">50%</div><div class="metric-lbl">利益率</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>アプリ内サブスク（フリーミアム + try-before-you-buy）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>勝ちフォーマット発見後は『同じ型を300本/日』の物量で叩く</li><li>Superwall等でpaywall実験を毎週繰り返す</li><li>1フォーマット狂信が現代TikTokの勝ち筋</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616" target="_blank">Cal AI</a></div></div>
+    <span class="tag tag-green">$40M ARR / MyFitnessPal買収</span>
+  </div>
+  <p class="card-desc">食事写真→AIがカロリー・マクロ自動算出。18歳高校生2人組が創業</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>iOS/Android向けのAIカロリートラッカー。食事写真を撮るだけで、カロリーとマクロ栄養素を自動算出。MyFitnessPal等の入力地獄を解消。<br><br>
+    <b>ストーリー：</b>Zach Yadegari + Henry Langmackの18歳高校生2人組が2024年5月にローンチ。TikTok UGCでティーン界隈に拡散、TechCrunch・CNBCが連続報道。2025年12月にMyFitnessPalが買収。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$40M</div><div class="metric-lbl">ARR</div></div>
+    <div class="metric"><div class="metric-val">5M+</div><div class="metric-lbl">DL / 4.8★</div></div>
+    <div class="metric"><div class="metric-val">18歳</div><div class="metric-lbl">創業者年齢</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>アプリ内サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>『撮るだけ』の極端なシンプルさで巨大カテゴリを再発明</li><li>創業者の年齢・物語自体がメディア露出フック</li><li>App Store 4.8★ × 66Kレビューが信頼性を担保</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://sbtipersonality.org/" target="_blank">SBTI</a></div></div>
+    <span class="tag tag-pink">1日 2M views</span>
+  </div>
+  <p class="card-desc">MBTIパロディの27ミーム性格判定。中国Bilibili発、英訳化で世界拡散</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>Silly Behavioral Type Indicator。MBTIを皮肉った「Controller」「ATM-er」「Sleeper」など27ミーム性格タイプ判定。シンプルなWebサイト。<br><br>
+    <b>ストーリー：</b>Bilibili user "Qrouerchuaner"（心理学非専門のソロ）が2026年4月9日にローンチ。中国国内Bilibili/Weibo/Xiaohongshu/WeChatで爆発、英訳版が即出現してCNN/Sixth Tone/TechNodeが報道。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">2M</div><div class="metric-lbl">views/日</div></div>
+    <div class="metric"><div class="metric-val">40.85M</div><div class="metric-lbl">WeChat検索</div></div>
+    <div class="metric"><div class="metric-val">20M+</div><div class="metric-lbl">SNS関連投稿</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>不明（広告 or アフィリエイト推定）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>既存ナラティブ（MBTI）のパロディ＝認知ショートカット最強</li><li>『あえてふざけた』タイプ＝シェア時に笑える＝ミーム化</li><li>シェア前提UI（結果ページの強烈ビジュアル）必須</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://youraislopbores.me/" target="_blank">Your AI Slop Bores Me</a></div></div>
+    <span class="tag tag-pink">1ヶ月 50M ヒット</span>
+  </div>
+  <p class="card-desc">人間がAIのフリしてプロンプト60秒で答えるゲーム。Show HN front-page</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>Webゲーム。プロンプトに対して人間が60秒以内にAIっぽい返答を生成する逆転発想のメタジョーク。AI生成コンテンツへの集合的疲労を逆手に取った。<br><br>
+    <b>ストーリー：</b>創業者Mihir Maroju（ソロ）が2026年3月7日頃ローンチ。Show HN front-page → Lobsters「greatest website ever made」→ Fast Company / Kotaku が「文化現象」と報道、Wikipedia化。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">50M</div><div class="metric-lbl">ヒット (1ヶ月)</div></div>
+    <div class="metric"><div class="metric-val">16K</div><div class="metric-lbl">同時接続</div></div>
+    <div class="metric"><div class="metric-val">Wiki化</div><div class="metric-lbl">文化現象認定</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>無料（広告 or 寄付の可能性）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>時代精神（AI slopにうんざり）を1フレーズで言語化</li><li>ロールリバーサル＝AIではなく人間がAIを演じる逆転</li><li>60秒制限+リアルタイム多人数で中毒性</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://blog.wordware.ai/twitter-roast-ai-with-llm-orchestration" target="_blank">Wordware Twitter Roast AI</a></div></div>
+    <span class="tag tag-orange">8.1M users / $100K+</span>
+  </div>
+  <p class="card-desc">XアカウントをAIが辛辣ロースト。自虐シェア衝動の極み</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>X/TwitterアカウントURLを入れるだけで、AIがアカウントの投稿傾向・弱点・恋愛・目標まで辛辣にロースト。custom画像 + ボタン1つでX投稿可能。<br><br>
+    <b>ストーリー：</b>Wordwareが2024年7月後半にローンチ。1-2週間で構築。Xでスクショ拡散爆発、Know Your Meme化、Dexerto/TheTab連続報道。Wordwareプラットフォームに400K+新規流入。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">8.1M</div><div class="metric-lbl">ユーザー</div></div>
+    <div class="metric"><div class="metric-val">$100K+</div><div class="metric-lbl">売上</div></div>
+    <div class="metric"><div class="metric-val">400K+</div><div class="metric-lbl">プラットフォーム流入</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フリーミアム（ロースト無料 → 関連プラットフォーム送客）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>自己ロースト＝シェア衝動最大化（人は自虐コンテンツを共有したがる）</li><li>One-click share設計：custom画像 + ボタン1つでX投稿</li><li>既存SNSデータを使う＝プロンプト入力ゼロで即結果</li></ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">1フォーマット狂信UGC型</span> — A/Bテストで勝ちフォーマット発見後、その型だけを300投稿/日で物量投下（Halo AI / Cal AI）</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">時代精神メタコメント型</span> — AIへの集合的感情を逆手に取った1ジョーク。メディアが文化現象として無料報道（Slop Bores Me / SBTI / Wordware Roast）</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">自虐シェア衝動×ゼロ入力</span> — 既存SNSアカウントorURL のみ→AI が結果生成→One-click X投稿で爆速拡散</span></div>
+
+</div>
+<!-- ==================== END 2026-05-10 ==================== -->
+
+<!-- ==================== 2026-05-09 Solo Hit & Vibe Coding ==================== -->
+<div class="report" id="r20260509">
+
+<div class="summary">
+  <h2>Today's Signal — キャラIP・vibe coding・Build in Public 5件</h2>
+  <ul>
+    <li>Tolan が4ヶ月で$1M→$12M ARR・$20M Series A — AI技術ではなく『キャラクター』で差別化する勝ち筋</li>
+    <li>Base44がソロ6ヶ月で$80M買収（Wix）、Cluelyが10週で$15M a16z調達 — vibe coding × Build in Public はソロの最強流通装置</li>
+    <li>levelsioのfly.pieter.comは1日リリース17日で$1M ARR（広告モデル）、LeadmoreはRedditコード前300人コミュニティで$1M ARR — 『個人の物語性』が燃料</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.tolans.com/" target="_blank">Tolan</a></div></div>
+    <span class="tag tag-green">$12M ARR / $20M Series A</span>
+  </div>
+  <p class="card-desc">性格テスト→専用「異星人キャラ」が感情会話相手に</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>iOS AIコンパニオンアプリ。性格テスト後にあなた専用の「異星人キャラ」が割り当てられ、感情的な会話相手になる。<br><br>
+    <b>ストーリー：</b>創業者Ajay Mehta（Portola）が2024年末ソフトローンチ。12週で$1M ARR、4ヶ月で$1M→$12M ARR、$20M Series A調達。TikTokクリエイター低単価アサインで自然な口コミ。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$12M</div><div class="metric-lbl">ARR (4ヶ月)</div></div>
+    <div class="metric"><div class="metric-val">$20M</div><div class="metric-lbl">Series A</div></div>
+    <div class="metric"><div class="metric-val">500K+</div><div class="metric-lbl">DL / 4.7★</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>アプリ内サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>キャラクターIPがAIチャットボットの差別化軸</li><li>TikTokクリエイター低単価アサイン → 自然な口コミ</li><li>感情的需要（孤独・companionship）を直撃</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://base44.com/" target="_blank">Base44</a></div></div>
+    <span class="tag tag-green">$80M キャッシュ買収（Wix）</span>
+  </div>
+  <p class="card-desc">テキストプロンプトでフルスタックアプリ生成。ソロ6ヶ月で$80M買収</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>AIノーコードビルダー。テキストプロンプトでDB/認証/分析込みのフルスタックアプリが生成される。<br><br>
+    <b>ストーリー：</b>Maor Shlomo（31歳イスラエル、完全ソロ）が2024年末ローンチ。6ヶ月で250Kユーザー、$200K/月利益、$3.5M ARR、2025年6月にWixが$80Mキャッシュ + マイルストーン$90M で買収。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$80M</div><div class="metric-lbl">買収（+$90M）</div></div>
+    <div class="metric"><div class="metric-val">250K</div><div class="metric-lbl">ユーザー (6ヶ月)</div></div>
+    <div class="metric"><div class="metric-val">ソロ</div><div class="metric-lbl">完全ソロ</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>SaaSサブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>完全ソロ × Build in Public：個人の物語性が最強の流通装置</li><li>時間の20-30%を自動化に投資（コード書く時間より自動化）</li><li>『vibe coding』トレンド波乗りのタイミング</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://cluely.com/" target="_blank">Cluely</a></div></div>
+    <span class="tag tag-green">$15M Series A (a16z)</span>
+  </div>
+  <p class="card-desc">"Cheat on Everything" — ZoomでAIがリアルタイム回答提示</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>デスクトップアプリ + Web。Zoomやインタビュー中にAIがリアルタイムで「ズル回答」を画面隅に表示。<br><br>
+    <b>ストーリー：</b>創業者Roy Lee（Columbia大学退学組）が2025年4月20日ローンチ。1週間で70Kサインアップ、a16zから$15M Series A（評価額$120M）。挑発的な短尺動画 + Build in Publicで炎上＆拡散。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$15M</div><div class="metric-lbl">Series A (a16z)</div></div>
+    <div class="metric"><div class="metric-val">70K</div><div class="metric-lbl">サインアップ (1週)</div></div>
+    <div class="metric"><div class="metric-val">$5.2M</div><div class="metric-lbl">ARR</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>SaaSサブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>挑発的・倫理境界系のメッセージ＝polarizing＝アルゴリズム好み</li><li>創業者個人の物語性（停学エピソード）</li><li>ローンチ動画の制作品質（Hollywood風）</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://fly.pieter.com" target="_blank">fly.pieter.com 👑</a></div></div>
+    <span class="tag tag-green">$1M ARR / 17日</span>
+  </div>
+  <p class="card-desc">levelsioが1日で作ったブラウザフライトシム。広告モデル革新</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ブラウザ上のフライトシミュレーター。収益源はゲーム内広告（機体・空港の命名権/ロゴ掲載）。<br><br>
+    <b>ストーリー：</b>Pieter Levels（@levelsio、ソロ）が「作りたい」と思った日にリリース。17日で$1M ARRに到達、levelsio史上最速の成功事例。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1M</div><div class="metric-lbl">ARR (17日)</div></div>
+    <div class="metric"><div class="metric-val">$87K</div><div class="metric-lbl">MRR</div></div>
+    <div class="metric"><div class="metric-val">320K</div><div class="metric-lbl">ユーザー</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>ゲーム内広告（業種別ロゴ掲載）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>『完成してからリリース』の呪いから完全に自由になる事例</li><li>広告モデルの革新：機体に企業ロゴを売る逆張り発想</li><li>Build in Public = 広告費ゼロのマーケ</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.indiehackers.com/post/i-built-a-reddit-marketing-product-leadmore-ai-and-it-just-crossed-1m-arr-f8b758eb1a" target="_blank">Leadmore AI</a></div></div>
+    <span class="tag tag-green">$1M ARR / Reddit特化</span>
+  </div>
+  <p class="card-desc">Reddit特化AIマーケAI。コード前300人コミュニティ→4ヶ月$30K MRR</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>Webアプリ。「世界初のAI Redditマーケティング・スペシャリスト」として1,000+企業に採用。<br><br>
+    <b>ストーリー：</b>Richard（@Richard_ai66、ソロ）が開発開始前に「Redditマーケで知っていること全部」を発信して300人コミュニティを作り、課題検証→機能設計→βテスト。$0→$30K MRR を4ヶ月、$1M ARR を約8ヶ月。広告費$0。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1M</div><div class="metric-lbl">ARR</div></div>
+    <div class="metric"><div class="metric-val">$30K</div><div class="metric-lbl">MRR (4ヶ月)</div></div>
+    <div class="metric"><div class="metric-val">1,000+</div><div class="metric-lbl">顧客企業</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>SaaSサブスク（初回$9.99に下げる戦略）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>コード前のコミュニティ構築（300人）でローンチ時点でユーザー確保</li><li>AEO/GEO時代の波乗り（ChatGPT/Perplexity が Reddit 引用増）</li><li>『あえて作らない機能』倫理境界差別化（ワンクリック自動投稿しない）</li></ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">キャラIP × 感情駆動コンパニオン</span> — AI技術よりキャラクター・物語で差別化（Tolan）</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">vibe coding × Build in Public</span> — ソロ × X日々進捗公開。個人の物語性が最強の流通装置（Base44 / Cluely）</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">Ship Fast の極致 × 広告モデル</span> — 1日でリリースして17日で$1M ARR、機体ロゴ広告という逆張り（fly.pieter.com）</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">コード前コミュニティ300人</span> — 開発開始前に発信で300人作り、ローンチ時点でユーザー確保（Leadmore AI）</span></div>
+
+</div>
+<!-- ==================== END 2026-05-09 ==================== -->
+
+<!-- ==================== 2026-05-08 Niche × Locale Lock ==================== -->
+<div class="report" id="r20260508">
+
+<div class="summary">
+  <h2>Today's Signal — 国×規制×言語ロックされた検証済ニッチ実用 5件</h2>
+  <ul>
+    <li>Conduzy（チリ運転免許AI）が5ヶ月で$13.6K MRR、nutrIA（ラテン食材栄養AI）が8ヶ月で$10.6K MRR — 英語AIネイティブが届かない言語×規制ロックは超ローカル市場の構造的優位</li>
+    <li>Glamour（トルコ単一国Meta）が4ヶ月で$17K MRR、EverythingWeather（現役NWS気象官）が冬嵐で全国メディア露出 — 単一マーケットor権威性ナラティブで独自バイラル</li>
+    <li>StudyScout が3ヶ月で$21K MRR・100%オーガニック・139K未収益化リスト — UGC バイラルエンジンの教科書</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://trustmrr.com/startup/conduzy" target="_blank">Conduzy 🥇</a></div></div>
+    <span class="tag tag-green">$13.6K MRR / 5ヶ月</span>
+  </div>
+  <p class="card-desc">チリ運転免許試験AI対策アプリ（スペイン語）。国×規制ロックの教科書</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>iOS/Androidアプリ（Flutter）。チリの運転免許理論試験対策。AIチャットボットを「24/7試験対策メンター」化。<br><br>
+    <b>ストーリー：</b>Lukas（@lukaspwn、ソロ）が2025年11月ローンチ。スペイン語×チリ法規という英語AIが届かないロックを活用。5ヶ月で$13.6K MRR、1,097アクティブサブスク、$18/月の高単価が成立。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$13.6K</div><div class="metric-lbl">MRR (5ヶ月)</div></div>
+    <div class="metric"><div class="metric-val">1,097</div><div class="metric-lbl">アクティブサブスク</div></div>
+    <div class="metric"><div class="metric-val">$18</div><div class="metric-lbl">/月</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>アプリ内サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>『国×試験』超ローカルニッチ＝大手は絶対来ない構造的ロック</li><li>同パターンを他国・他試験へ横展開可（30打席3本戦略）</li><li>日本の宅建/危険物乙4/船舶免許/簿記/通関士に応用余地大</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://trustmrr.com/startup/nutria" target="_blank">nutrIA</a></div></div>
+    <span class="tag tag-green">$10.6K MRR / 8ヶ月</span>
+  </div>
+  <p class="card-desc">ラテンアメリカ食材特化AI栄養トラッキング。Easter週末ハッカソン発</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>Webアプリ。チリ食材データベース特化のAI栄養計算。MyFitnessPal等の英語アプリでは認識精度が低いラテン料理に特化。<br><br>
+    <b>ストーリー：</b>Nicolas Pirozzi + Pedro Cisternas（2人）が2025年Easter週末ハッカソンでローンチ。8ヶ月で$10.6K MRR、3,572アクティブ、利益率65%。Build in PublicでチリTV出演、$700K売却提示も拒否。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$10.6K</div><div class="metric-lbl">MRR (8ヶ月)</div></div>
+    <div class="metric"><div class="metric-val">3,572</div><div class="metric-lbl">アクティブ</div></div>
+    <div class="metric"><div class="metric-val">65%</div><div class="metric-lbl">利益率</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>『Easter週末で作って即ローンチ』Marc Lou的 Ship-fast 実践</li><li>食文化ロック＝米国大手AIが精度を出せない領域</li><li>Free→Paid選択をオプション化で conversion 3%→10-15% に跳ねる</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://trustmrr.com/startup/glamour" target="_blank">Glamour</a></div></div>
+    <span class="tag tag-green">$17K MRR / 4ヶ月</span>
+  </div>
+  <p class="card-desc">トルコ発AIパーソナルカラー診断。Meta単一国広告で$17K MRR</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>iOSアプリ。自撮りからAIがパーソナルカラーを診断。プロのカラー診断$200-500を$10-20/月に下げた価格破壊。<br><br>
+    <b>ストーリー：</b>Lynex Studio LLC（トルコ拠点、ソロ/小チーム）が2025年Q4ローンチ。4ヶ月で$17K MRR、1,010アクティブ。トルコMetaキャンペーン1ヶ国のみで達成、米国/EU未開拓。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$17K</div><div class="metric-lbl">MRR (4ヶ月)</div></div>
+    <div class="metric"><div class="metric-val">1,010</div><div class="metric-lbl">アクティブ</div></div>
+    <div class="metric"><div class="metric-val">トルコ</div><div class="metric-lbl">単一国</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>アプリ内サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>単一国Metaキャンペーンで$17K MRR — 米国/EU未開拓のヘッドルーム極大</li><li>50+UGCクリエイティブを高速制作してCAC最小化</li><li>AI骨格診断/肌診断/メガネフレーム診断に応用余地</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Mobile">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://trustmrr.com/startup/everythingweather" target="_blank">EverythingWeather</a></div></div>
+    <span class="tag tag-orange">$6.5K MRR / 全国メディア</span>
+  </div>
+  <p class="card-desc">現役NWS気象官本人が作った米国気象データ可視化アプリ</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>iOS気象アプリ。NWS/NOAAの公式データを政府サイトの90年代UIから美しいモバイルUIに再構築。<br><br>
+    <b>ストーリー：</b>Cory Mottice（NWS Corpus Christi支局のWarning Coordination Meteorologist本人、ソロ）が2024年ローンチ。1年で$6.5K MRR、2026年1月の冬嵐で全国メディア露出→爆発成長。売却希望価格$1M（6.4x）。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$6.5K</div><div class="metric-lbl">MRR</div></div>
+    <div class="metric"><div class="metric-val">$13K</div><div class="metric-lbl">30日収益</div></div>
+    <div class="metric"><div class="metric-val">$1M</div><div class="metric-lbl">売却希望</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>アプリ内サブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>『現役気象官が作った』権威性 → SNSで圧倒的信頼</li><li>大型気象イベント発生時にバイラル化（季節性コンテンツマーケ）</li><li>日本気象庁API個人アプリ／地震データ／AQI for アジアに応用余地</li></ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://trustmrr.com/startup/studyscout" target="_blank">StudyScout</a></div></div>
+    <span class="tag tag-green">$21K MRR / 3ヶ月（オーガニック）</span>
+  </div>
+  <p class="card-desc">高単価リサーチ案件アグリゲーター。UGCバイラル爆発</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>Webアプリ（Next.js）。Research.fyi/Respondent.io/UserTesting等にバラバラな高単価リサーチ案件を1箇所に集約。<br><br>
+    <b>ストーリー：</b>MaxTalksTech（DunkMaxと同一人物、ソロ）が2026年1月ローンチ。3ヶ月で$21K MRR、2,907アクティブ、100%オーガニック成長、139,000人未収益化メールリスト。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$21K</div><div class="metric-lbl">MRR (3ヶ月)</div></div>
+    <div class="metric"><div class="metric-val">2,907</div><div class="metric-lbl">アクティブ</div></div>
+    <div class="metric"><div class="metric-val">139K</div><div class="metric-lbl">未収益化リスト</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスク（30日$14,933）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul><li>『儲かる案件は分散している』を1箇所に集約 → 月$20-40を瞬時に正当化</li><li>UGCバイラルエンジン（『StudyScoutで$X稼いだ』TikTok投稿）</li><li>AI治験参加マッチング／日本クラウドソーシング副業アグリゲーターに応用</li></ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">国×規制×言語ロック</span> — チリ運転免許・ラテン食材栄養は英語AIが物理的に届かない構造優位（Conduzy / nutrIA）</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">単一国Metaキャンペーン</span> — トルコだけで$17K MRR・米国/EU未開拓のヘッドルーム極大（Glamour）</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">現役プロ × 個人開発</span> — 業界の現役プロが作ったアプリは権威性ナラティブで全国メディア露出（EverythingWeather）</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">UGCバイラルエンジン</span> — 100%オーガニック × 139K未収益化リストで広告費ゼロ成長（StudyScout）</span></div>
+
+</div>
+<!-- ==================== END 2026-05-08 ==================== -->
+
 <!-- ==================== 2026-05-07 Vertical AI Wave 2 ==================== -->
-<div class="report active" id="r20260507">
+<div class="report" id="r20260507">
 
 <div class="summary">
   <h2>Today's Signal — バーティカルAI第2波 + PH週間トップ3</h2>
@@ -2899,6 +3480,10 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-05-11', id: 'r20260511', count: 6 },
+  { date: '2026-05-10', id: 'r20260510', count: 5 },
+  { date: '2026-05-09', id: 'r20260509', count: 5 },
+  { date: '2026-05-08', id: 'r20260508', count: 5 },
   { date: '2026-05-07', id: 'r20260507', count: 6 },
   { date: '2026-04-27', id: 'r20260427', count: 5 },
   { date: '2026-04-23', id: 'rlegends10', count: 5 },
