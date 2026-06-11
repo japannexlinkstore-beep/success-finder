@@ -61,3 +61,9 @@
 | 2026-05-11 | FlowMarket | AI/Sales | PH Week 19 #6 (482票) | 『AIエージェントのSNS』。エージェント同士が交渉してB2Bディール生成。post-LinkedIn実験 |
 | 2026-05-11 | Empathy | AI/Vertical | $72M Series C (Adams Street主導) | 死別・遺品テック。家族死別後の数百タスクをAIガイド。生命保険会社経由B2B2C |
 | 2026-05-11 | Sleek (AI Design Tool) | Indie/AI | $10K MRR / 6週間 / $0 ペイドマーケ | モバイル特化AIデザインツール。3週間開発・オーガニックグロースのみで$10K MRR |
+| 2026-06-11 | OpenEvidence | AI/Vertical(Health) | $250M Series D / $12B評価 / 全米医師40%利用 | 『医師版ChatGPT』。NEJM/JAMA等の査読付き医学文献のみ学習し出典付きで臨床判断支援。月1,800万件の臨床相談、ARR$100M超 |
+| 2026-06-11 | Halter | AI/Vertical(AgTech) | $220M Series E / $2B評価 / 60万頭超管理 | 牛のソーラーGPS首輪×MLで仮想柵を実現。放牧・発情検知・健康監視を自動化。NZ発、世界5,000+農場 |
+| 2026-06-11 | Waabi | AI/Vertical(Logistics) | $750M Series C + $250M融資 | シミュレータ『Waabi World』中心開発の自動運転トラック。Uber Freight提携で北米商用展開。創業者は自動運転の世界的権威Raquel Urtasun |
+| 2026-06-11 | Fundraisly | AI/SaaS | PH Week 23 #1 (1,203票) | 起業家の資金調達を丸ごと代行するAIエージェント。30万投資家解析→warm path自動マッピング→20〜40件の投資家ミーティングを創出 |
+| 2026-06-11 | Elentaria | AI/SaaS | PH Week 23 #3 (593票) | B2B向けGTM部門代行AIオペレーター。22チャネルを採点し最適プランを実行、毎週学習・改善するループで賢くなる |
+| 2026-06-11 | SellerClaw | AI/SaaS(EC) | PH Week 23 #5 (574票) | EC運営を役割分担したAIエージェントのチームに置換。ソーシング/広告/フルフィルをShopify・eBay横断で実行、人間がスーパーバイザー |

@@ -97,13 +97,199 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-05-11</div>
+    <div class="date-main" id="dateMain">2026-06-11</div>
     <div class="date-sub" id="dateSub">6 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
+
+<!-- ==================== 2026-06-11 Vertical AI巨額調達 & PH Week 23 ==================== -->
+<div class="report active" id="r20260611">
+
+<div class="summary">
+  <h2>Today's Signal — 業界特化バーティカルAIが巨額調達を独占 × PH Week 23はAIエージェント・チーム型 6件</h2>
+  <ul>
+    <li>医療(OpenEvidence $12B評価)・畜産(Halter $2B評価)・物流(Waabi $1B調達)— 汎用LLM時代の勝者は『規制が重く・データが特殊で・労働力不足が深刻な業界』に深く潜ったプレイヤー</li>
+    <li>OpenEvidenceは全米医師の40%が日常利用・ARR $100M超 — 『出典限定×規制業界』で堀を作るバーティカルAIの完成形</li>
+    <li>PH Week 23 (6/1週) 上位は『AIエージェントのチーム』設計が席巻 — Fundraisly(#1)・Elentaria(#3)・SellerClaw(#5)、いずれも単一AIでなく役割分担した複数エージェント組織</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.openevidence.com" target="_blank">OpenEvidence</a></div></div>
+    <span class="tag tag-green">$250M Series D / $12B評価</span>
+  </div>
+  <p class="card-desc">『医師版ChatGPT』。NEJM/JAMA等の査読付き医学文献だけを学習した医療バーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>『ChatGPT for doctors（医師版ChatGPT）』と呼ばれる医師向け医療AIプラットフォーム。NEJM・JAMAなど査読付き医学文献のみを学習し、臨床判断を必ず出典付きで支援する。汎用<span class="term" onclick="showTerm('LLM')">LLM</span>と違い『根拠が明示された医学エビデンス』に回答を限定することで、医師が実臨床で安心して使える信頼性を担保した点が最大の差別化。2025年12月だけで本人確認済み医師による約1,800万件の臨床相談を処理（1年前は月300万件）。<br><br>
+    <b>ストーリー：</b>元Kensho創業者Daniel Nadlerがマイアミで創業。2025年2月にSequoiaから$75M（評価額$1B）→10月$6B→2026年1月にThrive Capital・DST主導で$250M Series Dを評価額$12Bで調達。約1年で評価額12倍。Google・Nvidia・Mayo Clinicも出資。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$12B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">全米40%</div><div class="metric-lbl">医師が利用</div></div>
+    <div class="metric"><div class="metric-val">$100M+</div><div class="metric-lbl">ARR</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2B2C — 医師は無料、製薬会社・医療機関がペイヤー。累計$700M調達</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>汎用LLM全盛期に『出典限定 × 規制業界（医療）』で構造的な堀を作る典型例</li>
+      <li>医師は無料・製薬がペイヤーのB2B2C課金で爆発的に普及</li>
+      <li>Mayo Clinic等の権威との提携が信頼獲得の最短ルート</li>
+      <li>日本なら日本の診療ガイドライン・保険診療特化版で差別化余地</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://halterhq.com" target="_blank">Halter</a></div></div>
+    <span class="tag tag-green">$220M Series E / $2B評価</span>
+  </div>
+  <p class="card-desc">牛のGPS首輪×MLで『仮想柵』を実現。世界5,000+農場で60万頭を管理する農業特化AI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>牛に装着するソーラー駆動GPS首輪とMLで『バーチャルフェンシング（仮想柵）』を実現する農業特化バーティカルAI。物理的な柵なしで音と軽い振動だけで牛を誘導し、放牧ローテーション・発情検知・健康異常モニタリングを自動化する。深刻な労働力不足に悩む畜産業の人手を劇的に削減し、牧草地の生産性も上げる。<br><br>
+    <b>ストーリー：</b>元Rocket Labエンジニアで酪農一家出身のCraig Piggottがニュージーランドで創業。米国市場に急拡大し、2026年3月に$220M Series Eを評価額$2Bで調達。世界5,000+農場・60万頭超を管理する規模に成長。地味で見過ごされた畜産領域を押さえる稀有なバーティカルAI。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$2B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">60万頭+</div><div class="metric-lbl">管理する牛</div></div>
+    <div class="metric"><div class="metric-val">5,000+</div><div class="metric-lbl">農場</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>ハードウェア（ソーラー駆動GPS首輪）+ 牛1頭あたり月額のSaaSサブスク</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『ハードウェア + SaaS』のバーティカルAIはソフト単体より模倣困難な堀</li>
+      <li>農業・畜産という最もデジタル化が遅れた地味な領域こそ伸びしろが大きい</li>
+      <li>労働力不足 × 動物福祉規制が強い追い風</li>
+      <li>日本なら酪農・和牛肥育の個体管理（血統・健康履歴）に応用余地</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://waabi.ai" target="_blank">Waabi</a></div></div>
+    <span class="tag tag-green">$750M Series C + $250M融資</span>
+  </div>
+  <p class="card-desc">シミュレーション中心開発の自動運転トラックAI。Uber Freightと提携し北米で商用展開</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>AIファースト設計の自動運転トラック企業。膨大な実車走行テストに頼らず、高精度シミュレーター『Waabi World』の中で学習・検証させる独自アプローチで開発コストと安全検証を劇的に効率化する。長距離幹線輸送（ハイウェイ）に特化し、Uber Freightと提携して荷主とのマッチングまで一気通貫で押さえる。<br><br>
+    <b>ストーリー：</b>元Uber ATG主任科学者でトロント大学教授のRaquel Urtasun（AI自動運転の世界的権威）が創業。2026年2月に$750M Series C＋$250Mマイルストーン融資を調達し、北米で商用自動運転トラックの展開を拡大中。技術的権威がそのまま大型調達を可能にした。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1B</div><div class="metric-lbl">調達（C+融資）</div></div>
+    <div class="metric"><div class="metric-val">Waabi World</div><div class="metric-lbl">シミュレータ学習</div></div>
+    <div class="metric"><div class="metric-val">Uber Freight</div><div class="metric-lbl">提携</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>自動運転トラックのDriver-as-a-Service + Uber Freightとの荷主マッチング連携</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>シミュレーション中心開発で『実車テスト至上主義』の限界を突破した技術差別化</li>
+      <li>長距離トラックという労働力不足 × ROIが明確な領域に集中</li>
+      <li>物流大手（Uber Freight）と組み販路を先に確保</li>
+      <li>ディープテック系バーティカルAIは創業者の技術的権威が調達力に直結</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/products/fundraisly" target="_blank">Fundraisly</a></div></div>
+    <span class="tag tag-purple">PH Week 23 #1 (1,203票)</span>
+  </div>
+  <p class="card-desc">起業家の資金調達を丸ごと代行するAIエージェント。20〜40件の投資家ミーティングを自動セット</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>創業者の資金調達を丸ごと代行するAIエージェント。30万人超の投資家と数百万件の投資ディールを解析し、自社の領域に実際に投資している関連VCを特定。創業者自身の人脈から温かい紹介経路（warm path）をマッピングし、残りはターゲットを絞ったコールドアウトリーチでカバー。結果として20〜40件の質の高い投資家ミーティングを自動でセットする。<br><br>
+    <b>ストーリー：</b>『投資家リスト作成 → 紹介経路探索 → アウトリーチ → 日程調整』という資金調達の最も泥臭い工程を一気通貫で自動化。<span class="term" onclick="showTerm('Product Hunt')">Product Hunt</span> Week 23（6/1週）で2位以下に約2倍の差をつけ#1（1,203票）を獲得。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">PH Week 23</div></div>
+    <div class="metric"><div class="metric-val">30万+</div><div class="metric-lbl">解析した投資家</div></div>
+    <div class="metric"><div class="metric-val">20〜40件</div><div class="metric-lbl">創出ミーティング</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスク（資金調達中のスタートアップ向けAIエージェント）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『リスト作成だけ』でなく『ミーティング獲得まで』成果を売る抽象度の高さ</li>
+      <li>起業家という支払い意欲の高い層の最大の痛点（資金調達）に直撃</li>
+      <li>warm path（人脈経由の紹介）の自動マッピングが既存ツールにない差別化</li>
+      <li>日本ならJ-KISS・日本のVC事情に最適化した版に応用余地</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/products/elentaria" target="_blank">Elentaria</a></div></div>
+    <span class="tag tag-purple">PH Week 23 #3 (593票)</span>
+  </div>
+  <p class="card-desc">22チャネルを採点し毎週賢くなるB2B向け『GTM部門代行AIオペレーター』</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>B2B企業向けの『go-to-market（市場参入）AIオペレーター』。自社のビジネスを分析し、22の獲得チャネルをスコアリングして最適なチャネルのプランを実行に移す。さらに『何が実際に売上を動かしたか』を学習し、翌週はより鋭いプランを出す週次の改善ループを、企業自身のツールスタック上で、その企業のトーンで回す。<br><br>
+    <b>ストーリー：</b>診断（diagnosis）から実行（execution）まで一気通貫で、単発のアドバイスではなく『毎週賢くなり続けるGTM担当者』として機能する点が差別化。Product Hunt Week 23（6/1週）で#3（593票）。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#3</div><div class="metric-lbl">PH Week 23</div></div>
+    <div class="metric"><div class="metric-val">22</div><div class="metric-lbl">採点チャネル</div></div>
+    <div class="metric"><div class="metric-val">毎週</div><div class="metric-lbl">学習・改善</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスク（B2B企業向けGTM自動化AIオペレーター）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『ツール』でなく『部門の自動化（AIオペレーター）』として売る抽象度シフト</li>
+      <li>週次で学習・改善するループ設計が『卒業されない構造』を生む</li>
+      <li>顧客のスタック・トーンに合わせる＝スイッチングコストを高める</li>
+      <li>GTMという経営直結領域は支払い意欲が高い</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/products/sellerclaw" target="_blank">SellerClaw</a></div></div>
+    <span class="tag tag-purple">PH Week 23 #5 (574票)</span>
+  </div>
+  <p class="card-desc">EC運営を役割分担したAIエージェントのチームに置換。Shopify/eBay横断で全工程を自動化</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ECストアの運営を丸ごと代行するAIエージェントのチーム。商品ソーシング・ストア管理・広告運用それぞれに専門エージェントがいて、人間が指揮する『スーパーバイザーエージェント』がそれらを統括する。各エージェントが商品リスティングの作成、広告と価格の最適化、フルフィルメントとサポートまでをShopify・eBayなど複数チャネル横断で実行する。<br><br>
+    <b>ストーリー：</b>『単一のAIアシスタント』ではなく『役割分担した複数エージェントの組織』としてEC運営を自動化する点が2026年的な新しさ。Product Hunt Week 23（6/1週）で#5（574票）。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#5</div><div class="metric-lbl">PH Week 23</div></div>
+    <div class="metric"><div class="metric-val">エージェント組織</div><div class="metric-lbl">役割分担</div></div>
+    <div class="metric"><div class="metric-val">Shopify/eBay</div><div class="metric-lbl">複数チャネル</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>サブスク（EC事業者向けAIエージェントチーム）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『1つのAI』から『役割分担したAIエージェントの組織』へという2026年の設計トレンド</li>
+      <li>EC事業者という明確に時間をお金で買いたい層が顧客</li>
+      <li>複数チャネル横断（Shopify/eBay）で乗り換えコストを下げる</li>
+      <li>人間が『スーパーバイザー』として最終指揮を残すhuman-in-the-loop設計</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">バーティカルAIがメガ調達を独占</span> — 医療(OpenEvidence $12B)・畜産(Halter $2B)・物流(Waabi $1B)。勝者は『規制が重く・データが特殊で・労働力不足が深刻な業界』に深く潜ったプレイヤー</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">『1つのAI』から『AIエージェントのチーム』へ</span> — SellerClaw・Fundraislyは役割分担した複数エージェント＋人間スーパーバイザー構成。単一アシスタントの次の設計様式</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">『ツール』でなく『部門の代行』を売る</span> — Elentaria(GTM部門)・Fundraisly(資金調達)。成果（ミーティング・売上）まで保証する抽象度シフトが支払い意欲を引き上げる</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">出典限定 × 権威提携 が規制業界AIの信頼ベース</span> — OpenEvidenceはNEJM/JAMAのみ学習＋Mayo Clinic提携で全米医師40%が利用。日本の規制業界（医療・士業）にも応用余地</span></div>
+
+</div>
+<!-- ==================== END 2026-06-11 ==================== -->
 
 <!-- ==================== 2026-04-14 Legends 1: Tech Giants ==================== -->
 <div class="report" id="rlegends1">
@@ -1339,7 +1525,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <!-- ==================== END 2026-04-22 ==================== -->
 
 <!-- ==================== 2026-05-11 Vertical AI & PH Week 19 ==================== -->
-<div class="report active" id="r20260511">
+<div class="report" id="r20260511">
 
 <div class="summary">
   <h2>Today's Signal — バーティカルAI × エージェント実行型 × PH Week 19制覇 6件</h2>
@@ -3480,6 +3666,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-11', id: 'r20260611', count: 6 },
   { date: '2026-05-11', id: 'r20260511', count: 6 },
   { date: '2026-05-10', id: 'r20260510', count: 5 },
   { date: '2026-05-09', id: 'r20260509', count: 5 },
