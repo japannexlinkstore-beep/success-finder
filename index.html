@@ -90,23 +90,128 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">21</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">109</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">22</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">112</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-06-11</div>
-    <div class="date-sub" id="dateSub">6 products detected</div>
+    <div class="date-main" id="dateMain">2026-06-12</div>
+    <div class="date-sub" id="dateSub">3 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-06-12 バーティカルAI: 業界プロセス代行型 ==================== -->
+<div class="report active" id="r20260612">
+
+<div class="summary">
+  <h2>Today's Signal — バーティカルAIが『業界の面倒なプロセスそのもの』を代行して急成長 3件</h2>
+  <ul>
+    <li>建設(Earlytrade)・医療(Forus)・保険(Corgi)— 共通点は『汎用ツール』ではなく業界固有のワークフロー/決済/規制プロセスを丸ごと飲み込む設計。汎用SaaSは横ばい、垂直AIは資金が年70%超で増加</li>
+    <li>Forusは年商約$50Mで評価額$1B(20倍マルチプル)— 投資家は『医療オーケストレーション』という新カテゴリの将来性に賭けている</li>
+    <li>Corgiは『AIで効率化したブローカー』でなく『免許を取って自らキャリアになる』ことで引受データを独占。Series Aから4ヶ月でユニコーン化</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.earlytrade.com" target="_blank">Earlytrade</a></div></div>
+    <span class="tag tag-green">$25M Series A / 6-09発表</span>
+  </div>
+  <p class="card-desc">建設業の下請支払い×エージェンティックAI。ゼネコンと下請の運転資金を動的に取引するマーケットプレイス</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>建設業界の運転資金・下請支払いに特化したバーティカルAIフィンテック。建設現場では『元請が支払うまで下請が立て替える』構造が常態化し、資金繰り倒産・工期遅延の温床になっている。Earlytradeはゼネコンと下請の間に立ち、早期支払いの条件（割引率）を動的にマッチングするマーケットプレイスを運営する。今回の資金で、見積・与信・支払いルーティングをエージェンティックAIが自律処理する方向へ進化させる。<br><br>
+    <b>ストーリー：</b>2024年に米国ローンチ以降、下請ネットワークを211,000社超に拡大し、累計$3B超の早期支払いを仲介、売上は7倍成長。2026年6月9日にS3 Ventures・Brick &amp; Mortar Ventures主導で総額$25M（Series A含む）を調達し、米国商用展開を加速。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">211,000+</div><div class="metric-lbl">下請ネットワーク</div></div>
+    <div class="metric"><div class="metric-val">$3B+</div><div class="metric-lbl">早期支払い仲介</div></div>
+    <div class="metric"><div class="metric-val">7倍</div><div class="metric-lbl">売上成長</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2Bマーケットプレイス×フィンテック。下請支払いの早期化を仲介し手数料/スプレッドで収益化</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『業界固有の決済フロー』に食い込む垂直フィンテックは取引データ×ネットワーク効果が堀</li>
+      <li>汎用AIに代替されにくい『お金の流れを握る』ポジション</li>
+      <li>日本の建設・運送・製造の多重下請構造も同型の資金繰り課題を抱える</li>
+      <li>商習慣ローカライズ（手形・ファクタリング文化）で差別化余地</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://forus.com" target="_blank">Forus</a></div></div>
+    <span class="tag tag-green">$160M / $1B評価</span>
+  </div>
+  <p class="card-desc">専門薬の充足率問題に特化した医療オーケストレーションAI。臨床判断〜調剤を自動化</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>米国の『処方箋が出てから実際に薬が患者に届くまで』の充足率（fill rate）問題に特化したバーティカルAI。専門薬は保険の事前承認・自己負担の財政支援・適切な薬局への調剤ルーティングが複雑で、医師が処方しても患者が治療を開始できない断絶が常態化している。Forusは医師・薬局・支払者（保険）・バイオ製薬を繋ぐAIネットワークとして、臨床判断と治療開始の間の数百の事務ステップを自動化する。<br><br>
+    <b>ストーリー：</b>2026年5月14日に$160M（うちSeries B $123M）を評価額$1Bで調達。Thrive Capital・General Catalyst・Accel・Bain Capital Ventures等が出資。年換算売上 約$50Mに対し$1B評価（20倍）という強気のマルチプルで、投資家が『医療オーケストレーション』カテゴリの将来性に賭けた象徴的ラウンド。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">~$50M</div><div class="metric-lbl">年換算売上</div></div>
+    <div class="metric"><div class="metric-val">20倍</div><div class="metric-lbl">売上マルチプル</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>ヘルスケア・オーケストレーション。医師ワークフローに埋め込み、保険承認〜調剤ルーティングを自動化。B2B2C/従量・SaaS混合</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『ツール提供』でなく業界の多者間調整プロセスそのものを代行する『オーケストレーション型』が垂直AIの勝ち筋</li>
+      <li>ワークフロー埋め込み×独自データ×規制対応の3点が堀</li>
+      <li>SaaSより高い評価がつくのは『成果（治療開始）まで握る』抽象度ゆえ</li>
+      <li>日本の医療・介護・調剤も同型の事務断絶を抱える</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.corgi.insure" target="_blank">Corgi</a></div></div>
+    <span class="tag tag-green">$160M Series B / $1.3B評価</span>
+  </div>
+  <p class="card-desc">スタートアップ向けAIネイティブ・フルスタック保険。免許保有キャリアとして引受〜クレームをAI自動化</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>『スタートアップ向け』に特化したAIネイティブのフルスタック保険会社。従来の保険ブローカーは引受・証券管理・クレームが分断され、ニッチなリスク（スタートアップのD&amp;O/E&amp;O/サイバー/雇用慣行賠償EPLI）の見積に時間がかかる。Corgiは免許保有キャリアとして保険を端から端まで自社設計し、AIで引受〜クレームまでを自動化。スタートアップ固有のリスクパターンで学習したモデルにより高速見積を実現する。<br><br>
+    <b>ストーリー：</b>創業者はEmily YuanとNico Laqua。2026年5月6日、Series Aからわずか4ヶ月でTCV主導の$160M Series B・評価額$1.3Bでユニコーン化。次は運送（トラッキング）業界という別の垂直に同じフルスタック手法を展開する。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1.3B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">4ヶ月</div><div class="metric-lbl">SeriesA→ユニコーン</div></div>
+    <div class="metric"><div class="metric-val">フルスタック</div><div class="metric-lbl">免許保有キャリア</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>AIネイティブのフルスタック保険。免許保有キャリアとして引受〜クレームをAI自動化。保険料収益型</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『AIで効率化したブローカー』でなく『免許を取って自らキャリアになる』ことで引受データを独占</li>
+      <li>垂直特化（スタートアップ）→隣接垂直（運送）への横展開は再現性が高い拡張パターン</li>
+      <li>規制/免許そのものが参入障壁＝堀になる</li>
+      <li>日本は保険免許のハードルが高いが、特定業種の事務代行特化なら余地あり</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">『プロセス代行型』バーティカルAIが資金を集める</span> — Earlytrade(支払い)・Forus(調剤)・Corgi(保険)。ツールでなく業界の面倒な多者間プロセスを丸ごと飲み込む設計が共通項</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">独自データ×ネットワーク効果×規制が三重の堀</span> — お金の流れ(Earlytrade)・臨床データ(Forus)・引受免許(Corgi)。汎用LLMが触れない領域を握る</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">垂直特化→隣接垂直への横展開</span> — Corgiはスタートアップ保険→運送保険へ。1つの垂直でフルスタックを完成させ、同じ型を別業界に複製する拡張モデル</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">日本の鉱脈は建設・運送・医療/調剤の『事務断絶』</span> — いずれも多重下請・規制・労働力不足が重なる領域。商習慣ローカライズ＋プロセス代行に振り切るのが日本版の勝ち筋</span></div>
+
+</div>
+<!-- ==================== END 2026-06-12 ==================== -->
+
 <!-- ==================== 2026-06-11 Vertical AI巨額調達 & PH Week 23 ==================== -->
-<div class="report active" id="r20260611">
+<div class="report" id="r20260611">
 
 <div class="summary">
   <h2>Today's Signal — 業界特化バーティカルAIが巨額調達を独占 × PH Week 23はAIエージェント・チーム型 6件</h2>
@@ -3666,6 +3771,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-12', id: 'r20260612', count: 3 },
   { date: '2026-06-11', id: 'r20260611', count: 6 },
   { date: '2026-05-11', id: 'r20260511', count: 6 },
   { date: '2026-05-10', id: 'r20260510', count: 5 },

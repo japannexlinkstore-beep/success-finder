@@ -67,3 +67,6 @@
 | 2026-06-11 | Fundraisly | AI/SaaS | PH Week 23 #1 (1,203票) | 起業家の資金調達を丸ごと代行するAIエージェント。30万投資家解析→warm path自動マッピング→20〜40件の投資家ミーティングを創出 |
 | 2026-06-11 | Elentaria | AI/SaaS | PH Week 23 #3 (593票) | B2B向けGTM部門代行AIオペレーター。22チャネルを採点し最適プランを実行、毎週学習・改善するループで賢くなる |
 | 2026-06-11 | SellerClaw | AI/SaaS(EC) | PH Week 23 #5 (574票) | EC運営を役割分担したAIエージェントのチームに置換。ソーシング/広告/フルフィルをShopify・eBay横断で実行、人間がスーパーバイザー |
+| 2026-06-12 | Earlytrade | AI/Vertical(ConTech) | $25M Series A (S3 Ventures+Brick & Mortar主導) / 6-09発表 | 建設業の下請支払い×エージェンティックAI。ゼネコンと下請の運転資金を動的取引するマーケットプレイス。211,000社超ネットワーク、$3B超仲介、売上7倍 |
+| 2026-06-12 | Forus | AI/Vertical(Health) | $160M($123M Series B) / $1B評価 / ~$50M ARR | 専門薬の充足率問題に特化した医療オーケストレーションAI。医師ワークフローに埋め込み保険承認〜調剤ルーティングを自動化。General Catalyst他 |
+| 2026-06-12 | Corgi (Insurance) | AI/Vertical(InsurTech) | $160M Series B / $1.3B評価 / Series Aから4ヶ月でユニコーン | スタートアップ向けAIネイティブ・フルスタック保険。免許保有キャリアとして引受〜クレームをAI自動化。D&O/E&O/サイバー、運送へ横展開。TCV主導 |
