@@ -70,3 +70,8 @@
 | 2026-06-12 | Earlytrade | AI/Vertical(ConTech) | $25M Series A (S3 Ventures+Brick & Mortar主導) / 6-09発表 | 建設業の下請支払い×エージェンティックAI。ゼネコンと下請の運転資金を動的取引するマーケットプレイス。211,000社超ネットワーク、$3B超仲介、売上7倍 |
 | 2026-06-12 | Forus | AI/Vertical(Health) | $160M($123M Series B) / $1B評価 / ~$50M ARR | 専門薬の充足率問題に特化した医療オーケストレーションAI。医師ワークフローに埋め込み保険承認〜調剤ルーティングを自動化。General Catalyst他 |
 | 2026-06-12 | Corgi (Insurance) | AI/Vertical(InsurTech) | $160M Series B / $1.3B評価 / Series Aから4ヶ月でユニコーン | スタートアップ向けAIネイティブ・フルスタック保険。免許保有キャリアとして引受〜クレームをAI自動化。D&O/E&O/サイバー、運送へ横展開。TCV主導 |
+| 2026-06-13 | Juno | AI/Vertical(FinTech/税務) | $12M Seed (Bonfire Ventures主導) / 500事務所早期導入 / CPA作業時間50%削減 | 会計事務所向けAI税務申告自動化。申告作成の約90%を自動化しつつhuman-in-the-loopで会計士が最終確認。元CPA創業(David Haase) |
+| 2026-06-13 | Honen | AI/Vertical(HRテック) | PH Week 24 #3 (532票) | 社内ナレッジを取り込みAIが対話型研修コースを自動生成。元ナレッジ更新でコースも自動追従し陳腐化を解消。オンボーディング/SOP教育向け |
+| 2026-06-13 | Bond (AI Assistant) | AI/SaaS | PH Week 24 #1 (665票) | 経営者向けAIエグゼクティブアシスタント。利用ツールに接続しタスク管理・会議準備を代行。チャットでなく実際に行動するエージェント型 |
+| 2026-06-13 | Publora | AI/Infra | PH Week 24 #2 (615票) | AIエージェントが10以上のSNSへ横断投稿できるパブリッシングAPI。各社API差異を吸収する配信レイヤー。エージェント時代のインフラ(ピック&ショベル) |
+| 2026-06-13 | VC Boom | AI/SaaS(資金調達) | PH Week 24 #4 (503票) | ピッチデック解析→47,000+投資家からマッチング→アウトリーチ文面まで自動作成。前週#1 Fundraislyに続き資金調達代行AIが2週連続上位 |

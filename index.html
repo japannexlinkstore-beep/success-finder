@@ -97,16 +97,175 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-06-12</div>
-    <div class="date-sub" id="dateSub">3 products detected</div>
+    <div class="date-main" id="dateMain">2026-06-13</div>
+    <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-06-13 Vertical AI(税務/HR) × PH Week 24 ==================== -->
+<div class="report active" id="r20260613">
+
+<div class="summary">
+  <h2>Today's Signal — 規制業界に潜るバーティカルAI(税務・HR) × PH Week 24はAIエージェント実行系が席巻 5件</h2>
+  <ul>
+    <li>Juno(税務)・Honen(社内研修)— 規制が重く繁忙期に人材が枯渇する/属人化する業務プロセスを丸ごとAIが代行。汎用チャットでなく『面倒な実務の実行(action)』に振り切る設計が共通項</li>
+    <li>PH Week 24(6/8週)上位はAIエージェントの『実行系』— Bond(#1 秘書代行)・Publora(#2 配信API)・VC Boom(#4 資金調達代行)。チャットでなく接続先ツール上で完結させる実行力が差別化軸</li>
+    <li>Juno=完全自動化を謳わず human-in-the-loop で信頼を取る。VC Boom=前週#1 Fundraislyに続き資金調達代行AIが2週連続上位でカテゴリ過熱</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://news.crunchbase.com/fintech/cpa-founded-ai-tax-return-startup-juno-seed-funding/" target="_blank">Juno</a></div></div>
+    <span class="tag tag-green">$12M Seed / FinTech(税務)</span>
+  </div>
+  <p class="card-desc">AIが確定申告の作成・レビュー・アドバイザリーを自動化する会計事務所向けバーティカルAI。CPA作業時間50%削減</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>米国の税務申告は書類収集・データ入力・レビュー・アドバイザリーまで会計士の手作業が膨大で、タックスシーズン(繁忙期)に人材が枯渇する構造的課題を抱える。Junoはこの申告事務作業の約90%をAIで自動化し、CPAが1件あたりに費やす時間を50%削減する。重要なのは完全自動化ではなく、必ず人間(会計士)が最終確認する<b>human-in-the-loop</b>設計で、誤りが許されない税務領域での信頼性を担保している点。創業者David HaaseはCPA出身で、業界の痛みを知る当事者がプロダクトを設計している。<br><br>
+    <b>ストーリー：</b>各5〜100名の会計士を抱える500事務所がすでに早期導入。2026年4月にBonfire Ventures主導で$12M Seedを調達し、エンジニアリングチームを倍増、カスタマーサクセスと営業を拡大する。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$12M</div><div class="metric-lbl">Seed調達</div></div>
+    <div class="metric"><div class="metric-val">500</div><div class="metric-lbl">早期導入事務所</div></div>
+    <div class="metric"><div class="metric-val">-50%</div><div class="metric-lbl">CPA作業時間</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2B SaaS。会計/税務アドバイザー向けに申告作成を自動化。シート課金型と推定</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『繁忙期×人手不足×規制で自動化が難しい』領域こそ垂直AIの鉱脈</li>
+      <li>完全自動化を謳わず human-in-the-loop で信頼を取りにいくのが規制業界での勝ち筋</li>
+      <li>当事者(元CPA)創業はワークフロー理解と初期顧客獲得で強い</li>
+      <li>日本も税理士の繁忙期負荷・後継者不足が深刻。電子帳簿保存法・インボイス対応の和ローカライズで参入余地</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/24" target="_blank">Honen</a></div></div>
+    <span class="tag tag-purple">PH Week 24 #3 / 532票</span>
+  </div>
+  <p class="card-desc">社内ナレッジを取り込み、AIが自動更新型の対話研修コースを生成するHRテック</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>企業に蓄積された社内ドキュメント・マニュアル・手順書を取り込み、AIが対話型(AI-led)のトレーニングコースへ自動変換するプラットフォーム。従来の社内研修は資料作成に工数がかかるうえ、情報が古くなると陳腐化して使われなくなる問題があった。Honenの差別化は<b>『コースが自動でアップデートされる』</b>点で、元のナレッジが更新されればコースも追従するため、常に最新の内容でオンボーディングやスキル開発を回せる。<br><br>
+    <b>ストーリー：</b>Product Hunt Week 24(2026-06-08週)で第3位・532票を獲得。新入社員研修・SOP教育・コンプライアンス研修など反復的で更新頻度の高い社内教育を効率化したい組織が対象。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#3</div><div class="metric-lbl">PH Week 24</div></div>
+    <div class="metric"><div class="metric-val">532</div><div class="metric-lbl">票</div></div>
+    <div class="metric"><div class="metric-val">自動更新</div><div class="metric-lbl">研修コース</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2B SaaS(HR/L&amp;Dテック)。従業員数/シート課金型と推定</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『自動更新される対話型コース』にすることで社内ドキュメントの陳腐化問題を解消=継続利用の堀</li>
+      <li>企業の独自ナレッジを取り込む設計はデータが溜まるほど解約しづらい(卒業されない構造)</li>
+      <li>日本はマニュアル文化・OJT依存が強く、属人化したナレッジの形式知化ニーズが大きい</li>
+      <li>製造現場のSOP教育・多重下請の手順教育に和ローカライズで応用余地</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/24" target="_blank">Bond</a></div></div>
+    <span class="tag tag-purple">PH Week 24 #1 / 665票</span>
+  </div>
+  <p class="card-desc">利用ツールに接続してタスク管理・会議準備を代行するAIエグゼクティブアシスタント</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>経営者・マネージャー向けのAIエグゼクティブアシスタント。カレンダー・メール・タスク管理など利用ツール群に接続し、タスク管理の自動化や会議準備(ミーティングプレップ)を代行する。多忙なリーダーが『知的な委任(intelligent delegation)』を求めるニーズに応える設計。単なるチャットボットではなく、<b>実際のツールに接続して行動するエージェント型</b>である点がポイント。<br><br>
+    <b>ストーリー：</b>AIアシスタント/エージェントの競争が激しい中、Product Hunt Week 24(2026-06-08週)で堂々の第1位・665票を獲得。会議前の資料・論点準備、タスクの優先順位付けと進捗管理など秘書的業務をAIが肩代わりする。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">PH Week 24</div></div>
+    <div class="metric"><div class="metric-val">665</div><div class="metric-lbl">票</div></div>
+    <div class="metric"><div class="metric-val">エージェント型</div><div class="metric-lbl">ツール接続</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2B/プロシューマーSaaS。月額サブスク型と推定</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AIアシスタント激戦区でも『接続したツール上で完結させる』実行(action)が差別化軸で週間1位を取れる</li>
+      <li>対象を『多忙なリーダー/エグゼクティブ』に絞った垂直ペルソナ設計</li>
+      <li>汎用チャットとの違いは『接続したツール上で完結させる』こと</li>
+      <li>日本は秘書を雇えない中小企業の経営者層が厚く、ここに刺さるローカライズ余地</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Infra">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/24" target="_blank">Publora</a></div></div>
+    <span class="tag tag-orange">PH Week 24 #2 / 615票</span>
+  </div>
+  <p class="card-desc">AIエージェントが10以上のSNSへ横断投稿できるパブリッシングAPI。エージェント時代の配信インフラ</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>AIエージェントがシンプルなコマンドで10以上のソーシャルプラットフォームへ横断投稿できる『パブリッシングAPI』。AIアプリを作る開発者が、SNSへの自動投稿機能を一から各社APIに繋ぎ込む手間(認証・レート制限・各プラットフォーム差異)を肩代わりする。エージェントが自律的にコンテンツを生成・配信するユースケースが急増する中、その<b>『配信レイヤー』を標準化</b>して提供する。ツールそのものでなく、AIエージェント時代のインフラ(ピック&amp;ショベル)を狙うポジショニング。<br><br>
+    <b>ストーリー：</b>Product Hunt Week 24(2026-06-08週)で第2位・615票。同週はWeb自動化のBrowserbaseも上位入りしており、『AIエージェントが実行するための周辺インフラ』が票を集める潮流の代表例。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#2</div><div class="metric-lbl">PH Week 24</div></div>
+    <div class="metric"><div class="metric-val">615</div><div class="metric-lbl">票</div></div>
+    <div class="metric"><div class="metric-val">10+</div><div class="metric-lbl">対応SNS</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>開発者向けAPI(インフラ)。API従量課金/月額と推定</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『AIエージェントが何かを実行するための周辺インフラ』は今最も投票を集めるカテゴリの一つ。ゴールドラッシュのツルハシ戦略</li>
+      <li>各SNSのAPI差異を吸収する『面倒の集約』が価値=参入障壁</li>
+      <li>日本のSNS(X中心+LINE/Threads)向けの和製エージェント配信APIや、規約順守(BAN回避)ロジック内蔵での差別化余地</li>
+      <li>kazumasaのX自動投稿運用とも親和性が高い領域</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/24" target="_blank">VC Boom</a></div></div>
+    <span class="tag tag-purple">PH Week 24 #4 / 503票</span>
+  </div>
+  <p class="card-desc">ピッチデック解析→47,000+投資家からマッチング→アウトリーチ文面まで自動作成する資金調達代行AI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>起業家のピッチデックをAIが解析し、47,000以上の投資家データベースから相性の良い投資家をマッチング、さらにパーソナライズされたアウトリーチ文面までドラフトするツール。資金調達の準備段階(誰に・どう連絡するか)を丸ごと自動化する。前週PH#1のFundraisly(30万投資家解析→warm path自動マッピング)と同カテゴリで、<b>起業家の資金調達という高ストレス・高単価プロセスをAIエージェントが代行する</b>トレンドの一角。<br><br>
+    <b>ストーリー：</b>Product Hunt Week 24(2026-06-08週)で第4位・503票。Fundraisly(前週#1)に続きVC Boom(#4)と、資金調達代行AIが2週連続で上位入り＝このカテゴリ自体の需要が過熱している。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#4</div><div class="metric-lbl">PH Week 24</div></div>
+    <div class="metric"><div class="metric-val">503</div><div class="metric-lbl">票</div></div>
+    <div class="metric"><div class="metric-val">47,000+</div><div class="metric-lbl">投資家DB</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2B SaaS(資金調達支援)。月額/成果連動と推定</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>Fundraisly(前週#1)に続きVC Boom(#4)と資金調達代行AIが2週連続上位=カテゴリ需要が過熱</li>
+      <li>『高ストレスで頻度の低いが単価の高いプロセス』(資金調達・税務・保険)はAI代行のスイートスポット</li>
+      <li>投資家DBという独自データ資産が堀</li>
+      <li>日本のスタートアップ資金調達はVC人脈の不透明性が課題。日本の投資家DB×和文ピッチ最適化に振った和製版の余地(市場規模は要検証)</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">『実行(action)するAI』が評価される</span> — Bond(秘書代行)・Publora(配信)・VC Boom(調達代行)・Juno(申告作成)。チャットで答えるのでなく、接続先ツールやワークフロー上で実務を完結させる設計が共通項</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">規制・繁忙期・属人化の重い業務に垂直で潜る</span> — Juno(税務の繁忙期/規制)・Honen(社内ナレッジの属人化)。汎用LLMが触れない『面倒で逃げられない実務』を握る</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">資金調達代行AIが2週連続でPH上位</span> — Fundraisly(W23 #1)→VC Boom(W24 #4)。高ストレス・低頻度・高単価のプロセスはAI代行のスイートスポットとして過熱</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">human-in-the-loopが規制業界の信頼装置</span> — Junoは完全自動化を謳わず会計士の最終確認を残す。誤りが許されない領域では『AIが下書き・人が承認』設計が普及の鍵。日本の士業(税理士/社労士)向け応用の定石になる</span></div>
+
+</div>
+<!-- ==================== END 2026-06-13 ==================== -->
+
 <!-- ==================== 2026-06-12 バーティカルAI: 業界プロセス代行型 ==================== -->
-<div class="report active" id="r20260612">
+<div class="report" id="r20260612">
 
 <div class="summary">
   <h2>Today's Signal — バーティカルAIが『業界の面倒なプロセスそのもの』を代行して急成長 3件</h2>
@@ -3771,6 +3930,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-13', id: 'r20260613', count: 5 },
   { date: '2026-06-12', id: 'r20260612', count: 3 },
   { date: '2026-06-11', id: 'r20260611', count: 6 },
   { date: '2026-05-11', id: 'r20260511', count: 6 },
