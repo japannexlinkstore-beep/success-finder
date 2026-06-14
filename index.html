@@ -97,7 +97,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-06-13</div>
+    <div class="date-main" id="dateMain">2026-06-14</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
@@ -105,8 +105,167 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-06-14 バーティカルAI(医療/物流) × PH 6/11 デイリー実行系 ==================== -->
+<div class="report active" id="r20260614">
+
+<div class="summary">
+  <h2>Today's Signal — 規制業界に深く潜るバーティカルAI(医療・物流) × Product Hunt 6/11デイリーは『実行系』AIが上位 5件</h2>
+  <ul>
+    <li>Hippocratic AI(医療)・UniUni(物流)— 人手不足・規制・労働集約という『AIが触りにくい巨大アナログ産業』に深く潜るバーティカルAI。汎用LLMが入れない実務オペを握る設計が共通項</li>
+    <li>PH 6/11デイリー上位は『実行(action)系』— Asmi(音声で電話発信し用事を代行)・Respan Gateway(LLM運用基盤=ツルハシ)・Journey Now(適応型学習の伴走)。チャットで答えるのでなく実務を完結させる/開発を支える設計が票を集める</li>
+    <li>正直な注記: Hippocratic AI($126M Series C)とUniUni($70M Series D)の<b>資金調達自体は2025年</b>(医療=2025-11、物流=2025-06)。本DBへの検知・記録が2026-06-14。誇張を避けるため明記</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million/" target="_blank">Hippocratic AI</a></div></div>
+    <span class="tag tag-green">$126M Series C / Health(医療)</span>
+  </div>
+  <p class="card-desc">診断・処方をあえて行わない『安全性ファースト』の患者対応AIエージェント。医療の人手不足に直接効くバーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>米国医療は人手不足が深刻で、予約調整・問診履歴の取得・SDOH(健康の社会的決定要因)スクリーニング・慢性疾患管理・退院後アウトリーチといった『患者と話す』反復業務に膨大な工数がかかる。Hippocratic AIはこれら患者対応(patient-facing)タスクを音声AIエージェントが代行する。最大の特徴は<b>診断・処方を一切行わず安全性に振り切った専用LLM</b>を構築している点。1,000超の臨床ユースケースを作り込み、1.15億件超の臨床患者対話を安全インシデントゼロで完了したと公表している。<br><br>
+    <b>ストーリー：</b>資金調達は2025-11、<span class="term" data-term="ARR">ARR</span>でなく評価額ベースで$3.5B、Avenir Growth主導(CapitalG・a16z・General Catalyst等参加)でSeries C $126Mを調達。累計調達$404M。商用化からわずか15ヶ月で6カ国50+の医療システム・ペイヤー・製薬に導入。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$126M</div><div class="metric-lbl">Series C(2025-11)</div></div>
+    <div class="metric"><div class="metric-val">$3.5B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">1.15億+</div><div class="metric-lbl">臨床対話(事故0)</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2Bヘルスケア。医療システム・ペイヤー・製薬向けに患者対応AIエージェントを提供。導入・利用課金型と推定。診断/処方はしない設計</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>規制と安全性が最重要の医療では『診断しない・処方しない』と機能を絞ることが逆に普及と信頼の鍵(やらないことを決める設計)</li>
+      <li>1,000超の臨床ユースケースの作り込みと安全実績が、汎用LLMには真似できない堀</li>
+      <li>患者対話という反復労働の置換は人手不足という構造課題に直接効く</li>
+      <li>日本も医療・介護の人手不足が深刻。ただし医療広告・医師法の規制が重く、和ローカライズは非診断領域(予約・服薬リマインド・退院後フォロー)に絞れば余地。検証必須</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.uniuni.com/" target="_blank">UniUni</a></div></div>
+    <span class="tag tag-green">$70M Series D / Logistics(物流)</span>
+  </div>
+  <p class="card-desc">ギグドライバー網×AIルーティング×倉庫ロボ仕分けでECラストマイルを低コスト化。労働集約産業に潜るバーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>EC向けラストマイル(最終配送)に特化したテック企業。Shein・Temu等の越境EC物量の急増を背景に、ギグ(個人)ドライバー網・AIルーティング・倉庫ロボットによる自動仕分けを組み合わせ、低コストで広域配送を実現する。物流という超アナログ・労働集約の領域に<b>AIとロボティクスを差し込んだ</b>のが差別化軸。<br><br>
+    <b>ストーリー：</b>資金調達は2025-06、Bessemer Venture Partners主導・Sinovation Ventures共同主導でSeries D US$70Mを調達。2022→2025で売上+2,000%、年商<span class="term" data-term="ARR">ARR</span>$500M超とカナダ最大級のテック企業に成長。加80%超・米60%超の人口に直接配送が届き、今後95%/75%を目標。Global Robotics Serviceと倉庫の小包自動仕分けで提携。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$70M</div><div class="metric-lbl">Series D(2025-06)</div></div>
+    <div class="metric"><div class="metric-val">+2,000%</div><div class="metric-lbl">売上成長(22-25)</div></div>
+    <div class="metric"><div class="metric-val">$500M+</div><div class="metric-lbl">年商</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>テック型ラストマイル配送網。ギグドライバー×AIルーティング×倉庫ロボ仕分けでEC荷物を配送。EC事業者からの配送料が収益源</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>物流のような労働集約・低利益率の巨大アナログ産業こそ、AI/ロボでオペ効率を1段上げると一気にスケールする</li>
+      <li>特定需要源(越境EC物量)に密着して立ち上げ、面でカバレッジを拡大する戦略</li>
+      <li>ギグ労働×AIルーティング×倉庫ロボの三層自動化=ソフトでなく現場オペが堀</li>
+      <li>日本もラストワンマイル(再配達・人手不足)が社会課題。既存大手が強く、隙間(置き配最適化・地方/特定カテゴリ特化)狙いが現実的。市場性は要検証</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/daily/2026/6/11" target="_blank">Asmi AI</a></div></div>
+    <span class="tag tag-purple">PH 6/11 デイリー#2 / 471票</span>
+  </div>
+  <p class="card-desc">電話を発信して実世界の用事を代行する音声AIエージェント。『電話対応しかない領域』を音声で突破</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>電話をかけて実世界のタスクをこなすAI音声エージェント。予約や問い合わせ、各種手続きなど『人間に電話をかける必要のある面倒な用事』をユーザーに代わってAIが発信・会話して処理する。チャットUIで完結する従来型アシスタントと違い、まだ電話対応しか窓口がない店舗・サービスとの接点を<b>音声で突破する</b>のが特徴。<br><br>
+    <b>ストーリー：</b><span class="term" data-term="Product Hunt">Product Hunt</span> 2026-06-11で471票を集めデイリー2位。テキストでなく音声で実行(action)するエージェントが評価される潮流の一例。価格・創業者・実績の詳細は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#2</div><div class="metric-lbl">PH 6/11デイリー</div></div>
+    <div class="metric"><div class="metric-val">471</div><div class="metric-lbl">票</div></div>
+    <div class="metric"><div class="metric-val">音声発信</div><div class="metric-lbl">実行型</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>コンシューマー/プロシューマー向けAI音声エージェント。月額サブスク型と推定(公式価格は不明)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『電話対応しかない領域』はデジタル化の最後の壁で、ここを音声AIで突破するのは実需が強い</li>
+      <li>チャット完結でなく音声で外部発信し実務を完了させる=実行型エージェントの価値</li>
+      <li>日本は電話予約文化が根強い(飲食・美容・病院)が、敬語/方言/相手側の警戒など難度は高い</li>
+      <li>発信時はBAN/迷惑電話扱いの回避と発信者明示が必須。詳細不明のため要追跡</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Infra">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/daily/2026/6/11" target="_blank">Respan Gateway</a></div></div>
+    <span class="tag tag-orange">PH 6/11 デイリー#3 / 445票</span>
+  </div>
+  <p class="card-desc">LLMアプリ向けの監視・評価(eval)を備えたゲートウェイ基盤。AIアプリ量産時代の『ツルハシ』</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>LLMアプリ向けのゲートウェイ/プラットフォーム。複数のLLM呼び出しを一元的に通し、監視(モニタリング)と評価(eval)機能を備える。AIアプリを本番運用すると、どのプロンプト・モデルが品質劣化やコスト増を起こしているかの可視化と継続評価が不可欠になる。Respan Gatewayはこの<b>運用層(LLMOps)</b>を担い、開発者が品質とコストを管理しながらLLMアプリを回せるようにする。<br><br>
+    <b>ストーリー：</b><span class="term" data-term="Product Hunt">Product Hunt</span> 2026-06-11で445票を集めデイリー3位。AIアプリが量産される時代の『ピック&amp;ショベル(ツルハシ)』ポジション。価格・創業者の詳細は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#3</div><div class="metric-lbl">PH 6/11デイリー</div></div>
+    <div class="metric"><div class="metric-val">445</div><div class="metric-lbl">票</div></div>
+    <div class="metric"><div class="metric-val">LLMOps</div><div class="metric-lbl">監視+eval</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>開発者向けAIインフラ(LLMOps)。<span class="term" data-term="API">API</span>ゲートウェイの従量課金/月額と推定(公式価格は不明)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AIアプリが量産されるほど運用・監視・評価の周辺インフラ(LLMOps)需要が伸びる=ツルハシ戦略</li>
+      <li>ゲートウェイ型は一度組み込まれると差し替えコストが高く、継続利用の堀になりやすい</li>
+      <li>eval(評価)の自動化で品質劣化を早期検知=AIプロダクトの信頼性に直結</li>
+      <li>kazumasaの自社AIプロダクト(QuickBot等)の品質監視にも応用余地。詳細不明のため要追跡</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/daily/2026/6/11" target="_blank">Journey Now</a></div></div>
+    <span class="tag tag-purple">PH 6/11 デイリー#5 / 400票</span>
+  </div>
+  <p class="card-desc">適応型の目標設計でパーソナライズ学習を伴走するAIコンパニオン(EdTech)</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>学習者一人ひとりに寄り添う、適応型の目標設計を備えたパーソナル学習コンパニオン。学習者の進捗や理解度に応じてゴールと学習プランを動的に調整し、AIが伴走者として学びを継続させる。汎用チャットに『何を学ぶか質問する』のではなく、<b>目標から逆算した学習設計と継続支援</b>に振り切っているのが特徴。<br><br>
+    <b>ストーリー：</b><span class="term" data-term="Product Hunt">Product Hunt</span> 2026-06-11で400票を集めデイリー5位。教育領域(EdTech)に特化したバーティカルAIの一例。価格・創業者・ユーザー数の詳細は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#5</div><div class="metric-lbl">PH 6/11デイリー</div></div>
+    <div class="metric"><div class="metric-val">400</div><div class="metric-lbl">票</div></div>
+    <div class="metric"><div class="metric-val">適応型</div><div class="metric-lbl">学習伴走</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>学習者向け<span class="term" data-term="SaaS">SaaS</span>(EdTech)。<span class="term" data-term="フリーミアム">フリーミアム</span>/月額サブスクと推定(公式価格は不明)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>EdTechのAI化は『コンテンツ生成』より『適応型の伴走・目標管理』に価値がシフト。継続率(卒業されない構造)を設計に組み込めるかが鍵</li>
+      <li>学習データが溜まるほどパーソナライズ精度が上がり解約しづらくなる=データの堀</li>
+      <li>日本はリスキリング/資格学習/語学の伴走ニーズが厚く、和ローカライズ(日本の資格体系・受験)で差別化余地</li>
+      <li>詳細(価格・創業者・ユーザー数)は不明のため要追跡</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">巨大アナログ産業に深く潜るバーティカルAI</span> — Hippocratic AI(医療の患者対応)・UniUni(物流のラストマイル)。人手不足・規制・労働集約で汎用LLMが触りにくい実務オペを握ると、評価額・売上が一気に伸びる</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">『実行(action)するAI』がPHデイリーでも上位</span> — Asmi(音声で電話発信し用事を代行)。チャットで答えるのでなく、現実世界やツール上で実務を完結させる設計が票を集める(6/13のWeek 24と同じ潮流)</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">AIアプリ量産時代のツルハシ(ピック&amp;ショベル)</span> — Respan Gateway(LLM運用・監視・eval)。アプリが増えるほど運用インフラ(LLMOps)が伸びる。自社AIプロダクトの品質監視にも直結する領域</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">安全性・human-in-the-loop・継続伴走が『卒業されない堀』</span> — Hippocratic(診断しない安全設計)・Journey Now(適応型の学習伴走)。機能を絞る/データが溜まるほど解約しづらくなる設計が、規制業界と継続課金の鍵</span></div>
+
+</div>
+<!-- ==================== END 2026-06-14 ==================== -->
+
 <!-- ==================== 2026-06-13 Vertical AI(税務/HR) × PH Week 24 ==================== -->
-<div class="report active" id="r20260613">
+<div class="report" id="r20260613">
 
 <div class="summary">
   <h2>Today's Signal — 規制業界に潜るバーティカルAI(税務・HR) × PH Week 24はAIエージェント実行系が席巻 5件</h2>
@@ -3930,6 +4089,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-14', id: 'r20260614', count: 5 },
   { date: '2026-06-13', id: 'r20260613', count: 5 },
   { date: '2026-06-12', id: 'r20260612', count: 3 },
   { date: '2026-06-11', id: 'r20260611', count: 6 },
