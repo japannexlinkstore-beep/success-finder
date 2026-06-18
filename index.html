@@ -90,23 +90,184 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">23</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">116</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">24</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">121</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-06-17</div>
-    <div class="date-sub" id="dateSub">4 products detected</div>
+    <div class="date-main" id="dateMain">2026-06-18</div>
+    <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-06-18 バーティカルAI(不動産/小売/資産運用) + PH週間トップ ==================== -->
+<div class="report active" id="r20260618">
+
+<div class="summary">
+  <h2>Today's Signal — 巨大産業の現場オペレーションに深く張るバーティカルAI 3件（不動産/小売/富裕層資産運用）＋ PH今週の上位2件（HR/生産性）</h2>
+  <ul>
+    <li><b>EliseAI</b>（不動産×医療）— 米国賃貸住宅の入居者対応をAIで自動化する『住宅のオペレーションOS』。すでに<b>米アパート市場の12%</b>に浸透、ARR$100M超。$250M Series E、a16z主導、評価額$2.2B</li>
+    <li><b>Radar</b>（小売）— 天井設置のRFIDセンサー＋AIで実店舗の在庫を秒単位で追跡。American Eagle・Old Navy等<b>1,400店舗超</b>に導入。$170M Series B、評価額$1B</li>
+    <li><b>Farther</b>（富裕層資産運用）— テック武装したRIA（投資顧問）。アドバイザーの事務作業をAIで自動化し運用資産を急拡大。$150M Series D、General Atlantic主導でユニコーン入り</li>
+    <li><b>Wobo</b>（HR/求職）— 『求人版Tinder』。スワイプするとAIが代わりに応募まで実行。Product Hunt 今週(6/15週) #7</li>
+    <li><b>Goldfish</b>（生産性）— 作業履歴をローカルで記憶し、ショートカット一発で執筆を支援するMac用AI。Product Hunt 今週(6/15週) <b>#1</b></li>
+    <li>🟡 <b>正直な注記（誇張防止）</b>: EliseAI/Radar/Farther の調達は<b>EliseAI=2025-08、Radar・Farther=2026-05中旬</b>で、本日の新規ラウンドではない。本DB未収録のため『バーティカルAIの型』として収録（検知日=2026-06-18）。Wobo/Goldfishは6/15週のPH実数票。創業者など未確認項目は『不明』と明記</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://eliseai.com/blog/eliseai-raises-250m-series-e" target="_blank">EliseAI</a></div></div>
+    <span class="tag tag-green">$250M Series E / PropTech×HealthTech</span>
+  </div>
+  <p class="card-desc">米国賃貸住宅の入居者対応（問い合わせ・内見・契約・メンテ依頼）を丸ごとAIで自動化する『住宅オペレーションOS』。同じ仕組みを医療(予約・問診)にも横展開するバーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>賃貸物件の管理会社は、内見予約・問い合わせ対応・契約・家賃・メンテナンス依頼など膨大なコミュニケーションを人手で捌いている。EliseAIは入居検討から契約・入居後までの<b>消費者ジャーニー全体をAIで自動化</b>する。中核に入居者情報を一元管理するCRM(EliseCRM)を置き、AI内見ガイド・リース監査・料金透明化スイート・メンテナンスアプリ等を提供。同じ『規制が重く対応量が多い住宅オペ』のノウハウを医療(予約・問診)にも展開している。<br><br>
+    <b>ストーリー：</b>NY発。2025-08に$250M Series Eを<span class="term" data-term="VC">a16z</span>主導で調達（Bessemer新規参加、Sapphire/Navitas継続）、評価額約$2.2B。<b>4年連続で売上倍増しARR$100M超</b>、すでに米アパート市場の約12%をカバー。Series D(2024-08,$75M)以降、従業員を150名→300名超に倍増。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$250M</div><div class="metric-lbl">Series E(2025-08)</div></div>
+    <div class="metric"><div class="metric-val">$2.2B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">米市場12%</div><div class="metric-lbl">全米アパート</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2B SaaS（不動産管理会社・医療機関向け）。物件数/利用課金型と推定（公式価格は未公表）。創業者: Minna Song他</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『チャットボット』でなく入居者対応の<b>業務フロー全体</b>を自動化＝業務に食い込み剥がれない（卒業されない構造）</li>
+      <li>CRM(データ基盤)を中核に置くことで、使うほど顧客データが溜まり後発が真似しにくい堀になる</li>
+      <li>『対応量が多く規制が重い』という構造が似た住宅→医療へ横展開＝ノウハウの再利用で多角化</li>
+      <li>日本も賃貸管理は電話/紙が根強い。問い合わせ・内見調整の和ローカライズに余地。ただし宅建業法と既存管理会社が壁。要検証</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://news.crunchbase.com/venture/biggest-funding-rounds-medical-devices-futuristic-ai-gadgets-frontier-labs-mirus/" target="_blank">Radar</a></div></div>
+    <span class="tag tag-green">$170M Series B / Retail(実店舗在庫AI)</span>
+  </div>
+  <p class="card-desc">天井に設置したRFIDセンサー＋ソフト＋分析で、実店舗の在庫の『場所と数』を秒単位で正確に把握する小売特化AI。American Eagle・Old Navyなど1,400店舗超で稼働</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>アパレル等の実店舗は在庫の所在が常にズレ、欠品・棚卸し工数・万引きロスに悩まされる。Radarは<b>店舗天井に設置したオーバーヘッドRFIDセンサー</b>と独自ソフト・分析で、商品一つ一つの位置と数量をリアルタイムに可視化する。バックヤード/売場の在庫精度を上げ、補充・棚卸し・購買体験を改善する小売バーティカルAI。<br><br>
+    <b>ストーリー：</b>NY発。2026-05中旬にSeries B $170MをGideon Strategic Partners・Nimble Partners主導で調達（Align Ventures参加）、評価額$1B（ユニコーン入り）、累計約$310M。American Eagle Outfitters・Old Navy等、<b>1,400店舗超に導入済み</b>。創業者: 不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$170M</div><div class="metric-lbl">Series B(2026-05)</div></div>
+    <div class="metric"><div class="metric-val">$1B</div><div class="metric-lbl">評価額(ユニコーン)</div></div>
+    <div class="metric"><div class="metric-val">1,400+</div><div class="metric-lbl">導入店舗</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>B2B（小売チェーン向け）ハードウェア＋SaaS。センサー設置＋月額分析サブスクと推定（公式価格は未公表）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『AIモデル』でなく<b>現場のセンサー（フィジカルAI）×ソフト</b>で実店舗のリアルデータを独占＝ソフト単体より堀が深い</li>
+      <li>欠品/棚卸し/ロスは小売のROIが極めて明確な痛点。費用対効果を数字で示せて売りやすい</li>
+      <li>大手チェーン1,400店舗の実導入＝信頼の証明。ロジ/在庫は一度入ると全店展開で拡大しやすい</li>
+      <li>日本の小売・アパレルも棚卸し工数と欠品は共通課題。ただしハード設置の初期コストが障壁。発想はソフト在庫管理に転用可。要検証</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://news.crunchbase.com/venture/biggest-funding-rounds-medical-devices-futuristic-ai-gadgets-frontier-labs-mirus/" target="_blank">Farther</a></div></div>
+    <span class="tag tag-green">$150M Series D / WealthTech(富裕層資産運用)</span>
+  </div>
+  <p class="card-desc">テクノロジーで武装した富裕層向けRIA（独立系投資顧問）。アドバイザーの事務・運用作業をAIで自動化し、少人数で大量の運用資産を捌けるようにするフィンテック・バーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>従来の富裕層向け資産運用(RIA)は、アドバイザーが顧客管理・レポート作成・運用調整に膨大な手作業を割いていた。Fartherは<b>テック武装したRIA</b>として、アドバイザーの事務作業・ポートフォリオ管理・顧客対応をソフトとAIで効率化し、一人のアドバイザーがより多くの顧客・運用資産を担えるようにする。『金融×AIで生産性を底上げするバーティカルプラットフォーム』。<br><br>
+    <b>ストーリー：</b>サンフランシスコ発。2026-05中旬にSeries D $150MをGeneral Atlantic主導で調達しユニコーン入り（評価額は非開示）、累計約$268M。創業者: 不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$150M</div><div class="metric-lbl">Series D(2026-05)</div></div>
+    <div class="metric"><div class="metric-val">ユニコーン</div><div class="metric-lbl">General Atlantic主導</div></div>
+    <div class="metric"><div class="metric-val">RIA×AI</div><div class="metric-lbl">富裕層運用</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>運用資産残高(AUM)連動フィー＋プラットフォーム提供。アドバイザーを抱える自社RIAモデルと推定（公式価格は未公表）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AIで『専門職（アドバイザー）の生産性』を上げ、一人当たりの担当容量を増やす＝人手依存の士業/専門サービスのスケール解</li>
+      <li>運用資産が溜まるほど解約しにくく収益が積み上がる（卒業されない＝高継続）構造</li>
+      <li>規制の重い金融でライセンスを持って正面から入る＝参入障壁がそのまま堀になる</li>
+      <li>日本もIFA/資産運用アドバイスは人手依存。事務自動化の和ローカライズに余地だが、金商法と既存証券が壁。要検証</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/25" target="_blank">Wobo</a></div></div>
+    <span class="tag tag-purple">PH今週 #7 (313票) / HR・求職</span>
+  </div>
+  <p class="card-desc">『求人版Tinder』。気になる求人を右スワイプすると、AIが代わりに応募作業まで実行してくれる求職自動化ツール</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>転職活動は1件ごとの応募フォーム入力・職歴記入が苦痛で、数を打てない。Woboは求人を<b>スワイプ式（右で応募）</b>で提示し、右スワイプした求人にAIが自動で応募してくれる。求職者の応募工数を劇的に下げ、母数を増やすことで内定確率を上げる発想。<br><br>
+    <b>ストーリー：</b>Product Hunt 6/15週で#7（313票）。価格・創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#7</div><div class="metric-lbl">PH週間(6/15週)</div></div>
+    <div class="metric"><div class="metric-val">313票</div><div class="metric-lbl">Upvotes</div></div>
+    <div class="metric"><div class="metric-val">スワイプ応募</div><div class="metric-lbl">AI自動応募</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>求職者向けフリーミアム/サブスク（応募代行）と推定（公式価格は未公表）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『面倒な作業（応募）をAIが代行』＋『Tinder型UX』という、馴染みのUIに実務代行を載せる組み合わせ</li>
+      <li>個人向け×痛みの強い場面（転職）はバイラルしやすく、入力ゼロで体験できる設計が刺さる</li>
+      <li>一方で『質より量の応募』は採用側の反発リスクもある。日本転職市場での受容性は要検証</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/25" target="_blank">Goldfish</a></div></div>
+    <span class="tag tag-purple">PH今週 #1 (606票) / 生産性(Mac)</span>
+  </div>
+  <p class="card-desc">あなたが何に取り組んでいたかを『ローカルで記憶』し、ショートカット一発で文脈を踏まえた執筆を支援するMac用AIアシスタント。今週のProduct Hunt #1</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>AIアシスタントは毎回ゼロから文脈を説明する必要があり面倒。Goldfishは<b>ユーザーの作業内容をプライベート（ローカル）に記憶</b>し、キーボードショートカット一発で『今までの文脈を踏まえた』執筆・作業支援を呼び出せるMacアプリ。プライバシー重視（ローカル記憶）が差別化点。<br><br>
+    <b>ストーリー：</b>Product Hunt 6/15週で<b>#1（606票）</b>。価格・創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">PH週間(6/15週)</div></div>
+    <div class="metric"><div class="metric-val">606票</div><div class="metric-lbl">Upvotes</div></div>
+    <div class="metric"><div class="metric-val">ローカル記憶</div><div class="metric-lbl">プライバシー重視</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>Mac向けアプリのサブスク/買い切りと推定（公式価格は未公表）</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『記憶（メモリ）×ローカル処理』＝クラウドAIへの不安が強い層にプライバシーを訴求できる差別化軸</li>
+      <li>ショートカット一発の摩擦ゼロUXが、常用ツールとして定着させる鍵（卒業されにくい習慣化）</li>
+      <li>横断的な生産性アプリは競合が多い。kazumasaのバーティカル方針とは逆だが、UX/プライバシー訴求の参考になる</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">勝ち筋は『業界の現場オペレーション丸ごと自動化』</span> — EliseAI(賃貸入居者対応)・Radar(実店舗在庫)・Farther(資産運用アドバイザー業務)。単機能のAIでなく、その業界の面倒な業務フロー全体に食い込むほど剥がれにくく(卒業されない)、データも溜まって堀になる</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">データ基盤(CRM/センサー)を中核に置くバーティカルAIが強い</span> — EliseAIはCRM、Radarは天井RFIDセンサーという『独自データの入口』を握る。汎用LLMが持てない自社データを起点にすることが後発に対する堀になる</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">AIは『専門職の一人当たり容量』を増やす方向で収益化</span> — Farther(投資アドバイザー)。人手依存の士業・専門サービスを、AIで一人当たりの担当数を増やしてスケールさせる型は、日本の専門職(税理士/IFA/管理会社)にも転用余地</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">個人向けは『面倒な実務の代行×馴染みUX』が伸びる</span> — Wobo(スワイプ応募)・Goldfish(ショートカット記憶)。今週のPH上位は、複雑な機能でなく『摩擦ゼロで実務を肩代わり』する体験が票を集めた</span></div>
+<div class="trend"><span class="trend-num">5</span><span class="trend-text"><span class="trend-b">鮮度より正直さ（水増し防止）</span> — 資金調達3件のうち本日の新規ラウンドは0件（EliseAI=2025-08、Radar/Farther=2026-05中旬）。新規性でなく『本DB未収録のバーティカルAIの型』として、各ラウンドの年月と未確認項目(創業者=不明)を明記して収録</span></div>
+
+</div>
+<!-- ==================== END 2026-06-18 ==================== -->
+
 <!-- ==================== 2026-06-17 バーティカルAI 4件（建設/公共安全/医療/日本製造） ==================== -->
-<div class="report active" id="r20260617">
+<div class="report" id="r20260617">
 
 <div class="summary">
   <h2>Today's Signal — 巨大アナログ産業の『実務』に潜るバーティカルAI 4件（建設・公共安全911・医療紹介・日本の製造調達）</h2>
@@ -4301,6 +4462,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-18', id: 'r20260618', count: 5 },
   { date: '2026-06-17', id: 'r20260617', count: 4 },
   { date: '2026-06-16', id: 'r20260616', count: 2 },
   { date: '2026-06-14', id: 'r20260614', count: 5 },
