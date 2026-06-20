@@ -97,7 +97,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-06-19</div>
+    <div class="date-main" id="dateMain">2026-06-20</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
@@ -105,8 +105,166 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-06-20 バーティカルAI(医療/法務) + エージェント裏方インフラ + 営業の鮮度 5件 ==================== -->
+<div class="report active" id="r20260620">
+
+<div class="summary">
+  <h2>Today's Signal — 重点のバーティカルAIを2件確保（医療ReportAid・法務Caseflood.ai）。加えてエージェント時代の裏方インフラ2件（音声Vapi・多チャネル通知Novu Connect）と、営業リードを『鮮度』で切るJesse。全件 database.md 未収録の新規</h2>
+  <ul>
+    <li><b>ReportAid</b>（医療×バーティカルAI）— 病院の請求ミスを検知しデータ品質を改善、医療機関の収益を最大+25%。欧州発、<b>€2.2M 調達</b></li>
+    <li><b>Vapi</b>（音声AIインフラ）— 音声AIエージェントを作る開発者向けプラットフォーム。<b>$50M Series B</b>、累計10億コール処理、Amazon Ring・Intuit採用</li>
+    <li><b>Novu Connect</b>（多チャネル通知基盤）— メール/SMS/プッシュ/Slack等への通知ワークフローをD&Dで設計。Product Hunt 6/15週 <b>#8</b>（420票）</li>
+    <li><b>Jesse</b>（営業リード検索）— ネット全体をリアルタイム探索し『今動いている見込み客』を発見。鮮度を差別化軸に。Product Hunt 6/15週 #9（393票）</li>
+    <li><b>Caseflood.ai</b>（法務×バーティカルAI）— 法律事務所の事務(受付/案件分析)をAIエージェントで代替。<b>Y Combinator採択</b></li>
+    <li>🟡 <b>正直な注記（誇張防止）</b>: <b>Vapi=2026-05、Caseflood.ai=調達時期不明</b>で本日の新規ラウンドではない（本DB未収録のため『型』として収録、検知日=2026-06-20）。Novu Connect/Jesseは6/15週PHの実数票。創業者・価格など未確認項目は『不明』と明記</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups" target="_blank">ReportAid</a></div></div>
+    <span class="tag tag-purple">€2.2M 調達 / 医療×バーティカルAI</span>
+  </div>
+  <p class="card-desc">欧州の病院オペレーションに特化したバーティカルAI。診療・会計データを解析して請求ミスを自動検出し、医療機関の収益を最大25%押し上げる</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>病院は請求(billing)の漏れ・コーディング誤りで日々収益を取りこぼしている。ReportAidは<b>診療・会計データを解析して請求ミスや未請求を自動検出</b>し、データ品質を改善することで医療機関の収益を<b>最大25%</b>押し上げる。欧州のヘルスケアデータ課題に特化。<br><br>
+    <b>ストーリー：</b>2026年6月に<b>€2.2M シード調達</b>。日本の医療事務(レセプト点検・査定返戻対策)と同型の痛みがあり、規制と現場フローに根を張る『卒業されない』構造。創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">€2.2M</div><div class="metric-lbl">シード調達</div></div>
+    <div class="metric"><div class="metric-val">+25%</div><div class="metric-lbl">病院収益改善</div></div>
+    <div class="metric"><div class="metric-val">規制×データ</div><div class="metric-lbl">堀</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>病院・医療機関向けB2B SaaS。請求漏れ検知で収益取りこぼしを回収する従量/サブスク型と推定。創業者: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>請求漏れの『回収額』で価値を実数提示でき、ROIが極めて明快で売りやすい</li>
+      <li>規制・コーディング知識が参入障壁。診療データが累積するほど精度が上がるデータ資産化型</li>
+      <li>日本の医療事務/介護報酬/レセプト領域への横展開がkazumasaの日本特化バーティカルAI thesisと合致</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Infra">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://vapi.ai" target="_blank">Vapi</a></div></div>
+    <span class="tag tag-green">$50M Series B / 音声AIインフラ</span>
+  </div>
+  <p class="card-desc">音声AIエージェントを構築するための開発者向けインフラ。STT/LLM/TTSを束ね、低レイテンシで電話・通話を処理するパイプラインをAPI一本で提供する</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>各社が音声AIを作るたび、音声認識・LLM・音声合成のスタックを自前で組むのは重い。Vapiは<b>これらを束ね低レイテンシで通話を処理するパイプラインをAPI一本で提供</b>する『ピック&ショベル』型インフラ。各業界の音声エージェントの土台になる。<br><br>
+    <b>ストーリー：</b><b>$50M Series B（Peak XV主導）</b>。累計10億コールを処理し、Amazon Ring・Intuitなど大手が採用。音声AIブームの裏方として需要が急拡大。創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$50M</div><div class="metric-lbl">Series B</div></div>
+    <div class="metric"><div class="metric-val">10億</div><div class="metric-lbl">累計コール処理</div></div>
+    <div class="metric"><div class="metric-val">ツルハシ</div><div class="metric-lbl">音声AI基盤</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>開発者向け音声AIプラットフォーム。通話分・APIコール従量課金＋エンタープライズ契約</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>アプリ本体でなく『土台(インフラ)』を取ると複数業界の音声AI需要を横断で取れる</li>
+      <li>大手採用実績(Amazon Ring/Intuit)が信頼の堀になる</li>
+      <li>個人開発では正面勝負せず、Vapi等を使って特定業界の音声エージェント(例:整備工場の予約電話代行)を作る側に回るのが現実的</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Infra">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/25" target="_blank">Novu Connect</a></div></div>
+    <span class="tag tag-green">PH今週 #8 (420票) / 多チャネル通知基盤</span>
+  </div>
+  <p class="card-desc">メール/SMS/プッシュ/アプリ内/Slack等への通知ワークフローをドラッグ&ドロップで設計できる開発者向けプラットフォーム。各チャネルのAPI差異を吸収する配信レイヤー</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>通知を多チャネルへ送るには各社APIの差異・認証・テンプレ管理が面倒。Novu Connectは<b>多チャネル通知ワークフローをD&Dで設計</b>でき、差異を吸収して横断配信を一元管理する。AIエージェントが自律的に多チャネルへ連絡する時代の配信レイヤー（ツルハシ）。OSS通知基盤Novuが提供。<br><br>
+    <b>ストーリー：</b>Product Hunt 6/15週で<b>#8（420票）</b>。前週上位のPublora/Swytchcode同様、エージェント裏方インフラが連続評価される潮流。価格・創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#8</div><div class="metric-lbl">PH週間(6/15週)</div></div>
+    <div class="metric"><div class="metric-val">420票</div><div class="metric-lbl">Upvotes</div></div>
+    <div class="metric"><div class="metric-val">多チャネル</div><div class="metric-lbl">配信レイヤー</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>開発者向け通知インフラSaaS。送信量/MAU従量＋エンタープライズと推定。OSS起点</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『各社APIの差異吸収』は地味だが普遍的な痛みで、エージェント量産時代に需要が伸びる定番ツルハシ型</li>
+      <li>OSS起点でコミュニティ→商用へ信頼を積み上げる構造</li>
+      <li>通知・配信の集約は個人開発でも特定業界向け(例:不動産の内見リマインド多チャネル配信)に応用可能</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/25" target="_blank">Jesse</a></div></div>
+    <span class="tag tag-purple">PH今週 #9 (393票) / 営業リード検索</span>
+  </div>
+  <p class="card-desc">インターネット全体をリアルタイムに探索し、いま動いている新鮮な見込み客(セールスリード)を見つける検索エンジン。鮮度を差別化軸にする</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>静的なリードDBは情報が古く『今買う相手』を捉えにくい。Jesseは<b>ネット全体をリアルタイム探索</b>し、最新シグナル(求人/資金調達/採用/技術導入など)から『今まさに買いそうな相手』を浮かび上がらせる。営業・マーケチームが対象。<br><br>
+    <b>ストーリー：</b>Product Hunt 6/15週で<b>#9（393票）</b>。ZoomInfo等の従来型DBに対し<b>鮮度(real-time)</b>を差別化軸に据える。価格・創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#9</div><div class="metric-lbl">PH週間(6/15週)</div></div>
+    <div class="metric"><div class="metric-val">393票</div><div class="metric-lbl">Upvotes</div></div>
+    <div class="metric"><div class="metric-val">リアルタイム</div><div class="metric-lbl">鮮度勝負</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>営業向けSaaS。リード検索のシート/従量課金と推定。詳細価格不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>リードは『量』より『鮮度(タイミング)』が刺さる時代。買うシグナルを捉える設計が勝ち筋</li>
+      <li>既存巨大DB(ZoomInfo/Apollo)に正面で量勝負せず、鮮度で切るニッチ取り</li>
+      <li>kazumasaのクラウドワークス案件獲得やQuickBot営業にも『今動いてる相手を捉える』発想は応用可能</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://aifundingtracker.com/top-ai-agent-startups/" target="_blank">Caseflood.ai</a></div></div>
+    <span class="tag tag-purple">YC採択 / 法務×バーティカルAI</span>
+  </div>
+  <p class="card-desc">法律事務所の『管理・事務ロール』をAIエージェントで置き換えるバーティカルAI。新規依頼の受付・案件のトリアージ・書類整理を自動化する</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>法律事務所では弁護士でなく事務スタッフが多くの反復作業を担う。Caseflood.aiは<b>新規依頼の受付(client intake)・案件のトリアージ/分析・書類整理</b>などをAIエージェントで自動化する。混む契約レビューAI(Harvey/Legora等)と違い、<b>『事務所運営の裏方業務』というROIが見えやすい手薄な隣接ニッチ</b>を取る設計。<br><br>
+    <b>ストーリー：</b><b>Y Combinator採択</b>。各事務所の案件・依頼データが溜まるほど精度が上がるデータ資産化型。調達額・時期、創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">YC</div><div class="metric-lbl">採択</div></div>
+    <div class="metric"><div class="metric-val">事務代替</div><div class="metric-lbl">隣接ニッチ</div></div>
+    <div class="metric"><div class="metric-val">データ累積</div><div class="metric-lbl">堀</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>法律事務所向けB2B SaaS。事務職の業務をAIエージェントが代替、シート/事務所単位課金と推定。創業者: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>リーガルAIでも『弁護士業務』でなく『事務所のオペレーション』を取ると競合が薄く痛みが明確</li>
+      <li>人手の代替=削減人件費で価値を実数提示できる</li>
+      <li>日本の士業(行政書士/税理士/社労士)事務所の受付・案件管理にも同型の余地。データ累積で堀が育つkazumasa向き参考事例</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">バーティカルAIは『中核業務』でなく『手薄な隣接業務』を取ると勝てる</span> — ReportAid(医療の請求漏れ)・Caseflood.ai(法律事務所の事務)。競合が殺到する花形業務(診断/契約レビュー)を避け、ROIが実数で見える裏方業務を取る。日本の医療事務・士業事務にそのまま転用余地</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">『回収額・削減人件費』でROIを実数提示できる事業は強い</span> — ReportAidは病院収益+25%、Caseflood.aiは事務人件費の削減。効果を金額で語れると営業が一気に楽になる。kazumasaのAI伴走サービスも『効果の実数化』を価格訴求の核にすべき</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">エージェント時代の裏方インフラ(ツルハシ)が連日上位</span> — Vapi(音声基盤/$50M)・Novu Connect(多チャネル通知/PH#8)。アプリ本体でなく全エージェントが必要とする『接続・配信・音声』の土台を握る型。AIアプリ量産が進むほど需要が伸びる</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">営業は『量』より『鮮度(タイミング)』へ</span> — Jesseはリアルタイムで『今動く見込み客』を捉える。静的な巨大リードDBに量で勝負せず、買うシグナルの鮮度で差別化。個人の案件獲得・営業にも応用できる発想</span></div>
+<div class="trend"><span class="trend-num">5</span><span class="trend-text"><span class="trend-b">鮮度より正直さ（水増し防止）</span> — 本日のVapiは2026-05、Caseflood.aiは調達時期不明で『新規ラウンド』ではなく本DB未収録の『型』として収録。Novu Connect/JesseはPH実数票。未確認項目は『不明』と明記し誇張しない</span></div>
+
+</div>
+<!-- ==================== END 2026-06-20 ==================== -->
+
 <!-- ==================== 2026-06-19 PH 6/15週の新興プロダクト5件（AIメール/Mac生産性/ソーシャルリスニング/エージェント基盤/AI従業員） ==================== -->
-<div class="report active" id="r20260619">
+<div class="report" id="r20260619">
 
 <div class="summary">
   <h2>Today's Signal — 資金調達は新規ゼロ（トラッカー更新停止）。代わりにProduct Hunt 6/15週から本DB未収録の新興プロダクト5件（AIメール / Mac生産性 / ソーシャルリスニング / エージェント接続基盤 / AI従業員）</h2>
@@ -4620,6 +4778,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-20', id: 'r20260620', count: 5 },
   { date: '2026-06-19', id: 'r20260619', count: 5 },
   { date: '2026-06-18', id: 'r20260618', count: 5 },
   { date: '2026-06-17', id: 'r20260617', count: 4 },
