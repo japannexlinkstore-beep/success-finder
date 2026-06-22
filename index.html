@@ -90,8 +90,8 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">26</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">128</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">27</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">131</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
@@ -105,8 +105,111 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-06-22 歯科AI新バーティカル(データ接続/保険事務) + 患者対応クリニカルAI 3件 ==================== -->
+<div class="report active" id="r20260622">
+
+<div class="summary">
+  <h2>Today's Signal — 『歯科AI』が新バーティカルとして2社同時に立ち上がり、データ分断と保険事務という2つの構造的痛みを別アプローチで突く。加えて患者対応クリニカルAIの2社目(Amigo)が確立カテゴリ化を示す。3件すべてバーティカルAIで本DB未収録</h2>
+  <ul>
+    <li><b>HeyDonto AI (Conduit)</b>（歯科×医科データ接続）— 歯科PMS・医科EHR・保険者システムを横断接続するインターオペラビリティ基盤。<b>$20M シード / 評価額$200M</b>。出資者に現役歯科医を多数含む（2026-04-08発表）</li>
+    <li><b>HOOTL (RIIG Technology)</b>（歯科の保険クレーム自動化）— 保険の検証・適格性確認・クレーム審査を自動化しOpen Dental/Dentrix Cloudに統合。<b>$6M+ Series A</b>。CEOは元米下院議員（2026-04-20発表）</li>
+    <li><b>Amigo AI</b>（患者対応クリニカルAI）— 受付/トリアージ/ケアナビ/24hサポートをEHR連携で代行。<b>$11M Series A・患者対応300万件で安全事故ゼロ</b>。Madrona/Optum Ventures（2026-03-10発表）</li>
+    <li>🟡 <b>正直な注記（誇張防止）</b>: 3件はいずれも3〜4月発表のラウンドで『本日付の新規ラウンド』ではない（本DB未収録の新バーティカル＝『型』として検知日2026-06-22で収録）。今週のProduct Hunt(週25)は既収録済で新規ゼロ。創業者個人名・導入数など未確認項目は『不明』と明記</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.oralhealthgroup.com/dental-industry/u-s-ai-company-raises-us20m-to-connect-dental-and-medical-data-1003995003/" target="_blank">HeyDonto AI (Conduit)</a></div></div>
+    <span class="tag tag-green">$20M シード / 評価額$200M / 歯科バーティカル</span>
+  </div>
+  <p class="card-desc">米国の歯科・医科データ分断に特化したバーティカル<span class="term" data-term="AI">AI</span>。主力プロダクト『Conduit』が歯科の診療管理システム・医科の<span class="term" data-term="API">EHR</span>・保険者システム・患者アプリを横断接続する</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>米歯科市場は約$1,740億(2023年)と巨大だが、歯科の診療管理システム(PMS)と医科のEHR・保険者システムは長年分断され、患者データを共有できないことが現場最大の不満だった。Conduitはこれら複数システムを横断接続し、<b>(1)医師⇔歯科医の電子紹介、(2)リアルタイムの保険適格性確認、(3)統一された患者記録アクセス</b>を実現する『データ接続レイヤー』。<br><br>
+    <b>ストーリー：</b>テネシー州拠点。現役歯科医・業界ベテランを含む<b>8名の個人投資家</b>が出資（45年キャリアのDr. Sheldon Seidmanら『現場の痛みを知る人が金を出した』構図）。<b>$20Mシード・評価額$200M</b>。規制(HIPAA等)とデータ接続の複雑さが参入障壁となり、一度組み込まれると剥がれにくい構造。導入practice数・データ量は未開示。創業者個人名は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$20M</div><div class="metric-lbl">シード</div></div>
+    <div class="metric"><div class="metric-val">$200M</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">歯科×医科</div><div class="metric-lbl">データ接続</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>歯科PMS・医科EHR・ペイヤー・患者アプリを横断接続するインターオペラビリティ基盤(B2B SaaS)。出資: 現役歯科医含む個人投資家8名。創業者個人名は不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『業界に残るデータ分断・非互換』はAIが進化しても消えない構造的痛み。接続レイヤーは強い堀になる</li>
+      <li>日本の歯科・医療事務(レセプト/医科歯科連携)にも同型の分断＝ローカライズ余地が大きい</li>
+      <li>現役プロが出資＝顧客が投資家になる信頼構築モデル。卒業されない+データ累積+規制免許の3堀を同時に満たす好例</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.oralhealthgroup.com/dental-industry/dental-ai-adoption-expands-in-the-u-s-as-heartland-rolls-out-dentalxchange-hootl-raises-us6m-1003995296/" target="_blank">HOOTL (RIIG Technology)</a></div></div>
+    <span class="tag tag-purple">$6M+ Series A / 歯科保険事務AI</span>
+  </div>
+  <p class="card-desc">歯科医院の保険クレーム処理という労働集約的・反復的な裏方業務を自動化するバーティカル<span class="term" data-term="AI">AI</span>。Open Dental/Dentrix Cloud等の既存システムに統合して使う</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>保険の<b>事前検証(verification)・適格性確認(validation)・クレーム審査(adjudication)</b>を一気通貫で自動化し、Open Dental/Dentrix Cloudといった既存の歯科診療管理システムに統合して使う。前出ReportAid(病院billing)と同じ『請求×AI』の型で、ゼロから置き換えず<b>既存業界標準システムに寄生して入る</b>参入設計が特徴。<br><br>
+    <b>ストーリー：</b>バージニア州Charlottesville拠点。CEOは<b>元米下院議員Denver Riggleman</b>という異色の経歴。調達と同時にNVIDIA DGXを含む『AI Center of Excellence』を設立し自社AIモデル内製を推進、ドバイ提携＋カナダ子会社で海外展開も計画。<b>$6M+ Series A</b>。リード投資家は非開示＝不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$6M+</div><div class="metric-lbl">Series A</div></div>
+    <div class="metric"><div class="metric-val">保険事務</div><div class="metric-lbl">検証/審査自動化</div></div>
+    <div class="metric"><div class="metric-val">既存PMS統合</div><div class="metric-lbl">寄生型参入</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>歯科の保険ワークフロー自動化AI(B2B SaaS)。社名RIIG Technology Inc.、運用名HOOTL。CEO Denver Riggleman。リード投資家: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『保険クレーム/事務処理』は派手さはないがROIが即計算でき、解約されにくい(卒業されない)定番バーティカル</li>
+      <li>日本の歯科・医療(レセプト請求/返戻)、整備業の保険・車検書類事務にも同型の痛み＝kazumasaの整備士バックグラウンドと接続可能</li>
+      <li>ゼロから置き換えず既存ワークフロー(Open Dental等)に寄生する参入は個人開発に最適</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.amigo.ai/blog/amigo-series-a" target="_blank">Amigo AI</a></div></div>
+    <span class="tag tag-green">$11M Series A / 患者対応300万件 安全事故0</span>
+  </div>
+  <p class="card-desc">医療の需要と臨床キャパシティのギャップを埋める『患者と直接対話する』クリニカル<span class="term" data-term="AI">AI</span>エージェント。受付・トリアージ・個別ケアナビ・24時間サポートを担う</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>受付・トリアージ、個別ケアナビ、24時間サポートを担い既存医療チームの到達範囲を拡張する患者対応AIエージェント。最大の差別化は<b>安全性設計</b>：各エージェントは本番投入前に医療機関固有の患者層を模した数百万のシミュレーションで訓練され、敵対的患者・エッジケースを意図的に過剰サンプリング。精度・共感・有害性防止の各次元で<b>『安全性100%パス率』に達するまで学習を続ける</b>。<br><br>
+    <b>ストーリー：</b>直近6ヶ月で世界中の<b>300万件超の患者対応を安全事故ゼロ</b>で完了。Epic/Oracle Health/Athenahealth等の主要EHRにネイティブ統合、HIPAA・SOC2 Type II・GDPR準拠。<b>$11M Series A(累計$17M)</b>、Madronaリード・Optum Ventures参加（シードはGeneral Catalyst/GSV Ventures）。CEO Ali Khokhar。DB既収録Hippocratic AIに続く2社目で『安全性ファースト患者AI』のカテゴリ確立を示す。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$11M</div><div class="metric-lbl">Series A(累計$17M)</div></div>
+    <div class="metric"><div class="metric-val">300万件</div><div class="metric-lbl">患者対応/安全事故0</div></div>
+    <div class="metric"><div class="metric-val">EHR統合</div><div class="metric-lbl">Epic/Oracle/Athena</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>患者対応クリニカルAIエージェント(B2B SaaS)。EHR連携で受付/トリアージ/ケアナビ/24hサポートを代行。Madronaリード+Optum Ventures。CEO Ali Khokhar</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『安全性100%パス率まで本番投入しない』＝偽実装を絶対しない設計思想は、kazumasaの5大弱点(偽認証・できたフリ禁止)と同じ哲学</li>
+      <li>各顧客の固有データでシミュレーション訓練＝使うほど個別最適化が進むデータ累積モデル</li>
+      <li>Hippocratic→Amigoで2社目＝『安全性ファースト患者AI』が確立カテゴリ化。AI伴走サービスでも『検証済みの本物だけ出す』を売りにできる</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">『歯科AI』が新バーティカルとして立ち上がった</span> — データ接続(HeyDonto)と保険事務(HOOTL)という2つの構造的痛みを別々のプレイヤーが取り、どちらも既存PMS(Open Dental/Dentrix)に統合する寄生型参入。日本の歯科・医療・整備業の事務にそのまま転用できる型</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">『請求・事務処理×AI』はROIが即計算でき卒業されない</span> — HOOTL(歯科保険)・ReportAid(病院billing)と続く定番。地味だが解約率が低く、規制とデータ累積が堀になる。個人開発でも自分の現場(整備業の保険/車検書類)起点で狙える</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">『安全性ファースト患者AI』が2社目で確立カテゴリ化</span> — Hippocratic AIに続きAmigoが『100%安全パス率まで本番投入しない』設計で$11M調達。検証済みの本物だけを出す思想はkazumasaの絶対防止5項目と一致する</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">水増しより正直さ（継続シグナル）</span> — 今週のProduct Hunt(週25)は既収録済で新規ゼロ。本日は資金調達側から本DB未収録のバーティカルAIを抽出。3件は3〜4月発表のため『本日付の新規ラウンドではない』ことを明記し、未確認項目は『不明』と表記</span></div>
+
+</div>
+<!-- ==================== END 2026-06-22 ==================== -->
+
 <!-- ==================== 2026-06-21 インディーAI(成長エージェント) + エンタープライズAIエージェント 2件 ==================== -->
-<div class="report active" id="r20260621">
+<div class="report" id="r20260621">
 
 <div class="summary">
   <h2>Today's Signal — 重点のバーティカルAIは本日の一次情報に新規ラウンド0件（既存DBが6/20まで網羅済・トラッカーの新規分は大半が2025年の再掲）。誇張せず、確実に新規と確認できた2件のみ収録。両件とも純バーティカルではない点を正直に注記</h2>
@@ -4854,6 +4957,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-22', id: 'r20260622', count: 3 },
   { date: '2026-06-21', id: 'r20260621', count: 2 },
   { date: '2026-06-20', id: 'r20260620', count: 5 },
   { date: '2026-06-19', id: 'r20260619', count: 5 },
