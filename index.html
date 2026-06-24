@@ -90,23 +90,153 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">27</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">131</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">28</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">135</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-06-21</div>
-    <div class="date-sub" id="dateSub">2 products detected</div>
+    <div class="date-main" id="dateMain">2026-06-24</div>
+    <div class="date-sub" id="dateSub">4 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-06-24 大型バーティカルAI資金調達ラウンド4件（医療×2 / 法務 / 金融） ==================== -->
+<div class="report active" id="r20260624">
+
+<div class="summary">
+  <h2>Today's Signal — 資金調達側から本DB未収録のバーティカルAIを4件抽出。いずれも『業界固有データ×規制ワークフロー』を堀にする大型ラウンドで、バーティカルAIへの資本集中が継続中。医療(Commure/Abridge)・法務(Harvey)・金融(Rogo)の4業種。4件すべてバーティカルAI</h2>
+  <ul>
+    <li><b>Commure</b>（医療オペ基盤AI）— アンビエント診療記録＋収益サイクル(RCM)を束ねる病院向けAI基盤。<b>$200M / 評価額$3.5B</b>。General Catalyst主導（2026-06調達）</li>
+    <li><b>Abridge</b>（AI医療スクライブ）— 診察音声をリアルタイムで臨床記録に変換。<b>$300M / 評価額$5.3B / 累計約$800M</b>。a16z主導・Khosla参加</li>
+    <li><b>Harvey</b>（法務バーティカルAI）— 法律事務所・企業法務向けにリサーチ/ドラフト/レビューを自動化。<b>$300M / 評価額$5B（$3Bマークアップから約4ヶ月）</b></li>
+    <li><b>Rogo</b>（金融リサーチAI）— 投資銀行/PE/資産運用のリサーチ・分析業務を自動化。<b>$160M Series D</b>。Kleiner Perkins主導（Thrive/Sequoia/Khosla/JP Morgan/Jack Altman参加）。NY発</li>
+    <li>🟡 <b>正直な注記（誇張防止）</b>: 4件は資金調達トラッカー(crescendo.ai/crunchbase)由来。CommureはJune・Abridge/Rogoは『6/22週』の新規ラウンドとして確認、Harveyは2026年の最新ラウンドだが調達月の一次確定までは未取得（『時期詳細は不明』と明記）。いずれも大型・著名企業だが本DB未収録のため『バーティカルAI勝利の型』として検知日2026-06-24で収録。今週のProduct Huntは既収録分以外に確実な新規を確認できず本日はゼロ</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.commure.com/" target="_blank">Commure</a></div></div>
+    <span class="tag tag-green">$200M / 評価額$3.5B / 医療オペ基盤</span>
+  </div>
+  <p class="card-desc">病院・医療システムの運営を丸ごと束ねるヘルスケアオペレーション基盤<span class="term" data-term="AI">AI</span>。アンビエント(環境)診療記録と収益サイクル管理(RCM)をワンプラットフォームに統合する</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>医師が患者と話すだけで会話を自動的に臨床記録へ変換する<b>アンビエント・ドキュメンテーション</b>と、保険請求・収益サイクル(RCM)の自動化を中核に、医療現場の事務・運営ワークフローを一体化するプラットフォーム。バラバラの院内システムを束ねる『医療オペのOS』を狙う。<br><br>
+    <b>ストーリー：</b><b>$200M</b>を<span class="term" data-term="LLM">AI</span>投資の代表格<b>General Catalyst主導</b>で調達、<b>評価額約$3.5B</b>(2026-06)。General Catalystは医療領域への大型張りを続けており、その中核ポートフォリオの一つ。EHR連携と院内データの累積が堀になり、一度オペ基盤として組み込まれると剥がれにくい。創業者個人名・最新ARRは本調査では不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$200M</div><div class="metric-lbl">調達</div></div>
+    <div class="metric"><div class="metric-val">$3.5B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">アンビエント+RCM</div><div class="metric-lbl">医療オペ基盤</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>病院・医療システム向けオペレーション基盤(B2B SaaS)。アンビエント診療記録＋収益サイクル管理。General Catalyst主導。創業者個人名・ARR: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『記録＋請求＋運営』を1基盤に束ねる＝点でなく面で業務を取ると卒業されにくい。kazumasaのCritical条件(卒業されない/データ資産化)の好例</li>
+      <li>院内データが累積するほど推奨・自動化精度が上がるデータ資産化モデル。EHR連携が参入障壁</li>
+      <li>日本の中小病院・クリニックの『記録＋レセプト＋運営』一体化にも同型の余地</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.abridge.com/" target="_blank">Abridge</a></div></div>
+    <span class="tag tag-green">$300M / 評価額$5.3B / 累計約$800M</span>
+  </div>
+  <p class="card-desc">医師と患者の会話をリアルタイムで臨床記録に変換するAI医療スクライブ(documentation)<span class="term" data-term="AI">AI</span>。医師の記録業務という最大級の負担を音声で自動化する</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>診察中の会話をその場で聞き取り、構造化された臨床ノート(SOAP等)に自動変換する<b>AI医療スクライブ</b>。医師は記録作業から解放され患者に向き合える。米医療の最大の痛みである『ドキュメンテーション負担(燃え尽きの主因)』をピンポイントで突くバーティカルAIの代表格。<br><br>
+    <b>ストーリー：</b><b>$300M</b>を<b>a16z主導</b>(Khosla Ventures参加)で調達、<b>評価額$5.3B・累計調達約$800M</b>。AI医療スクライブ市場の急拡大を象徴するラウンドで、主要EHR(Epic等)との統合と医療機関導入で先行。会話・記録データの累積と臨床精度が堀。導入施設数・最新ARRは本調査では不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$300M</div><div class="metric-lbl">調達(a16z主導)</div></div>
+    <div class="metric"><div class="metric-val">$5.3B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">約$800M</div><div class="metric-lbl">累計調達</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>医療機関向けAI医療スクライブ/臨床記録自動化(B2B SaaS)。主要EHR統合。a16z主導・Khosla参加。導入数・ARR: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『記録という単一だが巨大な痛み』に集中＝痛み>市場規模の典型。1機能でも痛みが深ければ大型化する</li>
+      <li>音声→構造化データの精度が業界特化で磨かれるほど汎用AIに真似されにくい。EHR統合が堀</li>
+      <li>日本の医師の電子カルテ入力負担も同型。音声→記録の国内特化は個人開発でも切り口になり得る</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.harvey.ai/" target="_blank">Harvey</a></div></div>
+    <span class="tag tag-green">$300M / 評価額$5B / 法務バーティカル</span>
+  </div>
+  <p class="card-desc">法律事務所・企業法務向けに法務リサーチ・契約ドラフト・レビューを自動化する法務特化<span class="term" data-term="AI">AI</span>。リーガルAIの最有力プレイヤーの一角</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>弁護士の中核業務（判例・法令リサーチ、契約書ドラフト、文書レビュー、デューデリ）を法務特化で自動化するプラットフォーム。大手法律事務所・企業の法務部門が主顧客で、専門性の高い法務ワークフローに深く食い込む。<br><br>
+    <b>ストーリー：</b><b>$300M</b>を追加調達し<b>評価額$5B</b>へ（$3Bへのマークアップから約4ヶ月という異例の速さ）、累計調達は約$816M規模。リーガルテックVC投資が2025年に$40億超へ膨らんだ流れの象徴。<b>調達月の一次確定までは本調査で取得できず＝時期詳細は不明</b>（2026年の最新ラウンドとして収録）。法務という規制・専門業界のデータと信頼が堀。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$300M</div><div class="metric-lbl">調達</div></div>
+    <div class="metric"><div class="metric-val">$5B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">約$816M</div><div class="metric-lbl">累計調達</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>法律事務所・企業法務向け法務特化AI(B2B SaaS)。リサーチ/ドラフト/レビュー自動化。調達月・リード投資家詳細: 本調査では不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>規制・専門業界(法務)は誤りが許されない＝『検証済みの本物しか出さない』設計が信頼の通貨になる。kazumasaの5大弱点(できたフリ禁止)と同じ哲学</li>
+      <li>同業のLegora($5.55B)と並び法務AIが二強化＝特定業界に資本が集中するバーティカルAIの典型パターン</li>
+      <li>日本では士業(弁護士/司法書士/行政書士)向けの国内法・書式特化が手薄なニッチとして残る</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.rogo.ai/" target="_blank">Rogo</a></div></div>
+    <span class="tag tag-green">$160M Series D / 金融リサーチAI / NY発</span>
+  </div>
+  <p class="card-desc">投資銀行・プライベートエクイティ・資産運用のリサーチ＆分析業務を自動化する金融特化<span class="term" data-term="AI">AI</span>。専門職の調査・モデリング作業を肩代わりする</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>金融プロフェッショナル(投資銀行/PE/資産運用)が手作業で行う<b>財務リサーチ・データ収集・分析・資料作成</b>を自動化するAIツール。社内外の金融データと専門ワークフローに沿った出力で、アナリストの定型調査時間を圧縮する。<br><br>
+    <b>ストーリー：</b><b>$160M Series D</b>を<b>Kleiner Perkins主導</b>で調達（Thrive Capital/Sequoia/Khosla Ventures/BoxGroup/J.P. Morgan Growth Equity Partners/Jack Altman参加）。NY拠点。金融という高単価・規制業界に特化し、金融機関の信頼と専門データが堀になる。『6/22週の新規ラウンド』として確認。最新ARR・顧客数は本調査では不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$160M</div><div class="metric-lbl">Series D</div></div>
+    <div class="metric"><div class="metric-val">Kleiner主導</div><div class="metric-lbl">JPM/Sequoia参加</div></div>
+    <div class="metric"><div class="metric-val">金融特化</div><div class="metric-lbl">IB/PE/資産運用</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>金融機関向けリサーチ・分析自動化AI(B2B SaaS)。NY拠点。Kleiner Perkins主導、JP Morgan等参加。ARR・顧客数: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>金融は1案件単価が極めて高く、定型調査の自動化はROIが即計算できる＝高単価×痛み明確の好例</li>
+      <li>J.P. Morgan等の事業会社が出資＝顧客が投資家になる構図で信頼と販路を同時に獲得</li>
+      <li>業界専用の用語・データ・ワークフローに最適化することが汎用ChatGPTとの差別化軸。kazumasaのCritical条件(代替不可)を満たす</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">バーティカルAIへの資本集中が4業種同時で継続</span> — 医療(Commure/Abridge)・法務(Harvey)・金融(Rogo)で同時期に$160M〜$300Mの大型ラウンド。VCが汎用AIより『特定業界のデータパイプラインを握る』専門AIに資金を寄せる潮流が鮮明</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">『単一だが巨大な痛み』を深掘りするほど大型化する</span> — Abridgeは医師の記録負担という1機能でも$5.3B。市場規模より痛みの深さ×データ累積で勝負するkazumasaの事業選定7条件(痛み>市場規模・データ資産化)と完全一致</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">同業界に二強が立つ＝『型が証明された業界』ほど資本が殺到</span> — 法務(Harvey×Legora)、患者AI(Hippocratic×Amigo)のように、勝ち筋が見えた業界に複数プレイヤーと巨額資本が集まる。日本では同じ型がまだ手薄なニッチに残っている</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">水増しより正直さ（継続シグナル）</span> — 4件は著名・大型企業だが本DB未収録のため『バーティカルAI勝利の型』として収録。Harveyの調達月など一次確定できない項目は『時期詳細は不明』と明記。今週のProduct Huntは確実な新規を確認できず本日はゼロと正直に報告</span></div>
+
+</div>
+<!-- ==================== END 2026-06-24 ==================== -->
+
 <!-- ==================== 2026-06-23 医療機器(medtech)営業AI + 希少疾患患者体験 + 調達ベンダーインテリジェンス 3件 ==================== -->
-<div class="report active" id="r20260623">
+<div class="report" id="r20260623">
 
 <div class="summary">
   <h2>Today's Signal — 資金調達側から本DB未収録のバーティカルAIを3件抽出。『medtech営業(AcuityMD)』『希少疾患の患者体験(Courier Health)』『調達ベンダー情報(Definic)』と、どれも汎用AIが入りにくい業界固有データ×ワークフローを堀にする型。3件すべてバーティカルAI</h2>
@@ -5060,6 +5190,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-24', id: 'r20260624', count: 4 },
   { date: '2026-06-23', id: 'r20260623', count: 3 },
   { date: '2026-06-22', id: 'r20260622', count: 3 },
   { date: '2026-06-21', id: 'r20260621', count: 2 },
