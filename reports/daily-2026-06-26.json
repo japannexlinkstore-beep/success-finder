@@ -1,0 +1,62 @@
+{
+  "parent": {"database_id": "33d9ad55-2d38-815d-8d54-fb60beb5938c"},
+  "cover": {"type": "external", "external": {"url": "https://www.notion.so/images/page-cover/gradients_8.png"}},
+  "properties": {
+    "Name": {"title": [{"text": {"content": "2026-06-26 — 手薄バーティカルAI4件（専門サービス時間 / 建設トレード / EdTech / 飲食SMB）"}}]},
+    "Date": {"date": {"start": "2026-06-26"}},
+    "Products": {"number": 4}
+  },
+  "children": [
+    {"object":"block","type":"callout","callout":{"icon":{"type":"emoji","emoji":"🧭"},"color":"blue_background","rich_text":[{"type":"text","text":{"content":"Today's Signal — 既収録の医療・法務・金融に偏っていた本DBに、まだ手薄な4業種のバーティカルAIを補完。専門サービス(時間)・建設トレード・教育・飲食SMBと、どれも『現場の地味な事務／非効率』をデータで握る型。\n\n🟡 正直な注記: 4件は本日付の新規ラウンドではなく、いずれも2025年の調達(Laurel 2025-06 / Owner 2025-05 / SchoolAI 2025-04 / Miter 2021創業の既存ラウンド)を、Euclid VenturesのQ2バーティカルAIレポート経由で本DB未収録の『型』として検知日2026-06-26で収録したもの。『今まさに調達した』とは書かない。今週のProduct Huntは確実な新規を確認できず本日はゼロ。創業者個人名など未確認項目は『不明』と明記。"}}]}},
+
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"type":"text","text":{"content":"Laurel — 専門サービスの時間インテリジェンスAI","link":{"url":"https://www.laurel.ai/"}}}]}},
+    {"object":"block","type":"callout","callout":{"icon":{"type":"emoji","emoji":"⚡"},"color":"yellow_background","rich_text":[{"type":"text","text":{"content":"Euclid Q2バーティカルAIレポートで本DB未収録として抽出。2025-06調達を型として収録(本日付の新規調達ではない)"}}]}},
+    {"object":"block","type":"quote","quote":{"rich_text":[{"type":"text","text":{"content":"$100M Series C (IVP主導 / GV・01A参加) / 累計約$153M / 2016創業 / 発表2025-06"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"type":"text","text":{"content":"弁護士・会計士・コンサルの作業時間をPC操作から自動捕捉し、業務・案件・成果に紐づける時間インテリジェンス基盤(前身 Time by Ping)。手入力のタイムシートを廃し、どこに時間が消えているかを可視化する。法務を起点に会計・コンサルへ横展開する計画。時間データの累積と専門ワークフローへの食い込みが堀。"}}]}},
+    {"object":"block","type":"toggle","toggle":{"rich_text":[{"type":"text","text":{"content":"Details & Takeaways"}}],"children":[
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"創業者: 不明(前身 Time by Ping)"}}]}},
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"ビジネスモデル: 専門サービス業向け時間捕捉・分析AI(B2B SaaS)。法務起点で会計・コンサルへ横展開"}}]}},
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"学び: 『時間』という最重要かつ最も漏れるデータをAIで自動捕捉=見えない非効率を金額化(データ資産化の好例)。日本の士業のタイムチャージ/工数管理にも同型、国内特化なら個人開発でも切り口になり得る"}}]}},
+      {"object":"block","type":"bookmark","bookmark":{"url":"https://www.laurel.ai/"}}
+    ]}},
+    {"object":"block","type":"divider","divider":{}},
+
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"type":"text","text":{"content":"Miter — 建設・専門工事の現場バックオフィスOS","link":{"url":"https://www.miter.com/"}}}]}},
+    {"object":"block","type":"callout","callout":{"icon":{"type":"emoji","emoji":"⚡"},"color":"yellow_background","rich_text":[{"type":"text","text":{"content":"Euclid Q2レポート由来。本DB未収録の建設トレード型として収録。kazumasaの整備士・トレード背景と直結"}}]}},
+    {"object":"block","type":"quote","quote":{"rich_text":[{"type":"text","text":{"content":"$23M (Bessemer主導) / 累計約$38M / 2021創業"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"type":"text","text":{"content":"配管・電気・HVAC等の建設/専門工事業者向けに、給与(payroll)・勤怠・経費/日当・ジョブコスティング(原価管理)・コンプライアンスをひとつに束ねる現場特化のOS。現場ごとにバラバラだった事務を統合。給与・原価という間違えられない領域を握ることで剥がれにくい。"}}]}},
+    {"object":"block","type":"toggle","toggle":{"rich_text":[{"type":"text","text":{"content":"Details & Takeaways"}}],"children":[
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"創業者: 不明"}}]}},
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"ビジネスモデル: 建設・専門工事業者向け現場バックオフィスOS(B2B SaaS)。給与/勤怠/経費/原価/コンプラ統合。Bessemer主導"}}]}},
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"学び: 裏方事務を面で束ねてロックイン+データ累積=卒業されにくい。日本の整備工場/専門工事/小規模事業者でほぼ未開拓、国内特化×現場データ累積で個人開発からも入り得る。給与・原価は『できたフリ禁止/本物の実装しか出さない』が信頼の通貨"}}]}},
+      {"object":"block","type":"bookmark","bookmark":{"url":"https://www.miter.com/"}}
+    ]}},
+    {"object":"block","type":"divider","divider":{}},
+
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"type":"text","text":{"content":"SchoolAI — 教師コパイロット＋生徒AIチューターのEdTech","link":{"url":"https://schoolai.com/"}}}]}},
+    {"object":"block","type":"callout","callout":{"icon":{"type":"emoji","emoji":"⚡"},"color":"yellow_background","rich_text":[{"type":"text","text":{"content":"Euclid Q2レポート経由。本DB未収録のEdTech型として収録。2025-04調達(本日付の新規調達ではない)"}}]}},
+    {"object":"block","type":"quote","quote":{"rich_text":[{"type":"text","text":{"content":"$25M Series A (Insight Partners主導 / NextView・General Partnership・Peterson参加) / 累計$32M / 発表2025-04"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"type":"text","text":{"content":"学校・学区向けに、教師の授業準備・採点・教材作成を助ける教師コパイロットと、生徒一人ひとりに伴走するAIチューター(学習ゲーム含む)を提供するEdTechプラットフォーム。全米数百学区で利用。学区単位の導入と教育データ累積が堀。"}}]}},
+    {"object":"block","type":"toggle","toggle":{"rich_text":[{"type":"text","text":{"content":"Details & Takeaways"}}],"children":[
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"創業者: 不明"}}]}},
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"ビジネスモデル: K-12学校・学区向けEdTech(B2B/B2G SaaS)。教師コパイロット+生徒AIチューター。Insight Partners主導"}}]}},
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"学び: 教師(導入者)と生徒(利用者)の両方に価値を出す二面設計。学区単位=切替コスト高いB2G的な堀。日本の塾/学校/教材会社の国内特化EdTechにも余地(規制・現場合意・予算が壁)"}}]}},
+      {"object":"block","type":"bookmark","bookmark":{"url":"https://schoolai.com/"}}
+    ]}},
+    {"object":"block","type":"divider","divider":{}},
+
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"type":"text","text":{"content":"Owner.com — 飲食SMBの脱マーケットプレイス・デジタル化","link":{"url":"https://www.owner.com/"}}}]}},
+    {"object":"block","type":"callout","callout":{"icon":{"type":"emoji","emoji":"⚡"},"color":"yellow_background","rich_text":[{"type":"text","text":{"content":"Euclid Q2レポート経由。本DB未収録の飲食SMB型として収録。2025-05クローズ(本日付の新規調達ではない)"}}]}},
+    {"object":"block","type":"quote","quote":{"rich_text":[{"type":"text","text":{"content":"$120M Series C / 評価額$1B(ユニコーン) / Meritech(Alex Kurland)+Headline(Shalini Rao)主導 / Sweetgreen・Cava CEO戦略出資 / クローズ2025-05"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"type":"text","text":{"content":"個人・独立系レストラン向けに自社サイト構築・オンライン注文・メール/SMS販促自動化をワンストップ提供。DoorDash等のマーケットプレイスに払う高い手数料から脱却し、店が自分の顧客と直接つながる仕組みを作る。共同創業 Adam Guild 他。"}}]}},
+    {"object":"block","type":"toggle","toggle":{"rich_text":[{"type":"text","text":{"content":"Details & Takeaways"}}],"children":[
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"創業者: Adam Guild 他(共同創業)"}}]}},
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"ビジネスモデル: 独立系レストラン向けデジタル化(B2B SaaS)。自社サイト/オンライン注文/メール・SMS販促自動化で脱手数料。飲食業界CEOが戦略出資"}}]}},
+      {"object":"block","type":"bulleted_list_item","bulleted_list_item":{"rich_text":[{"type":"text","text":{"content":"学び: 高い手数料への脱マーケットプレイス=明確な痛みと節約額でROIを直接訴求。中小事業者の集合をデジタル化=束ねると面でデータ累積。日本の個人飲食店/小売の脱ぐるなび/食べログ手数料も同型、決済・予約・販促の国内特化に余地"}}]}},
+      {"object":"block","type":"bookmark","bookmark":{"url":"https://www.owner.com/"}}
+    ]}},
+    {"object":"block","type":"divider","divider":{}},
+
+    {"object":"block","type":"callout","callout":{"icon":{"type":"emoji","emoji":"📈"},"color":"gray_background","rich_text":[{"type":"text","text":{"content":"Trend Signals — (1)バーティカルAIは医療・法務・金融の『次』へ降りてきている(現場の事務非効率へ関心が拡散)。(2)時間/給与/原価/注文履歴など地味な業務データほど握ると累積し真似されにくい=データ資産化。(3)kazumasaに最も近いのはMiter(建設・トレード現場OS)、日本の整備工場・専門工事はほぼ未開拓。(4)水増しより正直さ: 本日4件は2025年の調達でEuclid Q2レポート経由の型収録、調達月・創業者など未確認は『不明』と明記。Product Huntは確実な新規ゼロと報告。"}}]}}
+  ]
+}
