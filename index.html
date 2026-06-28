@@ -90,23 +90,180 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">28</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">135</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">29</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">140</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-06-27</div>
-    <div class="date-sub" id="dateSub">4 products detected</div>
+    <div class="date-main" id="dateMain">2026-06-28</div>
+    <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-06-28 製造・建設・物流・医療のフィジカル/現場系バーティカルAI5件 ==================== -->
+<div class="report active" id="r20260628">
+
+<div class="summary">
+  <h2>Today's Signal — これまで本DBが手薄だった『フィジカルAI／現場オペ系』のバーティカルAIを5件補完。工場・建機・倉庫・医療現場と、いずれもソフトだけで完結せずカメラ/センサー/ハードで現実世界の作業を握る型。kazumasaの整備士・現場背景と直結する領域。Almetraのみ本日付近(6/25)の新規ラウンド、他は型として収録</h2>
+  <ul>
+    <li><b>Almetra</b>（製造×工場インテリジェンスAI）— 生産ラインの真上にAIカメラを設置しサイクルタイム・稼働率・停止を即データ化。<b>€16.3M Series A（2026-06-25発表）</b>。Bosch子会社で出力+19%、ABBで生産性+15%。blisce/主導。<b>本日唯一の新規ラウンド</b></li>
+    <li><b>AIM Intelligent Machines</b>（建設・鉱業×建機自律化AI）— ブルドーザー/掘削機を後付けキットで無人自律運転化。<b>$50M（2025-06調達）</b>。Khosla/General Catalyst参加。Waymo/SpaceX/Tesla出身者が開発</li>
+    <li><b>Kargo</b>（物流×荷役自動化AI）— 倉庫の荷積み/荷降ろしをカメラ塔とCVで手動スキャンなしに自動化。<b>$42M Series B（2025-12調達）</b>。塔1,000基超・顧客45社超(Mercedes-Benz等)・売上3倍。Avenir主導</li>
+    <li><b>Nourish</b>（医療×AI栄養/代謝ケア）— GLP-1患者に管理栄養士1万人網＋AIで栄養指導。<b>$100M Series C / 評価額$1.75B（2026-05調達）</b>。Menlo Ventures主導。GLP-1継続率68%</li>
+    <li><b>StoreClaw</b>（EC×自律運営AIエージェント）— Shopify/Amazon横断でリスティング/価格/PPC/SEOを自律実行。<b>Product Hunt『Product of the Week』（2026-05下旬）</b>。創業Steven Zhou。事例でCVR9.3→14.1%</li>
+    <li>🟡 <b>正直な注記</b>: 新規ラウンドはAlmetra(6/25発表)のみ。AIM(2025-06)/Kargo(2025-12)/Nourish(2026-05)はEuclid Q2レポート等経由で<b>本DB未収録の『型』として検知日2026-06-28で収録</b>（『今まさに調達』とは書かない）。StoreClawはPH実績(5月下旬)。創業者個人名など未確認項目は『不明』と明記</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.almetra.ai" target="_blank">Almetra</a></div></div>
+    <span class="tag tag-green">€16.3M Series A / 工場インテリジェンスAI</span>
+  </div>
+  <p class="card-desc">生産ラインの真上にAIカメラを設置し、サイクルタイム・稼働率・停止をリアルタイムにデータ化する製造特化バーティカル<span class="term" data-term="AI">AI</span>。既存ITとの統合不要が差別化。本日唯一の新規ラウンド</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>工場の<b>生産ラインの真上にAIカメラ</b>を取り付け、映像を現場(エッジ)で処理して<b>サイクルタイム・機械稼働率・生産量・ライン停止</b>といった生きた稼働データに変換する。既存の生産管理システム(MES/ERP)と統合しなくても導入でき、現場をそのまま"見える化"する点が特徴。Berlin拠点(ルーマニア出身創業)、AIスタジオMerantixからのスピンアウトでDeltiaから改称。<br><br>
+    <b>ストーリー：</b>2026-06-25に<b>blisce/主導の€16.3M Series A</b>を調達（累計約€20.8M）。Bosch子会社のeBike Systemsで<b>出力+19%</b>、ABBで<b>生産性+15%</b>という具体成果を出している。Google DeepMindのRobotics AcceleratorやAWS/NVIDIA/MassRoboticsのPhysical AI Fellowshipにも採択。米国展開とロボティクス機能の拡張に資金を投じる。創業はSilviu Homoceanu/Maximilian Fischer。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">€16.3M</div><div class="metric-lbl">Series A(blisce/主導)</div></div>
+    <div class="metric"><div class="metric-val">+19%</div><div class="metric-lbl">Bosch子会社で出力増</div></div>
+    <div class="metric"><div class="metric-val">+15%</div><div class="metric-lbl">ABBで生産性向上</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>製造業向けB2B SaaS。AIカメラ(ハード)+映像解析ソフトを工場に設置、ライン/拠点課金。既存IT統合不要で導入摩擦が低い。blisce/主導€16.3M Series A、累計約€20.8M。創業: Silviu Homoceanu / Maximilian Fischer</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『既存システムと統合不要』は製造現場の最大の導入障壁を外す強力な訴求。後付けで価値が出る設計が刺さる</li>
+      <li>+19%/+15%のように顧客の成果を一次データで語れると説得力が桁違い。大企業(Bosch/ABB)の実名導入は信頼の証明</li>
+      <li>日本は製造業の塊。中小工場の現場可視化は人手不足・改善ニーズと直結し、国内特化×日本語サポート×現場データ累積で参入余地。kazumasaの現場背景と相性良い</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://aim.vision" target="_blank">AIM Intelligent Machines</a></div></div>
+    <span class="tag tag-green">$50M / 建機自律化AI</span>
+  </div>
+  <p class="card-desc">ブルドーザーや掘削機を後付けキットで無人自律運転化する、建設・鉱業向けフィジカル<span class="term" data-term="AI">AI</span>。メーカー・年式問わずプラグ&プレイで現役機を自律化</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>世界初を謳う<b>土工(earthmoving)機械向けの組込みAIプラットフォーム</b>。自動運転車と同じセンサー群を既存の重機(ブルドーザー/掘削機)に<b>後付け</b>し、周囲の3Dマップをリアルタイム生成、エッジ計算でコントロールを引き継いで<b>掘る・運ぶ・ならす・埋める作業を無人で実行</b>する。メーカー・モデル・サイズ・年式を問わず現役機をそのまま自律化できるのが核。<br><br>
+    <b>ストーリー：</b>2025-06に<b>$50M</b>を調達（Khosla Ventures/General Catalyst/DCVC/Ironspring等）。Waymo・SpaceX・Google・Stripe・Tesla・Apple出身のエンジニアが開発。建設・鉱業の深刻な人手不足と危険作業を、新車購入でなく既存機の後付けで解くアプローチ。Washington州に新拠点を開設し40名体制を拡大。<b>本DBには2025-06調達を『現場フィジカルAIの型』として検知日2026-06-28で収録</b>（本日付の新規ラウンドではない）。創業者個人名は本調査では不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$50M</div><div class="metric-lbl">調達(Khosla等)</div></div>
+    <div class="metric"><div class="metric-val">後付け</div><div class="metric-lbl">現役建機を自律化</div></div>
+    <div class="metric"><div class="metric-val">無人</div><div class="metric-lbl">掘削・運搬・整地</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>建設・鉱業向け建機自律化プラットフォーム。後付けキット(ハード)+自律制御ソフトを既存重機に搭載、機体/稼働課金想定。新車不要のレトロフィット型で導入障壁が低い。Khosla/General Catalyst等$50M(2025-06)。創業者: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『新しい機械を買わせる』でなく『今ある機械を後付けで賢くする』はTAMを一気に広げる発想。Almetra(統合不要)と同じレトロフィット思想</li>
+      <li>危険・きつい・人が採れない作業ほど自律化の価値が高い。労働集約産業に潜るのがフィジカルAIの勝ち筋</li>
+      <li>日本の建設・解体・産廃・農業も深刻な人手不足。完全自律でなく『半自動・遠隔操作支援』なら国内中小でも入りやすい。kazumasaの機械・整備背景と直結する領域</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.kargo.ai" target="_blank">Kargo</a></div></div>
+    <span class="tag tag-green">$42M Series B / 倉庫荷役自動化AI</span>
+  </div>
+  <p class="card-desc">倉庫の荷積み/荷降ろし(ローディングドック)をカメラ塔とコンピュータビジョンで手動スキャンなしに自動化する物流特化<span class="term" data-term="AI">AI</span>。ドックを正確な業務データの発生源に変える</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>倉庫の<b>ローディングドック(荷積み・荷降ろし口)</b>に物理的な<b>カメラ塔</b>を設置し、コンピュータビジョンで出入りする荷物を<b>手動スキャン・人手介入なし</b>に自動認識・記録する。これまで属人的で抜け漏れの多かった入出荷を、ドック自体を『正確で実行可能なデータの発生源』に変えて自動化する。<br><br>
+    <b>ストーリー：</b>2019年創業。2025-12に<b>Avenir主導の$42M Series B</b>を調達。2022年のSeries A($25M)以降、エンタープライズ顧客を<b>3社→45社超</b>に拡大し<b>塔1,000基超</b>を全米展開、<b>年間売上が2024→2025で3倍</b>。顧客はMercedes-Benz・Tillamook等のFortune 500。集めた画像とagentic AIで請求・クレーム照合・財務照合・顧客対応などバックオフィスも自動化する『Kargo Intelligence』を展開中。<b>本DBには2025-12調達を『物流フィジカルAIの型』として検知日2026-06-28で収録</b>。創業者個人名は本調査では不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$42M</div><div class="metric-lbl">Series B(Avenir主導)</div></div>
+    <div class="metric"><div class="metric-val">3倍</div><div class="metric-lbl">売上(24→25)</div></div>
+    <div class="metric"><div class="metric-val">1,000基超</div><div class="metric-lbl">塔を全米展開</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>倉庫・物流向け荷役自動化。ドックにカメラ塔(ハード)+CVソフト/分析を設置、拠点/塔課金。蓄積した荷役画像でバックオフィス自動化へ拡張。Avenir主導$42M Series B(2025-12)、顧客45社超。創業者: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『誰も正確に取れていなかったデータ(荷役)』を取りに行くと、その取得自体が堀になり後段の自動化まで横展開できる</li>
+      <li>ハードを置く重さはあるが、置けば抜けない(剥がれにくい)。物理接点を握る強さ。Almetra/Kargoとも"現場にハードを置いてデータを独占"する共通型</li>
+      <li>日本の倉庫・3PL・運送も人手不足と検品ミスが深刻。国内特化の荷役/検品自動化はニーズが明確で、まずは検品支援アプリ等の軽い入口から堀を作れる</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.nourish.com" target="_blank">Nourish</a></div></div>
+    <span class="tag tag-green">$100M Series C / 評価額$1.75B / AI栄養ケア</span>
+  </div>
+  <p class="card-desc">GLP-1(肥満症治療薬)患者などの慢性疾患向けに、管理栄養士1万人超ネットワーク＋AIで栄養・代謝ケアを提供するヘルステック<span class="term" data-term="AI">AI</span>。保険適用で患者負担を下げる</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>AIネイティブな代謝・栄養ケアのプラットフォーム</b>。<b>1万人超の管理栄養士(RD)ネットワーク</b>とAIエージェントを組み合わせ、GLP-1(肥満症/糖尿病治療薬)を使う患者や慢性疾患患者にオンラインで栄養指導・医療連携・検査・服薬管理を提供する。保険(payer)・医療機関と提携し患者が保険適用で受けられる設計。<br><br>
+    <b>ストーリー：</b>2026-05に<b>Menlo Ventures主導の$100M Series C</b>を調達し<b>評価額$1.75B</b>（前2025-04の$70M Series Bは評価額$1B超、累計$215M）。GLP-1は爆発的に普及する一方で『食事・栄養の伴走がないと続かない・リバウンドする』という痛みがあり、そこに管理栄養士×AI×保険償還で食い込む。GLP-1継続率68%という成果を公表。Thrive/Index/Y Combinator等も参加。<b>本DBには2026-05調達を『AI×栄養/代謝ケアの型』として検知日2026-06-28で収録</b>。創業者個人名は本調査では不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$100M</div><div class="metric-lbl">Series C(Menlo主導)</div></div>
+    <div class="metric"><div class="metric-val">$1.75B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">1万人超</div><div class="metric-lbl">管理栄養士網</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>AI×人(管理栄養士)のハイブリッド医療。保険償還+医療機関提携で患者負担を抑え、栄養指導/服薬/検査を継続課金。GLP-1継続率というアウトカムが価値の核。Menlo主導$100M Series C、評価額$1.75B、累計$215M。創業者: 不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『流行る製品(GLP-1)の隣の継続課題』に張ると、巨大な追い風にタダ乗りできる。波そのものでなく波の弱点を突く</li>
+      <li>AI単独でなく専門人材(管理栄養士)×AIのハイブリッドで医療の信頼要件を満たす。完全自動化が正解とは限らない好例</li>
+      <li>日本でも肥満症治療薬・特定保健指導・糖尿病管理は制度的ニーズが強い。国内の保険/制度に沿った栄養伴走は手薄。人×AIのハイブリッドは個人〜小規模でも始めやすい</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="SaaS">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.storeclaw.com" target="_blank">StoreClaw</a></div></div>
+    <span class="tag tag-purple">PH Product of the Week / EC自律運営AI</span>
+  </div>
+  <p class="card-desc">Shopify/Amazon等を横断し、リスティング最適化・価格調整・PPC・メール・SEOを承認付きで自律実行するEC運営AIエージェント。Product Hunt『Product of the Week』獲得</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>EC事業者向けの<b>『AIグロースエンジン』</b>。店舗診断・リスティング最適化・PPC運用・メールワークフロー・SEO戦略といった<b>事前装備スキル</b>を持ち、Shopify/Amazon/WooCommerce/eBay/Wix/SNSに接続して、競合価格のスキャンやコンテンツ更新を<b>各ステップ人間の承認付きで自律実行</b>する。『ダッシュボードでもチャットボットでもない、実際に手を動かすAI』を標榜。<br><br>
+    <b>ストーリー：</b>2026-05下旬に<b>Product Hunt #1 Product of the Day → Product of the Week</b>を獲得。事例ではAmazonブランドTwinkle Star(年商$15M超)が<b>SKU投入を5-7日→2日に短縮・制作コスト-70%・CVR 9.3%→14.1%</b>、ShopifyのフレグランスDTC INCENZOが<b>自動化率85%・オーガニック流入+142%・CAC -57%</b>を達成。300クレジット無料(クレカ不要)のクレジット課金制。共同創業Steven Zhou。<b>本DB既収録のSellerClaw/MakersClaw等『EC×自律エージェント』カテゴリの最新の具体実績例として収録</b>。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">Product of the Week</div></div>
+    <div class="metric"><div class="metric-val">9.3→14.1%</div><div class="metric-lbl">事例CVR改善</div></div>
+    <div class="metric"><div class="metric-val">-57%</div><div class="metric-lbl">事例CAC削減</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>EC事業者向け自律運営AIエージェント。クレジット課金制(初回300クレジット無料・クレカ不要)。多チャネル接続+承認付き実行が差別化。共同創業: Steven Zhou。資金調達状況は不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>混雑カテゴリ(EC運用支援)でも『ダッシュボードでなく実際に実行する』+承認付きで安心、という軸で差別化できる。生成→実行の流れはここでも共通</li>
+      <li>導入事例の数値(CVR 9.3→14.1%/CAC -57%)を具体名で出すと一気に信頼が増す。無料クレジットで試させる入口設計も巧い</li>
+      <li>日本のEC(楽天/Amazon/Shopify)運用代行も人手依存。国内モール特化×日本語×承認付き自律運用は中小EC・物販に余地。kazumasaのQuickBot資産とも近接</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="section-title">Trend Signals</div>
+
+<div class="trend"><span class="trend-num">1</span><span class="trend-text"><span class="trend-b">『フィジカルAI／現場オペ』が次の主戦場 — ソフトだけでなくハードでデータを独占する型</span> — Almetra(工場カメラ)・AIM(建機センサー)・Kargo(ドック塔)はいずれも<b>現場にハードを置いて、これまで誰も正確に取れなかったデータを握る</b>。ソフト単独より重いが、置けば剥がれにくく堀が深い。労働集約産業ほど価値が出る</span></div>
+<div class="trend"><span class="trend-num">2</span><span class="trend-text"><span class="trend-b">レトロフィット(後付け)思想が導入障壁を壊す</span> — Almetra『既存IT統合不要』、AIM『現役建機を後付けで自律化』。<b>新規導入・買い替えを迫らず今あるものに乗せる</b>設計はTAMを一気に広げ、現場の『面倒』を最小化する。新しさより"摩擦の無さ"で勝つ</span></div>
+<div class="trend"><span class="trend-num">3</span><span class="trend-text"><span class="trend-b">完全自動化でなく『人×AIハイブリッド』『承認付き実行』が信頼要件を満たす</span> — Nourishは管理栄養士1万人×AI、StoreClaw/AIMは人間の承認・監督付きで実行。規制・人命・金銭が絡む領域では<b>"全自動"より"人を残した実行型"</b>が選ばれ資金も集まる。kazumasaの『卒業されない伴走』設計と一致</span></div>
+<div class="trend"><span class="trend-num">4</span><span class="trend-text"><span class="trend-b">どの領域もそのまま日本の現場に転用余地 — 製造・建設・物流・医療の人手不足</span> — 本日5件はすべて日本でも痛みが強い領域。<b>国内規制×日本語×現場データ累積</b>で個人〜小規模からでも入口を作れる。特にkazumasaの整備士・機械・現場背景は製造/建設/建機/物流系フィジカルAIと直結し、最有力の参入領域</span></div>
+
+</div>
+<!-- ==================== END 2026-06-28 ==================== -->
+
 <!-- ==================== 2026-06-27 大型バーティカルAI資金調達4件（医療×2 / 金融 / 営業実行型） ==================== -->
-<div class="report active" id="r20260627">
+<div class="report" id="r20260627">
 
 <div class="summary">
   <h2>Today's Signal — 6/24発表の資金調達ラウンドから本DB未収録のバーティカルAIを4件抽出。重点カテゴリ『バーティカルAI』の大型調達が集中（医療×2・金融×1）。共通テーマは"規制業界の地味な事務／判断業務を実行型エージェントで肩代わりし、処理実績データを堀にする"型。3件がバーティカルAI、1件が営業実行型SaaS</h2>
@@ -5450,6 +5607,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-06-28', id: 'r20260628', count: 5 },
   { date: '2026-06-27', id: 'r20260627', count: 4 },
   { date: '2026-06-26', id: 'r20260626', count: 4 },
   { date: '2026-06-24', id: 'r20260624', count: 4 },
