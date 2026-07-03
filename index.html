@@ -90,23 +90,146 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">30</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">145</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">31</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">149</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-06-28</div>
-    <div class="date-sub" id="dateSub">5 products detected</div>
+    <div class="date-main" id="dateMain">2026-07-03</div>
+    <div class="date-sub" id="dateSub">4 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-07-03 バーティカルAI 4件（医療/保険/調達/歯科） ==================== -->
+<div class="report active" id="r20260703">
+
+<div class="summary">
+  <h2>Today's Signal — 本日はバーティカルAI(業界特化)4件を検知。医療(欧州)・商業保険・調達/ソーシング・歯科と、いずれも本DB未収録の型。共通項は①規制/専門/断片化データが残る現場業務を『AIエージェント+独自データ+human-in-the-loop』で束ねる ②同じ業界でもレイヤー(引受/仲介/データ接続/医院運営)ごとに別の勝者が立つ＝1社総取りでなく分割で複数勝者 ③自分/家族が当事者の原体験がそのまま参入資産・堀になる。いずれもkazumasaの整備工場/個人事業主バックオフィス構想と同型の『開業者の裏方まるごと代行』テーゼ</h2>
+  <ul>
+    <li><b>Mindoo</b>（欧州ヘルスケアAIワークフォース）— ベルギー発。voice-firstで受付/問診/スクライブ/フォローを代行する4エージェント。<b>€5M シード（6DC・Syndicate One主導/2025-12）</b>。ベルギー・ドイツで稼働。米先行(Hippocratic/Amigo)の欧州版</li>
+    <li><b>Harper</b>（AI商業保険ブローカー）— 法人保険の付保を数週間→48時間に短縮。<b>$47M（Emergence Capital主導/2026-02）/ 顧客6,000社・継続率98.8%・ARR $5M</b>。Corgi/FurtherAIと別レイヤー(仲介)を取る</li>
+    <li><b>Cavela</b>（AI調達/ソーシング）— 40カ国超でサプライヤー探索・交渉し生産コスト35%超削減。<b>$6.6M シード（XYZ VC・Susa共同主導/2025-11）/ 20万社DB</b>。関税環境の変化が追い風</li>
+    <li><b>Denta</b>（歯科医院オートパイロット）— 会計事務所・受付・保険入金処理を置換する歯科医院運営プラットフォーム。<b>Y Combinator採択（調達額は不明）</b>。父の歯科10医院運営の原体験発。HeyDonto/HOOTLと別角度</li>
+    <li>🟡 <b>注記</b>: 4件すべて本DB未収録。Mindoo(2025-12)/Harper(2026-02)/Cavela(2025-11)は『型』として本日収録、DentaはYC採択(調達詳細不明)。創業者個人名・調達額など未確認項目は『不明』と明記。出典: eu-startups.com / techfundingnews.com / mindoo.ai / finance.yahoo.com / techcrunch.com / cavela.com / ycombinator.com</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://mindoo.ai" target="_blank">Mindoo</a></div></div>
+    <span class="tag tag-green">€5M シード / 欧州ヘルスケアAIワークフォース</span>
+  </div>
+  <p class="card-desc">人手不足の病院・診療所向けに、業務プロセスを変えさせず反復作業を肩代わりする『設定可能なAIワークフォース』。voice-firstで受付/来院前問診/スクライブ/退院後フォローを代行するベルギー発の医療特化AI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>ベルギー・アントワープ発の<b>医療特化バーティカルAI</b>。人手不足の病院・診療所向けに、<b>業務プロセスを変えさせずに反復作業を肩代わり</b>する『設定可能なAIワークフォース』を提供。4種のエージェント=(1)<b>受付</b>=患者コミュニケーション/登録、(2)<b>来院前</b>=構造化問診・既往歴収集、(3)<b>スクライブ</b>=診療メモ/紹介状/オーダー下書き、(4)<b>フォローアップ</b>=退院後コミュニケーション/ケアパス誘導。<b>voice-first(音声先行)</b>設計で現行EHRと統合。<br><br>
+    <b>ストーリー：</b><b>€5M シード(2025-12、6 Degrees Capital・Syndicate One・戦略エンジェル)</b>。創業は<b>Dr. Gauthier Willemse / Bart Lens</b>。すでにベルギーとドイツの病院で稼働し、参照導入先が増え次第オランダ・フランスへ拡大予定。安全性・ガバナンスを備えた層としてagenticワークフローを載せる思想で、DB既収録のHippocratic AI/Amigo AI/Assort Health(いずれも米)の欧州版。※本DB未収録の型として本日収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">€5M</div><div class="metric-lbl">シード(2025-12)</div></div>
+    <div class="metric"><div class="metric-val">4</div><div class="metric-lbl">AIエージェント</div></div>
+    <div class="metric"><div class="metric-val">BE・DE</div><div class="metric-lbl">病院で稼働中</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>病院・医療機関向けSaaS(AIワークフォース)。EHR連携で受付〜フォローを代行。創業: Dr. Gauthier Willemse / Bart Lens(ベルギー・アントワープ)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『業務プロセスを変えさせない』導入摩擦ゼロ設計が保守的な規制業界(医療)の鍵</li>
+      <li>米国先行の患者対応AIが欧州で各国規制/言語に特化して立ち上がる＝日本でも国内医療事務・国語対応特化なら席が空く</li>
+      <li>voice-firstは電話対応が残る日本の医療/介護/自治体への突破口</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://finance.yahoo.com/sectors/technology/articles/ai-powered-commercial-insurance-startup-164916161.html" target="_blank">Harper</a></div></div>
+    <span class="tag tag-green">$47M / AI商業保険ブローカー</span>
+  </div>
+  <p class="card-desc">AIで商業保険(法人向け保険)の付保プロセスを自動化するブローカー(代理店)。従来数週間かかる法人保険の付保を48時間に短縮。継続率98.8%・ARR $5M</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>AIで<b>商業保険(法人向け保険)の付保プロセスを自動化するブローカー(代理店)</b>。従来数週間かかる法人保険の付保を<b>48時間に短縮</b>。一般賠償/専門職賠償/ガレージ賠償/商用自動車/商用不動産/サイバー/アンブレラを扱う。CEO曰く『独自モデルが、従来の保険を遅くしている<b>判断集約的で非構造的な作業</b>(申込・見積・提出ルーティング・引受折衝)を処理する』。<br><br>
+    <b>ストーリー：</b><b>$47M(シード+Series A合算、Emergence Capital主導、発表2026-02)</b>。Y Combinator/Peak XV/Antler等が参加。CEOは<b>Dakotah Rice</b>(黒人創業者による公表最大級のSeries A)。顧客6,000社超・継続率98.8%・ARR $5M。DB既収録のCorgi(フルスタック保険キャリア)/FurtherAI(保険業務自動化)/Taktile(リスク判断)とは異なり、『代理店=仲介』レイヤーをAI化する角度。※本DB未収録の型として本日収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$47M</div><div class="metric-lbl">Emergence主導</div></div>
+    <div class="metric"><div class="metric-val">6,000+</div><div class="metric-lbl">顧客(継続率98.8%)</div></div>
+    <div class="metric"><div class="metric-val">$5M</div><div class="metric-lbl">ARR / 48h付保</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>AIネイティブの商業保険ブローカー(代理店)。多種の法人保険を48時間で付保するB2B。創業: Dakotah Rice(CEO・共同創業)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>保険は『キャリア(引受)』『業務ツール』『ブローカー(仲介)』とレイヤーが分かれ各層に別の勝者＝バーティカルは1社総取りでなくレイヤー分割で複数勝者</li>
+      <li>判断集約的で非構造的な中間業務を握るとROIが即出る。継続率98.8%＝剥がれにくい業務に食い込めば堀</li>
+      <li>日本の保険代理店/共済/少額短期保険も同型で手薄</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://cavela.com" target="_blank">Cavela</a></div></div>
+    <span class="tag tag-green">$6.6M シード / AI調達・ソーシング</span>
+  </div>
+  <p class="card-desc">消費財・ECブランドのサプライヤーソーシング(仕入先探索・交渉・生産管理)をAIエージェントで自動化。40カ国超で探索し生産コスト35%超削減、関税前価格すら下回る製造元を発見</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>消費財・ECブランドの<b>サプライヤーソーシング(仕入先探索・交渉・生産管理)をAIエージェントで自動化</b>するバーティカルAI。AIエージェントが40カ国超で候補を探索し仕様と価格を交渉する『パーソナル調達チーム』。<b>AIエージェント+20万社超の検証済サプライヤーDB+人間の専門家</b>で製品ブリーフ〜倉庫納品まで統括。多くのブランドが数千時間を節約し<b>生産コスト35%超削減</b>、関税前価格すら下回る製造元を発見。顧客例=耐火アパレルWestern Welder Outfitting、メンズグルーミングThe Longhairs。<br><br>
+    <b>ストーリー：</b><b>$6.6M シード(XYZ VC・Susa Ventures共同主導、Crossover Capital参加、発表2025-11)</b>。創業は<b>Anthony Sardain(2023)</b>。データサイエンス出身で、アジア各地(マレーシア/香港/タイ/シンガポール/中国)育ち・貿易調達の家系3代。関税環境の変化(pre-tariff cost回避)が明確な追い風。※本DB未収録の型として本日収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$6.6M</div><div class="metric-lbl">シード(2025-11)</div></div>
+    <div class="metric"><div class="metric-val">-35%超</div><div class="metric-lbl">生産コスト削減</div></div>
+    <div class="metric"><div class="metric-val">20万社+</div><div class="metric-lbl">検証済サプライヤーDB</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>EC/消費財ブランド向けAIソーシング。AIエージェント×独自DB×人間専門家のハイブリッドで調達を統括。創業: Anthony Sardain(2023)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『関税・貿易摩擦』というマクロの痛みに直接張るタイミング型</li>
+      <li>AI単独でなくエージェント+独自データ+人間専門家のハイブリッドが、間違えられない調達領域で信頼を得る勝ち筋</li>
+      <li>創業者の家系3代の貿易知識×アジア育ちが個人資産＝堀。日本の中小メーカー/EC/OEM調達も国内DB+商習慣理解なら手薄ニッチ</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.ycombinator.com/companies/denta" target="_blank">Denta</a></div></div>
+    <span class="tag tag-orange">YC採択 / 歯科医院オートパイロット</span>
+  </div>
+  <p class="card-desc">歯科医院の運営(practice management)をAIで『オートパイロット化』。会計事務所を探し受付を雇い夜に保険入金を計上する代わりにDentaを使う設計。父の歯科10医院運営の原体験発</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>歯科医院の運営(practice management)をAIで<b>『オートパイロット化』</b>するバーティカルAI。歯科医が新規開業する際、会計事務所を探し受付を2人雇い夜な夜な保険入金を計上する…という代わりにDentaを使う設計。創業者は<b>父がアイオワ州で営む歯科10医院の運営支援</b>の中で、『人もエージェントも断片化したデータに雑然とアクセスしている』ことが最も苦痛だと気づき解決。<br><br>
+    <b>ストーリー：</b>Y CombinatorのヘルスケアIT枠で採択。<b>※調達額・時期・創業者個人名は本調査で未確認=不明</b>。DB既収録のHeyDonto(歯科×医科データ接続)/HOOTL(歯科保険クレーム)とは異なり、<b>医院そのもののバックオフィス運営(会計・受付・保険入金)を丸ごと束ねる面の取り方</b>が差別化。同領域ではUber出身者創業のArchy($20M Series B)も『歯科医院オートパイロット』を掲げ競争が立ち上がりつつある。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">YC採択</div><div class="metric-lbl">調達額は不明</div></div>
+    <div class="metric"><div class="metric-val">10医院</div><div class="metric-lbl">父の歯科運営が発端</div></div>
+    <div class="metric"><div class="metric-val">運営丸ごと</div><div class="metric-lbl">会計/受付/保険入金</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>歯科医院向けプラクティスマネジメント・プラットフォーム。会計事務所・受付スタッフ・保険入金処理を置換。創業: アイオワ州の父の歯科10医院運営支援から着想(個人名は不明)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>自分/家族が当事者の業界の断片化データが最強の参入資産(HeyDontoも現役歯科医が出資)</li>
+      <li>歯科でも『データ接続』『保険クレーム』『医院運営』とサブ領域が分かれ複数社が立つ＝ニッチ再定義の余地</li>
+      <li>日本の歯科(約6.7万医院・レセプト・自費/保険混在)も国内特化なら手薄。kazumasaの整備工場/小規模事業者バックオフィス構想と同じ『開業者の裏方まるごと代行』テーゼ</li>
+    </ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-07-03 ==================== -->
+
 <!-- ==================== 2026-07-02 バーティカルAI優先 5件 ==================== -->
-<div class="report active" id="r20260702">
+<div class="report" id="r20260702">
 
 <div class="summary">
   <h2>Today's Signal — 本日はバーティカルAI(業界特化)を優先し、医療AIガバナンス(Qualified Health $125M)・税務コンプラ特化(Sphere $21M)・AIネイティブ健康保険(Alan €480M/評価€5.5B)の3件を軸に、Product Hunt週27で急伸したモバイルAI(Acti)とエージェント基盤(Humalike)を2件検知。共通項は①規制業界の『定着・実行・ガバナンス』を握る縦特化 ②毎日発生し間違えられない業務(医療/税務/保険)ほど堀が深い ③『賢さ』から『空気を読む振る舞い』や『入力面への埋め込み』へと差別化軸が移動。Sphere(税務)はkazumasaの想定顧客=個人事業主のインボイス経理に直結</h2>
@@ -6030,6 +6153,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-07-03', id: 'r20260703', count: 4 },
   { date: '2026-07-02', id: 'r20260702', count: 5 },
   { date: '2026-07-01', id: 'r20260701', count: 5 },
   { date: '2026-06-30', id: 'r20260630', count: 4 },
