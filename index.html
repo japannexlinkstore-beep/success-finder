@@ -90,23 +90,200 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">31</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">149</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">32</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">155</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-07-03</div>
-    <div class="date-sub" id="dateSub">4 products detected</div>
+    <div class="date-main" id="dateMain">2026-07-04</div>
+    <div class="date-sub" id="dateSub">6 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-07-04 バーティカルAI優先 6件（規制通信/公共安全/空間知能/エージェント基盤） ==================== -->
+<div class="report active" id="r20260704">
+
+<div class="summary">
+  <h2>Today's Signal — 本日はバーティカルAI(業界特化)を優先し、規制通信×AI(LeapXpert $180M)・公共安全govtech(Peregrine $250M/評価$6.8B)・空間知能フィジカルAI(General Intuition $320M)の3本柱を検知。加えてエージェント推論インフラ(Sail Research $80M)とProduct Hunt週27の裏方インフラ(Context.dev #1)・クリエイター収益化(Fypro #3)を各1件。共通項は①規制/専門/物理現場という『汎用AIが入りにくい業界固有の壁』を堀に変える縦特化 ②『データを保有せず接続だけ』『既にある大量データ(ゲーム映像)の再定義』など独自データ戦略が勝ち筋 ③エージェントが"長時間・自律"へ進むほど裏方インフラ(推論/Webデータ)に資本が流入。LeapXpert(金融チャット記録)・Fypro(フォロワー資産化)はkazumasaの規制業界/X運用構想に直結</h2>
+  <ul>
+    <li><b>LeapXpert</b>（規制通信×AI）— WhatsApp/Signal等の管理外チャットをコンプラ要件を満たし統制取り込み→AIで会話を分析・実行。<b>$180M Growth（Riverwood主導/2026-06-30）/ 数百組織導入</b>。金融/政府向け。DB既収録Taktile/Corgiと別レイヤー(通信ガバナンス)</li>
+    <li><b>Peregrine Technologies</b>（公共安全govtech）— 警察記録・911ログ等の分断政府データを保有せず接続しリアルタイム横断検索。<b>$250M Series D（Sequoia等/評価$6.8B）/ 400+機関・1.25億人</b>。W杯8都市が採用。元Palantir創業</li>
+    <li><b>General Intuition</b>（空間知能・フィジカルAI）— 数億時間のゲーム映像で空間時間推論を学習しロボット/自動運転へ横展開。<b>$320M（Khosla主導/評価$2.3B）/ Bezos・Eric Schmidt参加</b>。既存資産の再定義で学習データ戦略を刷新</li>
+    <li><b>Sail Research</b>（エージェント推論基盤）— 長時間稼働(long-horizon)エージェント向け推論インフラ。稼働時間だけ課金(pay-for-active-time)。<b>$80M Series A（2026-06-27）</b>。※創業者・詳細は不明</li>
+    <li><b>Context.dev</b>（Webデータ基盤）— エージェント/開発者向けに構造化Webデータをリアルタイム供給。<b>PH週27 総合#1（826票）</b>。エージェント自律実行のツルハシ</li>
+    <li><b>Fypro</b>（クリエイター収益化）— TikTokアカウントからサイト/ストア/メールリストを自動生成しフォロワーを自社顧客に転換。<b>PH週27 #3（708票）</b>。『集客後の資産化』ニッチ</li>
+    <li>🟡 <b>注記</b>: 6件すべて本DB未収録。LeapXpert/Peregrine/General Intuition/Sailは2026-06下旬の調達、Context.dev/FyproはPH週27の新規実装。Sail/Context.dev/Fyproの創業者・価格は本調査で一次確認できず『不明』と明記。出典: leapxpert.com / siliconangle.com / fortune.com / techcrunch.com / gamesbeat.com / crescendo.ai / producthunt.com</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.leapxpert.com/" target="_blank">LeapXpert</a></div></div>
+    <span class="tag tag-green">$180M Growth / 規制通信×AI</span>
+  </div>
+  <p class="card-desc">WhatsApp/iMessage/Signal/WeChat等の『管理外チャネル』での顧客・取引先会話を、規制・アーカイブ要件を満たしつつ企業システムに取り込み、AIで会話を分析・実行可能にする。金融機関・政府機関が主要顧客</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>商談を締め関係を築く『非公式な会話』は今やWhatsApp・iMessage・Signal・WeChat等で起きるが、長年これらは企業システムの外にあり、運用・規制・セキュリティ課題を生み、会話データも眠っていた。LeapXpertはこの<b>管理外メッセージングを、金融の厳格なコンプラ・アーカイブ要件を満たしつつ統制下に取り込む</b>プラットフォーム。単なるアーカイブでなくAI層で<b>『会話→インテリジェンス→実行』へ価値を上げる</b>のが今回の投資の狙い。<br><br>
+    <b>ストーリー：</b><b>$180M Growth(Riverwood Capital主導・Portage Ventures参加、2026-06-30発表)</b>。2017年創業・NY拠点、創業は<b>Dima Gutzeit(CEO)/Avi Pardo</b>。数百組織(金融機関・政府機関・グローバル企業)が導入し、Gartner Magic QuadrantでVisionaryに2年連続、FT『全米最速成長企業2026』にも選出。規制要件そのものを堀に変える型。※本DB未収録の型として本日収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$180M</div><div class="metric-lbl">Growth(Riverwood主導)</div></div>
+    <div class="metric"><div class="metric-val">数百組織</div><div class="metric-lbl">金融/政府/企業</div></div>
+    <div class="metric"><div class="metric-val">2017創業</div><div class="metric-lbl">通信ガバナンス層</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>エンタープライズSaaS。管理外チャットをコンプラ準拠で統制取り込み→AIで分析・実行。金融/政府/グローバル企業向けB2B。創業: Dima Gutzeit(CEO)/Avi Pardo</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>規制・コンプラは参入障壁であると同時に堀。『皆が使うが企業が管理できていないチャネル(チャット)』の統制ニーズは金融・公共で必須</li>
+      <li>DB既収録Taktile/Corgiと同じ金融×規制の型だが『通信ガバナンス』という別レイヤー=1業界に複数レイヤーの勝者</li>
+      <li>日本も金商法下の証券/銀行のチャット記録保存義務があり、国内規制特化なら手薄ニッチ</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://peregrine.io/" target="_blank">Peregrine Technologies</a></div></div>
+    <span class="tag tag-green">$250M Series D / 評価$6.8B・公共安全govtech</span>
+  </div>
+  <p class="card-desc">警察記録・911ログ・許認可DB等の分断された政府データを、自ら収集・所有せず接続し権限を踏まえてリアルタイム横断検索できるようにする公共安全特化バーティカルAI。北米400機関超・1.25億人をカバー</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>元Palantirの2人が創業した<b>公共安全オペレーション特化のバーティカルAI</b>。警察記録・911通報ログ・許認可DB等の分断された政府データソースを、<b>自らは収集・所有せずに接続</b>し、権限を踏まえてリアルタイムに横断検索できるようにする。『データを持たない』設計がプライバシー・権限管理の要件を満たす堀。<br><br>
+    <b>ストーリー：</b><b>$250M Series D・評価$6.8B(Fifth Down Capital・Sequoia主導、2026-06-22発表)</b>。創業は<b>Nick Noone/Ben Rudolph(ともに元Palantir)</b>。北米400機関超・1.25億人をカバーし1年で顧客倍増、15ヶ月前のSeries C($2.5B評価)から約3倍。<b>2026 FIFAワールドカップ開催11都市中8都市が導入</b>、Super Bowl LIX・グラミー賞・ワールドシリーズ・アカデミー賞の警備オペも支えた実運用実績が桁違いの信頼シグナル。連邦・国際(トロント/ロンドン)へ拡大。※本DB未収録の型として本日収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$250M</div><div class="metric-lbl">Series D・評価$6.8B</div></div>
+    <div class="metric"><div class="metric-val">400+機関</div><div class="metric-lbl">北米1.25億人カバー</div></div>
+    <div class="metric"><div class="metric-val">W杯8都市</div><div class="metric-lbl">大型警備で実運用</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>政府・自治体向けB2B SaaS。分断データを保有せず接続・横断検索。州地方→連邦・エンタープライズ・国際へ拡大。創業: Nick Noone/Ben Rudolph(元Palantir)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『データを保有せず接続だけする』設計が規制・プライバシー要件を堀に変える</li>
+      <li>大型イベント警備という誰もが検証できる実運用実績が最強の信頼シグナル(営業資料100枚よりW杯8都市導入の1行)</li>
+      <li>DB既収録Prepared(911オペ支援)と隣接だが横断データ統合レイヤー=公共安全にも複数レイヤーの勝者。日本の警察/消防/自治体の縦割りデータ横断も同型だが規制・調達が重い</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.generalintuition.com/" target="_blank">General Intuition</a></div></div>
+    <span class="tag tag-green">$320M / 評価$2.3B・空間知能フィジカルAI</span>
+  </div>
+  <p class="card-desc">数億時間のゲームプレイ映像で『空間・時間の中での行動』(spatial-temporal reasoning)を学習した基盤モデルを構築し、ゲーム/ロボティクス/自動運転/産業自動化へ横展開。既存の希少・高価な実世界データでなく既にある大量のゲーム映像を教師にする</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>有能なAIエージェントの鍵はロボット倉庫でなく<b>『数億時間のゲームプレイ映像』にある</b>と賭けるNY発フロンティアラボ。姉妹サービスMedal(ゲーム録画共有)のゲーム映像を教師に、<b>空間・時間の中での行動(spatial-temporal reasoning)</b>を学習した基盤モデルを構築。ゲームをプレイする脳と同じ脳がロボットを動かすデモを示し、ゲーム/ロボティクス/自動運転/産業自動化を横断して汎化するモデルの商用化を狙う。<br><br>
+    <b>ストーリー：</b><b>$320M・評価$2.3B(Khosla Ventures主導、2026-06-25発表)</b>、累計調達$454M(昨年10月ローンチ時$134M含む)。創業は<b>Pim de Witte(CEO/Medal共同創業)</b>=10代でRuneScape私設サーバー運営で$1.5Mを稼いだゲーマー出身。<b>Amazon創業者Bezos・元Google会長Eric Schmidt</b>・元F1王者Nico Rosberg・DeepMind/MITの研究者らが参加。既存の希少・高価な実世界データでなく『既に大量にあるゲーム映像』を教師にするデータ戦略が核。※本DB未収録の型として本日収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$320M</div><div class="metric-lbl">評価$2.3B(Khosla主導)</div></div>
+    <div class="metric"><div class="metric-val">数億時間</div><div class="metric-lbl">ゲーム映像で学習</div></div>
+    <div class="metric"><div class="metric-val">Bezos等</div><div class="metric-lbl">DeepMind研究者参加</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>フロンティアAIモデル開発。ゲーム映像で空間時間推論を学習→実世界応用(ロボ/自動運転/産業)へ商用化。学習データ源はMedal。創業: Pim de Witte(CEO)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AIの堀は『誰も持たない独自データへのアクセス』。実世界ロボットデータは希少高価だがゲーム映像は既に数億時間分=既存資産の再定義でコスト構造を変える</li>
+      <li>創業者が当事者(ゲーマー×録画サービスMedal所有)だから握れた=『自分が当事者の独自データ』テーゼの別業界版</li>
+      <li>フィジカルAI(General Intuition/AIM/Kargo/Almetra)は2026年の明確な鉱脈</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups" target="_blank">Sail Research</a></div></div>
+    <span class="tag tag-orange">$80M Series A / エージェント推論基盤</span>
+  </div>
+  <p class="card-desc">長時間・多ステップで動き続けるAIエージェント(long-horizon agents)向けに最適化した推論インフラ。サンドボックス実行環境を備え、稼働している時間だけ課金する(pay-for-active-time)従量モデルを採用</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>長時間・多ステップで動き続けるAIエージェント(long-horizon agents)向けに最適化した推論(inference)インフラ</b>。従来のLLM推論はリクエスト単位の短時間処理前提だが、エージェントが数分〜数時間かけてタスクを遂行する時代には『長く走り続ける実行』に適した基盤とコスト体系が要る。Sailはサンドボックス実行環境を備え、<b>稼働している時間だけ課金する(pay-for-active-time)</b>従量モデルを採用。エージェントが本番で長時間動く前提のツルハシ(pick&shovel)型インフラ。<br><br>
+    <b>ストーリー：</b><b>$80M Series A(2026-06-27発表)</b>。※公式サイト・創業者・具体指標は本調査で一次確認できず<b>不明</b>。DB既収録のVapi/Publora/Swytchcode/Jedify/Respan等『エージェント裏方インフラ』の連続トレンドに連なり、今回は『推論・実行レイヤー』を突く。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$80M</div><div class="metric-lbl">Series A(2026-06-27)</div></div>
+    <div class="metric"><div class="metric-val">稼働課金</div><div class="metric-lbl">pay-for-active-time</div></div>
+    <div class="metric"><div class="metric-val">長時間</div><div class="metric-lbl">long-horizon特化</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>開発者向け推論インフラ。サンドボックス実行+稼働時間課金(pay-for-active-time)。創業者・詳細は不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>エージェントが『短時間の応答』→『長時間の稼働』へ移ると課金体系(トークン→稼働時間)もインフラ要件も変わる=価値の移動点に新ツルハシ需要</li>
+      <li>裏方インフラ(pick&shovel)への資本流入は2026年通底の明確トレンド</li>
+      <li>個人開発でこの層は重いが、この変化に乗るアプリ側にこそ機会がある</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/27" target="_blank">Context.dev</a></div></div>
+    <span class="tag tag-purple">PH週27 #1(826票) / Webデータ基盤</span>
+  </div>
+  <p class="card-desc">AIエージェント・開発者向けに『構造化されたWebデータへのリアルタイムアクセス』を提供するデータ基盤。スクレイピング・エンリッチメント・情報抽出で、生HTMLでなく整った構造化データを供給する配信レイヤー</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>AIエージェント・開発者向けに<b>『構造化されたWebデータへのリアルタイムアクセス』</b>を提供するデータ基盤。スクレイピング・データエンリッチメント・情報抽出といった、AIアプリが外部Web情報を必要とする場面で、<b>生HTMLでなく整った構造化データを供給</b>する配信レイヤー。エージェントの自律実行には『信頼できる最新の外部データ』が不可欠で、その供給を担うツルハシ(pick&shovel)型。<br><br>
+    <b>ストーリー：</b><b>Product Hunt週27(6/29週)で826票を集め総合#1</b>。DB既収録のJesse(リアルタイム見込み客検索)/Honestly(ソーシャルリスニング)ともデータ鮮度を軸にする点で近く、裏方インフラ連続上位入りという2026年トレンドに連なる。※価格・創業者・調達状況は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">PH週27(826票)</div></div>
+    <div class="metric"><div class="metric-val">構造化</div><div class="metric-lbl">Webデータ供給</div></div>
+    <div class="metric"><div class="metric-val">リアルタイム</div><div class="metric-lbl">エージェント向け</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>開発者/エージェント向けWebデータ基盤。構造化Webデータのリアルタイム供給(スクレイピング/エンリッチ/抽出)。価格・創業者は不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>エージェント自律実行時代の律速は『外部データの取得と構造化』。生データでなく『すぐ使える構造化データ』に価値が乗る</li>
+      <li>裏方インフラがPH週間#1=市場が『アプリ』より『アプリを作る土台』に注目している兆し</li>
+      <li>CoPath/tanpoloan等で外部データ(競合・不動産・レビュー)を扱う際の実装参考にもなる</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Marketing">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/weekly/2026/27" target="_blank">Fypro</a></div></div>
+    <span class="tag tag-pink">PH週27 #3(708票) / クリエイター収益化</span>
+  </div>
+  <p class="card-desc">TikTokのオーディエンスを顧客に変えるAIツール。クリエイターのTikTokアカウントを起点にサイト・オンラインストア・メールリストを自動構築し、プラットフォーム上のフォロワーを自分の資産(購買者・メール購読者)へ転換する</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>TikTokのオーディエンスを顧客に変えるAIツール</b>。クリエイターのTikTokアカウントを起点に<b>サイト・オンラインストア・メールリストを自動構築</b>し、プラットフォーム上のフォロワーを自分の資産(購買者・メール購読者)へと転換する。バイラルで大量のフォロワーを得てもオーディエンスはTikTokに握られ収益化・直接接点に乏しいという痛みを、『フォロワー→自社顧客』の導線構築を丸ごと自動化して解く。<br><br>
+    <b>ストーリー：</b><b>Product Hunt週27(6/29週)で708票を集め#3</b>。DB既収録のPlayKit(UGC)/Spira(自律SNS運用)とクリエイターエコノミー文脈で近いが、Fyproは『集客』でなく<b>『集めた後の収益化・資産化(脱プラットフォーム)』に特化</b>する点が差別化。※価格・創業者・調達状況は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#3</div><div class="metric-lbl">PH週27(708票)</div></div>
+    <div class="metric"><div class="metric-val">TikTok</div><div class="metric-lbl">→サイト/ストア/メール</div></div>
+    <div class="metric"><div class="metric-val">資産化</div><div class="metric-lbl">フォロワー→自社顧客</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>クリエイター/インフルエンサー向けAI。TikTokアカウント→サイト/ストア/メールリスト自動生成でフォロワーを顧客化。価格・創業者は不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>バイラルで得たフォロワーはプラットフォームの資産であって自分の資産ではない=『集めた後どう自分の顧客リストに変えるか』に未解決の痛みと機会</li>
+      <li>kazumasaのX @kazu_aitools でもフォロワー数でなく『自分の導線(LP/メール)にどう繋ぐか』が収益化の本丸=同じ構造</li>
+      <li>集客ツールは飽和だが『集客後の資産化』は相対的に手薄なニッチ</li>
+    </ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-07-04 ==================== -->
+
 <!-- ==================== 2026-07-03 バーティカルAI 4件（医療/保険/調達/歯科） ==================== -->
-<div class="report active" id="r20260703">
+<div class="report" id="r20260703">
 
 <div class="summary">
   <h2>Today's Signal — 本日はバーティカルAI(業界特化)4件を検知。医療(欧州)・商業保険・調達/ソーシング・歯科と、いずれも本DB未収録の型。共通項は①規制/専門/断片化データが残る現場業務を『AIエージェント+独自データ+human-in-the-loop』で束ねる ②同じ業界でもレイヤー(引受/仲介/データ接続/医院運営)ごとに別の勝者が立つ＝1社総取りでなく分割で複数勝者 ③自分/家族が当事者の原体験がそのまま参入資産・堀になる。いずれもkazumasaの整備工場/個人事業主バックオフィス構想と同型の『開業者の裏方まるごと代行』テーゼ</h2>
@@ -6153,6 +6330,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-07-04', id: 'r20260704', count: 6 },
   { date: '2026-07-03', id: 'r20260703', count: 4 },
   { date: '2026-07-02', id: 'r20260702', count: 5 },
   { date: '2026-07-01', id: 'r20260701', count: 5 },
