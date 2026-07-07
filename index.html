@@ -90,14 +90,14 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">32</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">155</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">33</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">160</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-07-06</div>
+    <div class="date-main" id="dateMain">2026-07-07</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
@@ -105,8 +105,158 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-07-07 新規5件（薬局ロボ/製造フィジカルAI×2/金融犯罪/エッジ視覚） ==================== -->
+<div class="report active" id="r20260707">
+
+<div class="summary">
+  <h2>Today's Signal — 本日は新規5件。テーマは『フィジカルAI（現実世界で作業するAI）』と『規制業界バーティカル』。主役2件は kazumasa の機械・現場背景と直結。①<b>Queue</b>（世界初の完全自律ロボット薬局、AlleyCorp $12.6M）は薬剤師不在で250種の処方を最大96%低コストで調剤する医療バーティカル。②<b>CarbonSix</b>（韓国発、工場ライン用ロボットハンド+ソフト、$40M Series A）は元SuaLab（Cognex買収）創業者による製造フィジカルAI。加えて③<b>Rhoda AI</b>（動画で学習するロボット基盤、$450M/評価$1.7B）、④<b>Quantifind</b>（金融犯罪検知の規制フィンテック、Summit $200M）、⑤<b>Luxonis</b>（エッジ視覚の知覚レイヤー、$14M）。共通項は『ソフトだけで完結せずカメラ/センサー/ハードで物理世界を握る型』——2026年フィジカルAIトレンドの継続。</h2>
+  <ul>
+    <li><b>Queue</b>（AI/Vertical・薬局/医療）— 薬剤師不在で処方を調剤・検証する世界初の完全自律ロボット薬局キオスク。250種の常用薬に対応、従来比最大96%低コスト・30秒で調剤。<b>$12.6M Seed（AlleyCorp主導）/ 累計$18.6M / 2026-06-30ステルス脱却</b>。共同創業/CTO Josh Liu。全米大手薬局チェーンを顧客確保</li>
+    <li><b>CarbonSix</b>（AI/Vertical・製造フィジカルAI）— 工場ライン用のロボットハンド+知能ソフトを『deploy-ready』で提供。<b>$40M Series A（DSC Investment/LB Investment共同主導）/ 2026-07-01 / 韓国発</b>。CEO Terry Moon（元SuaLab＝Cognexが買収）、CTO H.J. Terry Suh（MIT）。半導体/medtech/防衛製造向け</li>
+    <li><b>Rhoda AI</b>（AI/Vertical・ロボティクス基盤）— インターネット規模の動画で事前学習しロボットを実世界で動かす『FutureVision（video-predictive control）』。<b>$450M Series A / 評価$1.7B / announced 2026-03-10（ステルス脱却）</b>。CEO Jagdeep Singh。製造で2分/サイクルの無人処理を実証。※型として本日収録</li>
+    <li><b>Quantifind</b>（AI/Vertical・金融犯罪/コンプラ）— AIネイティブのリスクインテリジェンス基盤『Graphyte』。KYC・制裁スクリーニングでTier1銀行の年間アラート処理費を最大$177.9M削減。<b>$200M Growth（Summit Partners主導）/ 2026-06-26 / 世界top10金融機関中6行導入</b></li>
+    <li><b>Luxonis</b>（AI/Vertical・エッジ視覚/知覚）— カメラ+エッジAI+OSSを束ねたロボット知覚(perception)システム。<b>$14M Series A（Denali Growth Partners/Taiwania Capital主導）/ 2026-07-02</b>。農業/ヘルスケア/物流/製造のロボットの『目』を担う横断レイヤー</li>
+    <li>🟡 <b>注記</b>: Queue/CarbonSix/Quantifind/Luxonisは直近（6/26〜7/2）の資本イベント。<b>Rhoda AIのラウンド発表は2026-03-10</b>で本日付の新規調達ではなく、本DB未収録の『型』として検知日2026-07-07で収録。創業者個人名など一次確認できない項目は『不明』と明記。出典: businesswire.com / prnewswire.com / techstartups.com / crescendo.ai / fiercehealthcare.com / summitpartners.com</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.queue.health" target="_blank">Queue</a></div></div>
+    <span class="tag tag-green">$12.6M Seed / 完全自律ロボット薬局</span>
+  </div>
+  <p class="card-desc">薬剤師の常駐なしで処方薬を調剤・検証・受け渡しする世界初の完全自律ロボット薬局キオスク。封緘された卸のピルボトルから250種の常用薬を調剤し、従来の薬局運営比で最大96%低コスト・約30秒で提供。薬剤師不足・コスト・アクセス難という米医療の痛みを突く医療バーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>薬剤師の常駐なしで処方薬を調剤・検証・受け渡しする世界初の完全自律ロボット薬局</b>キオスク。封緘された卸のピルボトルから調剤し、<b>安全検証システムを内蔵</b>。現在<b>米国で最も処方される250種の医薬品</b>に対応する。<br><br>
+    <b>ストーリー：</b><b>$12.6M Seed（AlleyCorp主導、2026-06-30にステルス脱却）</b>。1年足らず前のRiot Ventures主導$6M pre-seedと合わせ<b>累計$18.6M</b>。<b>従来の薬局運営比で最大96%低コスト</b>、約30秒で調剤し、小売・病院・地方・医療過疎地など薬局アクセスが制約される場に展開可能。共同創業/CTOは<b>Josh Liu</b>。すでに<b>全米大手薬局チェーンを顧客に確保</b>し稼働プロトタイプで初期の商用検証済み。薬剤師不足・コスト・アクセスという構造的痛みに物理ロボットで挑む。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$12.6M</div><div class="metric-lbl">Seed(累計$18.6M)</div></div>
+    <div class="metric"><div class="metric-val">-96%</div><div class="metric-lbl">調剤コスト</div></div>
+    <div class="metric"><div class="metric-val">250種</div><div class="metric-lbl">常用薬に対応</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>薬局チェーン・病院・小売にロボット薬局(ハード+ソフト)を設置。調剤/設置課金想定。共同創業/CTO: Josh Liu。主導: AlleyCorp(seed)/Riot Ventures(pre-seed)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>DB既収録の患者対応AI(Hippocratic/Amigo/Assort)がソフトなのに対し、Queueは『物理の薬を実際に扱う』フィジカルAI×医療。ソフトが触れない最後の物理工程を握る</li>
+      <li>『世界初の完全自律』を掲げ規制の重い医療で先行者ポジションを取りに行く型。安全検証内蔵が規制対応の堀</li>
+      <li>日本も薬剤師不足・医療過疎・調剤コストは同型の痛み。ただし調剤は薬機法・薬剤師法の規制が重く、国内特化なら制度対応が最大の壁かつ堀。kazumasaの機械・ハード観点でも参照価値大</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.carbonsix.ai" target="_blank">CarbonSix</a></div></div>
+    <span class="tag tag-green">$40M Series A / 製造フィジカルAI(韓国発)</span>
+  </div>
+  <p class="card-desc">工場ライン用のロボットハンド・マニピュレータ（ハード）と知能ソフトを『deploy-ready（即統合可能）』で提供する韓国発フィジカルAI。稼働から作業固有データを収集しAIを改善。CEOは産業AI視覚のSuaLab（Cognexが買収）共同創業者。kazumasaの機械・整備背景と直結する製造バーティカル</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>工場ライン用のロボットハンド・マニピュレータ（ハード）＋ロボット知能ソフトを『deploy-ready（現実の製造ラインに即統合可能）』で提供</b>する韓国発フィジカルAI。deploy後は<b>作業固有の稼働データを収集してAIを継続改善</b>する設計。<br><br>
+    <b>ストーリー：</b><b>$40M Series A（約KRW600億、DSC Investment/LB Investment共同主導、2026-07-01発表）</b>。新規にIMM/KDB/SV Investment等、既存seed投資家(Foothill/Storm Ventures等)も全社フォローオン。CEO<b>Terry Moon</b>は産業AI視覚の<b>SuaLab（Cognexが買収）</b>共同創業者、CTO<b>H.J. Terry Suh</b>はMIT博士、CHO Je-hyeok Kimは元Yale postdocでロボットハンド設計が専門。半導体/medtech/防衛製造向けにすでに商用契約と売上あり。汎用ロボットでなく『即戦力のハンド＋知能』を工場に直接入れる実装力が差別化。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$40M</div><div class="metric-lbl">Series A(DSC/LB主導)</div></div>
+    <div class="metric"><div class="metric-val">元SuaLab</div><div class="metric-lbl">CEO(Cognex買収)</div></div>
+    <div class="metric"><div class="metric-val">deploy-ready</div><div class="metric-lbl">即統合ハンド+ソフト</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>製造業向けにロボットハンド/マニピュレータ(ハード)＋知能ソフトを販売・導入。稼働データで改善するデータフライホイール。CEO: Terry Moon(元SuaLab)、韓国拠点</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>DB既収録AIM/Kargo/Almetra/Motive/Omenに連なるフィジカルAIの製造版。ソフト単独でなくハードを握るからこそ現実の作業を代替できる</li>
+      <li>『稼働データを集めてAI改善』のデータフライホイールが堀。汎用ロボットメーカーが真似しにくい作業特化データ</li>
+      <li>製造業の塊である日本の中小工場・部品加工にも同型余地。kazumasaの機械・整備の現場感覚と直結し、ハード×AIの当事者理解が資産になる領域</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.rhoda.ai" target="_blank">Rhoda AI</a></div></div>
+    <span class="tag tag-orange">$450M Series A / 評価$1.7B / ロボット基盤</span>
+  </div>
+  <p class="card-desc">インターネット規模の動画（数億本）で事前学習し、少量のロボットデータで後訓練することで実世界で動くロボットを作る基盤モデル『FutureVision（video-predictive control）』。ラボの外＝変化し続ける現場でロボットを汎化・自律動作させる。製造・物流の自動化を狙う</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>インターネット規模の動画（数億本）で事前学習し、動き・物理・物体との相互作用の強い事前分布を獲得</b>、その上で少量のロボットデータで後訓練してロボット固有の動作を学ばせる基盤モデル<b>『FutureVision』（closed-loop video-predictive control）</b>。ラボの実演でなく、素材・レイアウト・手順が絶えず変わる<b>実世界の現場でロボットを汎化・自律動作</b>させることを狙う。<br><br>
+    <b>ストーリー：</b><b>$450M Series A / 評価$1.7B（Khosla Ventures支援、announced 2026-03-10にステルス脱却、18ヶ月ステルス）</b>。CEO/共同創業<b>Jagdeep Singh</b>（連続ディープテック起業家）、CSO Eric Ryan Chan（Stanford、元WorldLabs）、Stanford教授Gordon Wetzstein。高volume製造の評価で<b>1サイクル2分未満・無人でKPI超過</b>を実証済み。※本ラウンドの発表は2026-03で本日付の新規調達ではなく、<b>本DB未収録の『動画学習ロボット基盤』の型として検知日2026-07-07で収録</b>。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$450M</div><div class="metric-lbl">Series A / 評価$1.7B</div></div>
+    <div class="metric"><div class="metric-val">動画で学習</div><div class="metric-lbl">数億本の事前学習</div></div>
+    <div class="metric"><div class="metric-val">2分未満</div><div class="metric-lbl">製造1サイクル(無人)</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>製造・物流向けにロボット知能基盤を提供(産業導入)。CEO: Jagdeep Singh、CSO Eric Ryan Chan(Stanford)。主導: Khosla Ventures</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>DB既収録General Intuition（ゲーム映像で学習）と同じ『既にある大量の動画を教師にする』データ戦略＝希少な実世界ロボットデータへの依存を減らす</li>
+      <li>フィジカルAIは2026年の鉱脈だが、基盤モデル層は$450M級の巨額資本ゲーム。個人開発者の土俵ではなく『使う側』に回る領域</li>
+      <li>kazumasaが張るべきはこの基盤の上のバーティカル応用層。基盤の進化＝現場AI導入コスト低下という追い風として読む</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.quantifind.com" target="_blank">Quantifind</a></div></div>
+    <span class="tag tag-orange">$200M Growth / 金融犯罪リスクAI</span>
+  </div>
+  <p class="card-desc">金融犯罪防止に特化したAIネイティブのリスクインテリジェンス基盤『Graphyte』。内部・外部データと専用言語モデルを束ね、エンティティ解決とリスク発見をエージェント型ミドルウェアで自動化。世界top10金融機関中6行が導入する規制フィンテックのバーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>金融犯罪防止に特化した<b>AIネイティブのリスクインテリジェンス基盤『Graphyte』</b>。内部・外部データと目的特化の言語モデルを組み合わせ、<b>エンティティ解決（誰が誰か）とリスク発見をエージェント型ミドルウェアで自動化</b>する。KYC・制裁スクリーニング・AMLの実務を担う。<br><br>
+    <b>ストーリー：</b><b>$200M Growth（Summit Partners主導、Citi Ventures/S&P Global/Deloitte/Stephens Group参加、2026-06-26発表）</b>。<b>世界top10のTier1金融機関中6行</b>が導入し、数万人の金融犯罪・コンプラ・国家安全の実務者が利用。独立系Celentの試算では、KYCと制裁スクリーニングだけでTier1銀行の<b>年間アラート処理費を最大$177.9M削減</b>し得る。今回の資金で欧州・APAC・米州へ国際展開＝各地域の規制対応とローカルリスク情報を拡張。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$200M</div><div class="metric-lbl">Growth(Summit主導)</div></div>
+    <div class="metric"><div class="metric-val">6/10行</div><div class="metric-lbl">世界top10金融機関</div></div>
+    <div class="metric"><div class="metric-val">-$177.9M</div><div class="metric-lbl">年間アラート処理費(試算)</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>金融機関・国家安全機関向けB2B(リスクインテリジェンス基盤/エージェント型ミドルウェア)。主導: Summit Partners、Citi Ventures/S&P Global等参加</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>DB既収録Taktile(リスク判断)/Corgi(保険)と同じ金融×規制の型だが、Quantifindは『金融犯罪検知・エンティティ解決』という別レイヤー＝1業界に複数レイヤーの勝者</li>
+      <li>規制要件(監査可能性・説明可能性)そのものが汎用LLMで満たせない堀。Tier1導入実績と累積データが信頼シグナル</li>
+      <li>日本の地銀・信金・保険・証券もAML/KYCは金商法・犯収法で必須。国内規制・日本語エンティティ特化なら手薄ニッチ</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.luxonis.com" target="_blank">Luxonis</a></div></div>
+    <span class="tag tag-green">$14M Series A / エッジ視覚(知覚レイヤー)</span>
+  </div>
+  <p class="card-desc">カメラ+エッジAI+オープンソースを束ねた、ロボット向けの『知覚(perception)』システム。生映像でなく処理済みの空間認識をロボットに供給する。農業・ヘルスケア・物流・製造を横断してロボットの『目』を担う知覚レイヤーのフィジカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>カメラ+エッジ上のAI+オープンソフトを束ねた、ロボット向けの知覚(perception)システム</b>。クラウドに送らずデバイス側(エッジ)で映像を空間認識に変換し、<b>ロボットの『目』を担う知覚レイヤー</b>を提供する。<br><br>
+    <b>ストーリー：</b><b>$14M Series A（Denali Growth Partners/Taiwania Capital主導、2026-07-02発表）</b>。<b>農業・ヘルスケア・物流・製造</b>の各セクターを横断してロボット知覚の基盤を狙う。ロボット/フィジカルAIが実世界で動くには『まず正確に見て空間を理解する』ことが前提で、その知覚を専門で握るツルハシ的ポジション。DB既収録の製造・物流フィジカルAI(CarbonSix/Kargo/AIM等)が『動く・掴む』のに対し、Luxonisは全ての手前にある『見る』を供給する。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$14M</div><div class="metric-lbl">Series A</div></div>
+    <div class="metric"><div class="metric-val">エッジ処理</div><div class="metric-lbl">カメラ+AI+OSS</div></div>
+    <div class="metric"><div class="metric-val">4業種横断</div><div class="metric-lbl">農/医/物流/製造</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>ロボット/自動化の開発者・メーカー向けに知覚ハード+エッジAI+OSSを提供。主導: Denali Growth Partners/Taiwania Capital。創業者個人名は本調査では不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>フィジカルAIの『掴む・動く』の手前にある『見る(知覚)』を専門で握るツルハシ型。全ロボットに共通で必要＝横断需要</li>
+      <li>エッジ処理(オンデバイス)はプライバシー・低レイテンシが効き、2026年のローカルファーストトレンドと整合</li>
+      <li>OSSでコミュニティと開発者を囲い込む戦略。日本の農業/物流ロボット/工場自動化でも『目』の部品需要は同型</li>
+    </ul></dd>
+  </dl>
+</div>
+
+</div>
+<!-- ==================== END 2026-07-07 ==================== -->
+
 <!-- ==================== 2026-07-06 新規5件（現場トレードOS/フィジカルAI/動画AI/推論インフラ/エージェント検証） ==================== -->
-<div class="report active" id="r20260706">
+<div class="report" id="r20260706">
 
 <div class="summary">
   <h2>Today's Signal — 本日は新規5件。主役は業界特化バーティカルAI2件。①<b>Probook</b>（配管/HVAC/電気の現場サービスAI OS、a16z/Sequoia $40M）は父と圧力洗浄をした創業者が現場の痛みを堀にした型で、kazumasaの整備・現場背景と直結する最重要参考。②<b>Omen AI</b>（データセンター冷却の流体を測るフィジカルAI、$31M Series A）はAIが増えるほど冷却の痛みも増える構造的追い風。加えて③動画理解の<b>TwelveLabs</b>（$100M Series B、Amazon/NAVER）、④推論インフラ$1.5Bの<b>Baseten</b>（価値がモデル→実行層へ移動する象徴）、⑤AIコーディングエージェント向けテスト環境<b>TryCase</b>（PH 7/5 #4）。共通テーマは『現場・物理・裏方インフラ』——生成より実行・運用に価値が移る2026年。</h2>
@@ -6603,6 +6753,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-07-07', id: 'r20260707', count: 5 },
   { date: '2026-07-06', id: 'r20260706', count: 5 },
   { date: '2026-07-05', id: 'r20260705', count: 4 },
   { date: '2026-07-04', id: 'r20260704', count: 6 },
