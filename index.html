@@ -90,14 +90,14 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">33</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">160</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">34</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">165</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-07-07</div>
+    <div class="date-main" id="dateMain">2026-07-08</div>
     <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
@@ -105,8 +105,157 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-07-08 新規5件（金融バーティカル/不動産DC/規制業界受託/営業エージェント/成果証明） ==================== -->
+<div class="report active" id="r20260708">
+
+<div class="summary">
+  <h2>Today's Signal — 本日は新規5件、バーティカルAI優先。テーマは『各ユーザーの判断を学習する専用エージェント』『規制そのものを堀に変える』『AI時代の"本物である証明"』。主役は調達3件。①<b>LinqAlpha</b>（機関投資家向けアルファ基盤、$22M Series A）は米欧亜70+金融機関・運用資産$5兆超のbuy-sideが利用する金融バーティカル。②<b>8090 Labs</b>（規制業界向けSoftware Factory、$135M Series A、Chamath CEO就任）はHIPAA/SOC2/FedRAMP準拠のガバナンスを製品化しAccenture型受託に挑む。③<b>Build</b>（データセンター開発DDを自動化する"agentic real estate"、$8.5M Seed）はkazumasaの不動産関心と直結。加えてProduct Hunt 7/7上位2件、④<b>Katalyst</b>（Salesforce営業エージェント、デイリー#3）と⑤<b>Badge</b>（AIが集める成果の証明、総合#1）。</h2>
+  <ul>
+    <li><b>LinqAlpha</b>（AI/Vertical・FinTech）— 公開株式市場向けの『Alpha Intelligence Layer』。ユーザーごとの投資フレームを学習した専用AIエージェントが数千の市場シグナルを合成しコンセンサス前に判断を導く。<b>$22M Series A（AVP/Atinum/GFT Ventures主導）/ 2026-07-02 / 70+金融機関・buy-side運用資産$5兆超</b>。創業は元Goldman Sachs+MIT CS PhD</li>
+    <li><b>8090 Labs</b>（AI/SaaS・規制業界）— 規制の重いエンタープライズ向けにカスタムソフトを『AIエージェント×人間監督』で量産するSoftware Factory＋受託デリバリー。<b>$135M Series A（Salesforce Ventures主導）/ 2026-06-29 / Chamath PalihapitiyaがCEO就任</b>。HIPAA/SOC2/FedRAMP準拠。Accenture/Infosys型の受託市場に正面挑戦</li>
+    <li><b>Build</b>（AI/Vertical・不動産/インフラ）— データセンター開発の用地選定・デューデリを自動化する『agentic real estate』。1,600+ソースで規制・環境・電力を並列評価しDD期間を95%超短縮。<b>$8.5M Seed（Index Ventures主導）/ 15カ国100+案件 / Tishman Speyer等が顧客</b>。Harvard中退の建築家が創業</li>
+    <li><b>Katalyst</b>（SaaS/AI・営業）— Salesforceのパイプラインを実際に『動かす』営業AIエージェント。CRM更新でなく商談の前進・フォローを実行する寄生型。<b>Product Hunt 2026-07-07 デイリー#3（233票）</b>。調達/創業者は不明</li>
+    <li><b>Badge</b>（AI・HR/検証）— AIエージェントが同僚のピアレビューを収集し個人の『成果の証明（proof of work）』を生成。AI生成氾濫時代の"本物である証明"に張る逆張り。<b>Product Hunt 2026-07-07 デイリー総合#1（246票）</b>。調達/創業者は不明</li>
+    <li>🟡 <b>注記</b>: LinqAlpha/8090/Buildは直近（6/29〜7/2）の資本イベント。Katalyst/BadgeはPH初速のみで調達・トラクション未確認のため『型/兆し』として軽く収録。創業者個人名など一次確認できない項目は『不明』と明記。出典: prnewswire.com / bloomberg.com / businesswire.com / aecmag.com / thenextweb.com / producthunt.com</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.linqalpha.com" target="_blank">LinqAlpha</a></div></div>
+    <span class="tag tag-orange">$22M Series A / 機関投資家向けアルファ基盤</span>
+  </div>
+  <p class="card-desc">公開株式市場向けの『Alpha Intelligence Layer』を構築するFinTechバーティカルAI。ユーザーごとの投資フレームワークを学習した専用AIエージェントが、数千の市場シグナルを合成しコンセンサス形成前に差別化された投資判断を導く。米欧亜70+金融機関・buy-side顧客の運用資産合計$5兆超が利用</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>公開株式市場向けの『Alpha Intelligence Layer（超過収益インテリジェンス基盤）』</b>。ユーザーごとの投資フレームワークを学習した<b>専用AIエージェント</b>が、開示資料・決算トランスクリプト・ニュース・オルタナデータといった数千の市場シグナルを合成し、<b>コンセンサスが形成される前に差別化された投資判断</b>を導く。<br><br>
+    <b>ストーリー：</b><b>$22M Series A（AVP/Atinum Investment/GFT Ventures主導、2026-07-02発表）</b>。ローンチ以来<b>米欧亜70超の金融機関</b>に採用され、投資銀行のセールス/トレーディング/リサーチ(sell-side)に加え、<b>Causeway Capital・Schonfeld Strategic Advisors等のbuy-side顧客（運用資産合計$5兆超）</b>が利用。創業は<b>Jacob Choi/Subeen Pang/Jin Kim/Hojun Choi（元Goldman Sachsアナリスト+MIT CS PhD）</b>。今回の資金でグローバルチーム拡大、データ統合の深化、株式・マクロ・クレジット・マルチアセットへのマルチエージェント展開を加速。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$22M</div><div class="metric-lbl">Series A(AVP主導)</div></div>
+    <div class="metric"><div class="metric-val">70+</div><div class="metric-lbl">金融機関導入</div></div>
+    <div class="metric"><div class="metric-val">$5兆超</div><div class="metric-lbl">buy-side運用資産</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>機関投資家(buy-side/sell-side)向けSaaS。ユーザー独自の投資フレームを学習する専用AIエージェント。主導: AVP/Atinum Investment/GFT Ventures</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>DB既収録Rogo(投資銀行/PE向けリサーチ自動化)と同じ金融×AIだが、『各ユーザーの投資哲学を学習した専用エージェント』でアルファ創出そのものに踏み込む点が差別化</li>
+      <li>高単価・痛み明確な金融領域で『使うほど賢くなる専用エージェント』＝剥がれにくい堀。顧客の運用資産規模がそのまま信頼シグナル</li>
+      <li>日本の証券・アセマネ・地銀の運用/リサーチ部門も国内開示・日本語データ特化なら手薄ニッチ。韓国系創業がアジア→米欧に横展開する型も参考</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.8090.inc" target="_blank">8090 Labs</a></div></div>
+    <span class="tag tag-orange">$135M Series A / 規制業界Software Factory</span>
+  </div>
+  <p class="card-desc">規制の重いエンタープライズ向けにカスタムソフトを『AIエージェント×人間監督』で量産する『Software Factory』＋受託デリバリー事業。顧客はヘルスケア(HIPAA)・保険・金融(SOC2)・米政府(FedRAMP)等。Chamath PalihapitiyaがFacebook退社以来初の執行役としてCEO就任</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b>規制の重いエンタープライズ向けにカスタムソフトを<b>『AIエージェント×人間監督』で量産する『Software Factory』</b>を運営。人間主導のガバナンス下で複数エージェントが協調して構築・変更するマルチプレイヤー基盤と、<b>設計〜構築〜ホスティング〜運用まで請け負う受託デリバリー事業</b>を併営。顧客はヘルスケア(HIPAA)・保険・ライフサイエンス・航空宇宙・エネルギー・製造・金融(SOC2/ISO)・米政府(FedRAMP)等。<br><br>
+    <b>ストーリー：</b><b>$135M Series A（Salesforce Ventures主導、Craft Ventures/LAUNCH等+Nikesh Arora/Adam D'Angelo等エンジェル参加、2026-06-29発表）</b>。<b>Chamath PalihapitiyaがFacebook退社以来初の執行役としてCEOに就任</b>。差別化はコードでなく<b>『規制要件を満たすガバナンス+人間監督』を製品に組み込んだ点</b>。Accenture/Infosys/WiproがITサービスモデルで数十年築いた規制エンタープライズ受託市場への正面挑戦。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$135M</div><div class="metric-lbl">Series A(Salesforce主導)</div></div>
+    <div class="metric"><div class="metric-val">Chamath</div><div class="metric-lbl">CEO就任</div></div>
+    <div class="metric"><div class="metric-val">HIPAA/FedRAMP</div><div class="metric-lbl">規制準拠を製品化</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>規制業界向けエンタープライズ受託開発+Software Factoryプラットフォーム。主導: Salesforce Ventures。CEO: Chamath Palihapitiya</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>生成AIが普及するほど『誰が責任を持って規制準拠のソフトを納品するか』が価値になる＝規制そのものを堀に変える型</li>
+      <li>著名投資家/創業者(Chamath)の参入自体がカテゴリの本気度シグナル。差別化は技術でなくガバナンス+人間監督</li>
+      <li>個人開発者の土俵ではないが、規制準拠を握る発想は日本の士業・医療・金融向けツールにも通じる</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://aecmag.com/ai/build-raises-8-5m-seed-for-ai-driven-infrastructure-due-diligence-platform/" target="_blank">Build</a></div></div>
+    <span class="tag tag-green">$8.5M Seed / agentic real estate(DC開発DD)</span>
+  </div>
+  <p class="card-desc">データセンター開発の用地選定・デューデリを自動化する『agentic real estate』。1,600+のデータソースから計画規制・環境・電力・政治的制約を並列評価しDD期間を95%超短縮。ソフトでなくサービスとして提供。政府・Fortune500・Tishman Speyer等向けに15カ国100+案件で稼働する不動産バーティカルAI</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>データセンター開発の用地選定(site sourcing)とデューデリを自動化する『agentic real estate（エージェンティック不動産）』</b>プラットフォーム。1,600超のデータソースから<b>計画規制・環境・電力・政治的制約を並列評価</b>し、通常のDD期間を<b>95%超短縮</b>。ソフトウェアでなくサービスとして提供する点が特徴。<br><br>
+    <b>ストーリー：</b><b>$8.5M Seed（Index Ventures主導、Pebblebed/Puzzle Ventures/Tiny.vc、エンジェルにOpenAI CFO Sarah Friar・Blackstone CTO John Stecher等参加）</b>。すでに<b>政府・Fortune500・Tishman Speyer等の機関投資家系不動産グループ向けに15カ国100超の案件</b>で稼働。将来的には用地選定→許認可→エンジニアリング→着工前→アセット管理まで開発ライフサイクル全体の自動化を狙う。創業は<b>英国出身・NY拠点、Harvard中退の建築家</b>（個人名は未確認）、チームはBlackstone/Tishman Speyer/Starwood/JP Morgan出身+DC開発経験者。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$8.5M</div><div class="metric-lbl">Seed(Index主導)</div></div>
+    <div class="metric"><div class="metric-val">-95%超</div><div class="metric-lbl">DD期間短縮</div></div>
+    <div class="metric"><div class="metric-val">15カ国100+</div><div class="metric-lbl">案件に導入</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>agentic real estate。用地選定・DDを『ソフトでなくサービス』として提供。主導: Index Ventures。顧客: 政府/Fortune500/Tishman Speyer等</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AIブームで急増するデータセンター開発という『巨大な追い風×間違えられない専門領域』に、当事者(不動産インフラ出身チーム)が張る型</li>
+      <li>堀は1,600ソース統合と規制・電力・環境の並列評価ノウハウ+『サービスとして深く入り込む』点。DB既収録EliseAI(賃貸)/Jitty(住宅検索)に続く不動産×AIだが開発上流を握る</li>
+      <li>kazumasaの不動産関心(CoPath/tanpoloan)と直結。日本のDC/再エネ/不動産開発の用地DD・許認可も国内規制特化なら手薄ニッチ</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/daily/2026/7/7" target="_blank">Katalyst</a></div></div>
+    <span class="tag tag-green">PH 7/7 #3 / Salesforce営業エージェント</span>
+  </div>
+  <p class="card-desc">Salesforceのパイプライン(商談)を実際に『動かす』営業AIエージェント。CRMの静的なデータ管理でなく、商談の前進・フォロー・更新といった営業オペレーションをエージェントが肩代わりして実行する実行型。既存CRMを置き換えず導入摩擦を下げる寄生型SaaS</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>Salesforceのパイプライン(商談)を実際に『動かす』営業AIエージェント</b>。CRMの静的なデータ管理でなく、<b>商談の前進・フォロー・更新といった営業オペレーションをエージェントが肩代わりして実行する</b>実行型。<br><br>
+    <b>ストーリー：</b><b>Product Hunt 2026-07-07 デイリー#3（233票）</b>。DB既収録Attention(レベニューオペ実行)/Jesse(リアルタイムリード探索)と同じ『営業の定型作業をAIが手を動かして完了する』流れに連なる。<b>巨大なSalesforceエコシステム上に乗る寄生型</b>で、既存CRMを置き換えず導入摩擦を下げるのが勝ち筋。同日PH#7 Social Fetch(SNSスクレイパーAPI)等と並び、営業・GTM領域のエージェント化が継続トレンド。価格・創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">PH #3</div><div class="metric-lbl">2026-07-07 デイリー</div></div>
+    <div class="metric"><div class="metric-val">233票</div><div class="metric-lbl">Product Hunt</div></div>
+    <div class="metric"><div class="metric-val">寄生型</div><div class="metric-lbl">Salesforce上で実行</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>Salesforce上で稼働する営業支援AIエージェント(SaaS)。創業者・調達は不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>『新しいCRMを売る』でなく『既存CRM(Salesforce)の上でエージェントが実務を実行する』寄生型は導入摩擦が低く、巨大既存基盤の顧客をそのまま取れる</li>
+      <li>生成→実行へ価値が移る営業領域の最新例。日本でもSFA/CRM(Salesforce/kintone等)上で動く営業実行エージェントは国内商習慣特化なら余地</li>
+      <li>ただしPHデイリー#3・233票と規模は中程度、調達/トラクション未確認で『型』として軽く収録</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/daily/2026/7/7" target="_blank">Badge</a></div></div>
+    <span class="tag tag-green">PH 7/7 総合#1 / AIが集める成果の証明</span>
+  </div>
+  <p class="card-desc">AIエージェントが同僚・関係者からのピアレビュー(相互評価)を自動収集し、個人の『成果の証明(proof of work)』を生成するツール。自己申告でなく第三者評価を束ねて実績を可視化・検証可能にする。AI生成が氾濫する時代の"本物である証明"に張る逆張り</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>AIエージェントが同僚・関係者からのピアレビュー(相互評価)を自動収集し、個人の『成果の証明(proof of work)』を生成する</b>ツール。自己申告でなく<b>第三者評価を束ねて実績を可視化・検証可能</b>にする発想。リモート/AI時代に『誰が本当に価値を出したか』の証明が曖昧になる痛みを解く。<br><br>
+    <b>ストーリー：</b><b>Product Hunt 2026-07-07 デイリー総合1位（246票）</b>。HR・採用・キャリア文脈での実績証明ニーズに刺さる可能性。同日はKatalyst・Dupely(検証)・Mira(面接)等『信頼・検証』系プロダクトが並び、AI生成が氾濫する時代に<b>『本物であることの証明』へ需要が移る兆し</b>。DB既収録Honestly/VisibAIのauthentic訴求と同じ流れ。価格・創業者は不明。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">PH #1</div><div class="metric-lbl">2026-07-07 総合</div></div>
+    <div class="metric"><div class="metric-val">246票</div><div class="metric-lbl">Product Hunt</div></div>
+    <div class="metric"><div class="metric-val">第三者評価</div><div class="metric-lbl">proof of work</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>AIエージェントがピアレビューを収集し成果の証明を生成(SaaS)。創業者・調達は不明</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AIがコンテンツ・成果物を量産するほど『それが本物か・誰の実力か』を証明する逆張りの需要が生まれる(既収録Honestly/VisibAIのauthentic訴求と同じ流れ)</li>
+      <li>第三者評価の累積が検証精度の堀になりうる。日本でも副業・フリーランス・採用領域で『スキルの第三者証明』は手薄ニッチ</li>
+      <li>kazumasaのX運用(実験ログで実績を可視化)とも思想が近い。ただしPH初速のみで実体不明、『型/兆し』として軽く収録</li>
+    </ul></dd>
+  </dl>
+</div>
+
+</div>
+
 <!-- ==================== 2026-07-07 新規5件（薬局ロボ/製造フィジカルAI×2/金融犯罪/エッジ視覚） ==================== -->
-<div class="report active" id="r20260707">
+<div class="report" id="r20260707">
 
 <div class="summary">
   <h2>Today's Signal — 本日は新規5件。テーマは『フィジカルAI（現実世界で作業するAI）』と『規制業界バーティカル』。主役2件は kazumasa の機械・現場背景と直結。①<b>Queue</b>（世界初の完全自律ロボット薬局、AlleyCorp $12.6M）は薬剤師不在で250種の処方を最大96%低コストで調剤する医療バーティカル。②<b>CarbonSix</b>（韓国発、工場ライン用ロボットハンド+ソフト、$40M Series A）は元SuaLab（Cognex買収）創業者による製造フィジカルAI。加えて③<b>Rhoda AI</b>（動画で学習するロボット基盤、$450M/評価$1.7B）、④<b>Quantifind</b>（金融犯罪検知の規制フィンテック、Summit $200M）、⑤<b>Luxonis</b>（エッジ視覚の知覚レイヤー、$14M）。共通項は『ソフトだけで完結せずカメラ/センサー/ハードで物理世界を握る型』——2026年フィジカルAIトレンドの継続。</h2>
@@ -6753,6 +6902,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-07-08', id: 'r20260708', count: 5 },
   { date: '2026-07-07', id: 'r20260707', count: 5 },
   { date: '2026-07-06', id: 'r20260706', count: 5 },
   { date: '2026-07-05', id: 'r20260705', count: 4 },
