@@ -90,23 +90,172 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">34</div><div class="stat-lbl">Reports</div></div>
-  <div class="stat"><div class="stat-val">165</div><div class="stat-lbl">Products Detected</div></div>
+  <div class="stat"><div class="stat-val">35</div><div class="stat-lbl">Reports</div></div>
+  <div class="stat"><div class="stat-val">170</div><div class="stat-lbl">Products Detected</div></div>
 </div>
 
 <div class="date-nav">
   <button class="date-arrow" id="prevDate" onclick="navigateDate(1)">&#8249;</button>
   <div class="date-display">
-    <div class="date-main" id="dateMain">2026-07-12</div>
-    <div class="date-sub" id="dateSub">4 products detected</div>
+    <div class="date-main" id="dateMain">2026-07-13</div>
+    <div class="date-sub" id="dateSub">5 products detected</div>
   </div>
   <button class="date-arrow" id="nextDate" onclick="navigateDate(-1)">&#8250;</button>
 </div>
 <div class="date-dots" id="dateDots"></div>
 <button class="reload-btn" onclick="location.reload()">Reload</button>
 
+<!-- ==================== 2026-07-13 新規5件（調達オーケストレーション/ロボティクス基盤/生成UI・記憶生成・API検証） ==================== -->
+<div class="report active" id="r20260713">
+
+<div class="summary">
+  <h2>Today's Signal — 本日は新規5件、バーティカルAI優先。大型ラウンド2件＋Product Hunt 7/12上位3件。主役は<b>ORO Labs</b>（調達オーケストレーション、$100M Series C・Brighton Park/Goldman主導・売上YoY300%・Coca-Cola/Siemens/Novartis導入）と<b>Skild AI</b>（統一ロボティクス基盤モデル、$1.4B Series C・SoftBank主導・$14B評価）。加えてPH 7/12から①<b>JustVibe</b>（クエリから即席アプリを生成する検索、総合#1・467票）②<b>Miora</b>（記憶を持つマルチモーダル生成、#2・399票）③<b>FetchSandbox</b>（副作用・非同期まで見るAPI検証、#3・337票）。既収録の重複（Rebar/Agave/Trase/Taktile/Assort/xCures/Alan/LeapXpert/Amigo）は除外。</h2>
+  <ul>
+    <li><b>ORO Labs</b>（AI/Vertical・調達/Procurement）— 企業の調達ワークフローを複数基幹システム横断でオーケストレーション。人・プロセス・システム・AIエージェントを単一化。<b>$100M Series C（Brighton Park Capital/Goldman Sachs Alternatives主導）/ 売上YoY300% / Coca-Cola・Siemens Energy・Novartis導入 / 2026-03-12</b>。創業=2020(個人名不明)</li>
+    <li><b>Skild AI</b>（AI/Vertical・ロボティクス基盤）— あらゆるロボットを追加学習ほぼ不要で制御する統一基盤モデル『Skild Brain』。身体形状を問わず(omni-bodied)制御。<b>$1.4B Series C（SoftBank主導）/ $14B評価 / 売上0→~$30M(数ヶ月) / 2026-01-14</b>。創業=2023(個人名不明)</li>
+    <li><b>JustVibe</b>（AI/SaaS・vibe coding）— クエリに応じてブラウザ内でカスタムのインタラクティブアプリをその場で生成する検索。生成結果でなく操作可能なアプリを返す。<b>Product Hunt 2026-07-12 デイリー総合#1（467票）</b>。創業=不明</li>
+    <li><b>Miora</b>（AI・クリエイティブ）— 複数のAIエージェントが記憶を持って協調し画像・動画等のマルチモーダル素材を生成。ブランド文脈・履歴を記憶し一貫制作。<b>Product Hunt 2026-07-12 デイリー#2（399票）</b>。創業=不明</li>
+    <li><b>FetchSandbox</b>（AI/Infra・API検証）— APIテストで結果だけでなくwebhook・リトライ・状態変化・非同期ワークフローの『その後』まで検証。<b>Product Hunt 2026-07-12 デイリー#3（337票）</b>。創業=不明</li>
+    <li>🟡 <b>注記</b>: ORO Labs/Skild AIは本DB未収録の型として検知日2026-07-13で収録（ラウンド発表はそれぞれ2026-03/2026-01）。PH3件は初速のみで調達/トラクション・創業者は未確認、『型/兆し』として収録。一次確認できない項目は『不明』と明記。出典: orolabs.ai / prnewswire.com / siliconangle.com / fortune.com / skild.ai / techcrunch.com / crunchbase.com / businesswire.com / producthunt.com</li>
+  </ul>
+</div>
+
+<div class="section-title">Today's Detected Products</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.orolabs.ai/" target="_blank">ORO Labs</a></div></div>
+    <span class="tag tag-orange">$100M Series C / 調達バーティカルAI</span>
+  </div>
+  <p class="card-desc">企業の調達(procurement)ワークフローを複数の基幹システム横断でオーケストレーションするエンタープライズAI。人・プロセス・システム・AIエージェントを単一のフレームワークに束ね、購買・財務・法務・サプライチェーン業務の自動化、コンプラ強化、リアルタイム可視化を実現。Coca-Cola/Siemens Energy/Novartis等の大企業が採用し過去1年で売上300%成長。</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>調達オーケストレーション基盤</b>。購買・財務・法務・サプライチェーンの各業務システムを横断し、AIエージェントを含めた一連のワークフローを自動化・可視化。<br><br>
+    <b>ストーリー：</b><b>$100M Series C（Brighton Park Capital / Growth Equity at Goldman Sachs Alternatives主導、Norwest/B Capital/Felicis参加、2026-03-12発表）</b>。過去1年で売上<b>300%成長</b>。Coca-Cola・Siemens Energy・Novartis等が採用。2020創業(創業者個人名は不明)。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$100M</div><div class="metric-lbl">Series C(Brighton Park主導)</div></div>
+    <div class="metric"><div class="metric-val">+300%</div><div class="metric-lbl">売上YoY</div></div>
+    <div class="metric"><div class="metric-val">Coca-Cola他</div><div class="metric-lbl">大企業導入</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>エンタープライズSaaS(調達オーケストレーション)。主導: Brighton Park Capital/Goldman Sachs Alternatives</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>調達のような『全産業共通・地味・ROI明確』な業務オペは大型バーティカルAIの本命。DB既収録Definic(€2.5M・東欧×ベンダーインテリジェンス)と同領域だが桁が違うフルスタック型</li>
+      <li>堀はコードでなく複数基幹システムとの統合と大企業導入実績の累積。単純接続でなくワークフローを丸ごと握る</li>
+      <li>日本の中堅〜大企業の購買・仕入先管理も国内商習慣・電帳法特化なら手薄ニッチ</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.skild.ai/" target="_blank">Skild AI</a></div></div>
+    <span class="tag tag-orange">$1.4B Series C / ロボティクス基盤モデル</span>
+  </div>
+  <p class="card-desc">あらゆるロボットを追加学習ほぼ不要で制御できる統一ロボティクス基盤モデル『Skild Brain』を構築。四足歩行・ヒューマノイド・卓上アーム・移動マニピュレータなど身体形状を問わず(omni-bodied)制御でき、特定ロボットに後付け(retrofit)可能。2025年に売上0→約$30Mを数ヶ月で達成し複数顧客で急拡大。</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>身体非依存の統一ロボティクス基盤モデル</b>。1つのモデルで四足・ヒューマノイド・アーム・移動マニピュレータを制御し、既存ロボットに後付け可能。<br><br>
+    <b>ストーリー：</b><b>$1.4B Series C（SoftBank主導、NVIDIA(NVentures)/Bezos Expeditions/Sequoia/Lightspeed/LG/Schneider/Salesforce Ventures等、2026-01-14発表）</b>で<b>$14B評価</b>。7ヶ月前の$135M Series B($4.5B)から3倍。2025年に売上0→約$30Mを数ヶ月で達成。2023創業(創業者個人名は不明)。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">$1.4B</div><div class="metric-lbl">Series C(SoftBank主導)</div></div>
+    <div class="metric"><div class="metric-val">$14B</div><div class="metric-lbl">評価額</div></div>
+    <div class="metric"><div class="metric-val">0→$30M</div><div class="metric-lbl">売上(数ヶ月)</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>ロボティクス基盤モデル(エンタープライズ/ライセンス)。主導: SoftBank</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>価値が『特定ロボット向けソフト』から『あらゆるロボットを動かす基盤モデル』へ移動。DB既収録Rhoda/General Intuitionと同じ汎用ロボット知能層で最も攻めた設計</li>
+      <li>基盤モデル層は$1B級の巨額資本ゲーム=個人開発者でなく『使う側』に回る領域</li>
+      <li>kazumasaが張るべきは上のバーティカル応用層(現場特化データ)。Skild等のロボット基盤は使う側に回るのが正解という位置確認に使える</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/daily/2026/7/12" target="_blank">JustVibe</a></div></div>
+    <span class="tag tag-green">PH 7/12 総合#1 / 生成UI検索（型・兆し）</span>
+  </div>
+  <p class="card-desc">検索エンジンでありながら、クエリに応じてブラウザ内でカスタムのインタラクティブアプリをその場で生成するツール。『検索結果を返す』でなく『用途に合った操作可能なアプリを即席で作って返す』発想。AIの出力形式が『テキスト/リンク』から『その場で使えるアプリ・UI』へ移る兆し。</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>クエリから即席アプリを生成する検索</b>。検索結果でなく、用途に合った操作可能なインタラクティブアプリをブラウザ内でその場で生成して返す。<br><br>
+    <b>ストーリー：</b><b>Product Hunt 2026-07-12 デイリー総合#1（467票）</b>。DB既収録Monogram(動的UI生成)/Base44(テキスト→アプリ)などvibe coding/生成UIの流れに連なる。作る側の民主化(PlugThis/Base44)と、出力を会話でなくUIにする(Monogram)2潮流の交点。PHデイリー初速のみで調達/創業者は未確認、『型/兆し』として収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#1</div><div class="metric-lbl">PH 7/12 総合</div></div>
+    <div class="metric"><div class="metric-val">467票</div><div class="metric-lbl">upvotes</div></div>
+    <div class="metric"><div class="metric-val">生成UI</div><div class="metric-lbl">検索×即席アプリ</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>不明(フリーミアム想定・ノーコードアプリビルダー/検索)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>AIの価値は『答える』から『その場で使える道具を生成する』へ</li>
+      <li>検索・チャットという巨大既存フォーマットの上に生成UIを乗せるのが後発の勝ち角度</li>
+      <li>PHデイリー初速のみで実体・創業者不明。『型/兆し』として軽く収録</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="AI">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/daily/2026/7/12" target="_blank">Miora</a></div></div>
+    <span class="tag tag-green">PH 7/12 #2 / 記憶付き生成（型・兆し）</span>
+  </div>
+  <p class="card-desc">複数のAIエージェントが『メモリ(記憶)』を持って協調し、画像・動画等のマルチモーダルなクリエイティブ素材を生成するクリエイティブスタジオ。単発生成でなくブランド文脈やこれまでの生成履歴を記憶して一貫した制作を続ける点が差別化。</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>記憶を持つマルチモーダル生成スタジオ</b>。複数エージェントが履歴・ブランド文脈を記憶して協調し、一貫したシリーズ制作を続ける。<br><br>
+    <b>ストーリー：</b><b>Product Hunt 2026-07-12 デイリー#2（399票）</b>。DB既収録の生成クリエイティブ系に対し『エージェント×永続メモリ』でシリーズ制作の一貫性を担保する方向。AI生成が氾濫するほど『ブランド一貫性・記憶』が価値になる兆し。調達/創業者は未確認で『型』として収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#2</div><div class="metric-lbl">PH 7/12</div></div>
+    <div class="metric"><div class="metric-val">399票</div><div class="metric-lbl">upvotes</div></div>
+    <div class="metric"><div class="metric-val">記憶×生成</div><div class="metric-lbl">一貫性</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>不明(クリエイティブSaaS/サブスク想定)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>生成AIの次の差別化軸は『単発の綺麗さ』でなく『記憶による一貫性』</li>
+      <li>ブランド運用(kazumasaのX/CoPath素材制作)でも記憶を持つ生成は効く</li>
+      <li>PHデイリー#2・399票と中規模、創業者不明。『型』として収録</li>
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="card" data-cat="Infra">
+  <div class="card-top">
+    <div><div class="card-title"><a href="https://www.producthunt.com/leaderboard/daily/2026/7/12" target="_blank">FetchSandbox</a></div></div>
+    <span class="tag tag-green">PH 7/12 #3 / API検証インフラ（型・兆し）</span>
+  </div>
+  <p class="card-desc">APIテストプラットフォームで、リクエストの結果だけでなく『その後に何が起きるか』——webhook・リトライ・状態変化・非同期ワークフロー——まで検証する。単純なレスポンス確認を超え、副作用や非同期の連鎖まで見る点が差別化。</p>
+  <div class="card-about">
+    <b>どんなプロダクトか：</b><b>副作用・非同期まで見るAPI検証基盤</b>。レスポンスだけでなくwebhook・リトライ・状態変化・非同期ワークフローの連鎖まで検証する。<br><br>
+    <b>ストーリー：</b><b>Product Hunt 2026-07-12 デイリー#3（337票）</b>。DB既収録TryCase(エージェントの自己検証)/Perfai(vibe codingの脆弱性検知)に連なる『AI/自動化が量産するコードの正しさを後段で担保する』検証レイヤーのツルハシ型。調達/創業者は未確認で『型/兆し』として収録。
+  </div>
+  <div class="metrics">
+    <div class="metric"><div class="metric-val">#3</div><div class="metric-lbl">PH 7/12</div></div>
+    <div class="metric"><div class="metric-val">337票</div><div class="metric-lbl">upvotes</div></div>
+    <div class="metric"><div class="metric-val">非同期検証</div><div class="metric-lbl">webhook/retry/state</div></div>
+  </div>
+  <dl class="details">
+    <dt>ビジネスモデル</dt><dd>不明(開発者向けSaaS/従量課金想定・API検証プラットフォーム)</dd>
+    <dt>学べるポイント</dt>
+    <dd><ul>
+      <li>生産(コード生成)の民主化が進むほど、検証・テスト・安全の自動化需要が対で生まれる</li>
+      <li>非同期・副作用まで見る検証は狙い目のニッチ。DB既収録TryCase/Perfaiと同じ検証レイヤーのツルハシ型</li>
+      <li>PHデイリー#3・337票と中規模、創業者不明。『型/兆し』として収録</li>
+    </ul></dd>
+  </dl>
+</div>
+
+</div>
+
 <!-- ==================== 2026-07-12 新規4件（建設バーティカルAI/AIトレーディング/WealthTech/消費者視覚AI） ==================== -->
-<div class="report active" id="r20260712">
+<div class="report" id="r20260712">
 
 <div class="summary">
   <h2>Today's Signal — 本日は新規4件、バーティカルAI優先。テーマは『規制/専門業種をAIネイティブで束ねる』と『既存資産（ゲームAI・専門職業務）の別業界転用』。主役は調達3件。①<b>Higharc</b>（建設・住宅建築、$95M Series C・Insight主導・累計$170M超）は間取り図画像→3D空間データで設計〜見積〜建材調達を一気通貫し、米最大の建材流通US LBMと提携。②<b>EquiLibre Technologies</b>（金融トレーディング、Series A・評価$500M・Creandum主導）は元DeepMindのポーカーAIを株式トレーディングに転用し稼働以来マイナス月ゼロを主張。③<b>Jump</b>（WealthTech、$80M Series B・Insight主導）はアドバイザー向けAI OSで2年未満に27,000人・全米の約1割が利用。加えて④<b>Monogram</b>（消費者視覚AI、$40M Seed・Udemy創業Eren Bali）はチャットを動的UIに置き換える賭け。</h2>
@@ -7322,6 +7471,7 @@ body{font-family:'Segoe UI','Hiragino Sans','Meiryo',sans-serif;background:#0a0a
 <script>
 // Date navigation
 const reportDates = [
+  { date: '2026-07-13', id: 'r20260713', count: 5 },
   { date: '2026-07-12', id: 'r20260712', count: 4 },
   { date: '2026-07-11', id: 'r20260711', count: 5 },
   { date: '2026-07-10', id: 'r20260710', count: 5 },
